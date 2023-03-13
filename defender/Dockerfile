@@ -1,4 +1,4 @@
-FROM python:3.8-slim
+FROM python:3.9.16-slim
 
 #############################
 # INSTALL PYTHON DEPENDENCIES
@@ -22,7 +22,7 @@ RUN pip install --no-cache-dir -r docker-requirements.txt \
 #############################
 
 # rebase to make a smaller image
-FROM python:3.8-slim
+FROM python:3.9.16-slim
 
 # required libgomp1 for ember
 RUN apt-get -o Acquire::Max-FutureTime=100000 update \
@@ -60,6 +60,7 @@ ENV PYTHONPATH="/opt/defender"
 # ENV DF_MODEL_GZ_PATH models/NFS_21_ALL_hash_50000_WITH_MLSEC19.pkl
 ENV DF_MODEL_GZ_PATH models/NFS_21_ALL_hash_50000_WITH_MLSEC20.pkl
 ENV DF_MODEL_JOBLIB_PATH models/RFC_V1.joblib
+ENV DF_MODEL_PKL_PATH models/RFC_V1.pkl
 ENV DF_MODEL_THRESH 0.75
 # ENV DF_MODEL_THRESH 0.46875
 ENV DF_MODEL_NAME NFS_V3

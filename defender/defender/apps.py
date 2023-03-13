@@ -1,5 +1,5 @@
 import lief
-import pandas as pd
+# import pandas as pd
 from flask import Flask, jsonify, request
 from defender.models.attribute_extractor import *
 
@@ -23,9 +23,11 @@ def create_app(model, threshold):
             custom_ext = CustomExtractor(bytez)
             model = app.config['model']
             result = custom_ext.custom_predict_sample(model)
+            result_prob = custom_ext.custom_predict_with_threshold(model)
             result = int(result)
 
             print('LABEL = ', result)
+            print('LABEL PROB = ', result_prob)
         except (lief.bad_format, lief.read_out_of_bound) as e:
             print("Error:", e)
             result = 1

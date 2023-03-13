@@ -3,7 +3,7 @@ import gzip
 import json
 import pickle
 import numpy as np
-import pandas as pd
+# import pandas as pd
 # imports
 import _pickle as cPickle
 from scipy import sparse

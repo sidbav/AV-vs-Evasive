@@ -10,7 +10,10 @@ import joblib
 from defender.models.nfs_model import NeedForSpeedModel
 
 def load_model(model_file_path):
-    model = joblib.load(model_file_path)
+    # model = joblib.load(model_file_path)
+    model_file = open(model_file_path,'rb')
+    model = pickle.load(model_file)
+    model_file.close()
 
     return model
 
@@ -27,15 +30,17 @@ if __name__ == "__main__":
     model_name = envparse.env("DF_MODEL_NAME", cast=str, default="NFS_V3")
 
     model_joblib_path = envparse.env("DF_MODEL_JOBLIB_PATH", cast=str, default="models/RFC_V1.joblib")
+    model_pkl_path = envparse.env("DF_MODEL_PKL_PATH", cast=str, default="models/RFC_V1.pkl")
     # model_ball_thresh = envparse.env("DF_MODEL_BALL_THRESH", cast=float, default=0.25)
     # model_max_history = envparse.env("DF_MODEL_HISTORY", cast=int, default=10_000)
 
     # construct absolute path to ensure the correct model is loaded
-    if not model_joblib_path.startswith(os.sep):
-        model_joblib_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), model_joblib_path)
+    if not model_pkl_path.startswith(os.sep):
+        model_pkl_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), model_pkl_path)
 
     # CUSTOMIZE: app and model instance
-    model = load_model(model_joblib_path)
+    # with open(model_joblib_path, 'rb') as model_data:
+    model = load_model(model_pkl_path)
     # model = StatefulNNEmberModel(model_gz_path,
     #                              model_thresh,
     #                              model_ball_thresh,

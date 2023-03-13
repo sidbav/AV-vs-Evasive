@@ -2,7 +2,7 @@ import re
 import lief
 import math
 import numpy as np
-import pandas as pd
+# import pandas as pd
 import ember
 
 class CustomExtractor():
