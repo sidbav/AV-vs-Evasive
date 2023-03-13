@@ -1,7 +1,7 @@
 import lief
 import pandas as pd
 from flask import Flask, jsonify, request
-from defender.models.attribute_extractor import PEAttributeExtractor
+from defender.models.attribute_extractor import *
 
 
 def create_app(model, threshold):
@@ -20,16 +20,11 @@ def create_app(model, threshold):
         bytez = request.data
 
         try:
-            # initialize feature extractor with bytez
-            pe_att_ext = PEAttributeExtractor(bytez)
-            # extract PE attributes
-            atts = pe_att_ext.extract()
-            # transform into a dataframe
-            atts = pd.DataFrame([atts])
+            custom_ext = CustomExtractor(bytez)
             model = app.config['model']
+            result = custom_ext.custom_predict_sample(model)
+            result = int(result)
 
-            # query the model
-            result = model.predict_threshold(atts, threshold)[0]
             print('LABEL = ', result)
         except (lief.bad_format, lief.read_out_of_bound) as e:
             print("Error:", e)

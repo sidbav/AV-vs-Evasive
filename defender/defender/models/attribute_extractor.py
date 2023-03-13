@@ -3,6 +3,30 @@ import lief
 import math
 import numpy as np
 import pandas as pd
+import ember
+
+class CustomExtractor():
+    def __init__(self, file_data):
+        self.ember_extractor = ember.PEFeatureExtractor(feature_version = 2)
+        self.file_data = file_data
+
+    def custom_feature_vector(self):
+        raw_features_corrected = self.ember_extractor.raw_features(self.file_data)
+        raw_features_corrected['section']['entry'] = [raw_features_corrected['section']['entry']]
+        return self.ember_extractor.process_raw_features(raw_features_corrected)
+
+    def custom_extract_features(self):
+        features = np.array(self.custom_feature_vector(), dtype=np.float32)
+        return features
+
+    def custom_predict_sample(self, model):
+        features = self.custom_extract_features()
+        return model.predict([features])[0]
+
+    def custom_predict_with_threshold(self, model, threshold=0.5):
+        features = self.custom_extract_features()
+        result = model.predict_proba([features])
+        return result
 
 class PEAttributeExtractor():
 
@@ -61,10 +85,10 @@ class PEAttributeExtractor():
         #     for l in matches:
         #         for i in l:
         #             m.append(str(i))
-        #     return " ".join(m)  
+        #     return " ".join(m)
         # else:
         return ""
-    
+
     # extract attributes
     def extract(self):
 
@@ -75,11 +99,11 @@ class PEAttributeExtractor():
 
         # get general info
         self.attributes.update({
-            # "size": len(self.bytez), 
+            # "size": len(self.bytez),
             # EMBER only
             "virtual_size": self.lief_binary.virtual_size,
             # EMBER only
-            "has_debug": int(self.lief_binary.has_debug), 
+            "has_debug": int(self.lief_binary.has_debug),
             # EMBER only
             "imports": len(self.lief_binary.imports),
             # EMBER only
@@ -177,7 +201,7 @@ class PEAttributeExtractor():
         # get string metadata
         # EMBER only
         self.attributes.update(self.extract_string_metadata())
-        
+
         # get imported libraries and functions
         if self.lief_binary.has_imports:
             self.libraries = " ".join([l for l in self.lief_binary.libraries])
