@@ -14,6 +14,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import SGDClassifier
 from sklearn.calibration import CalibratedClassifierCV
 from copy import deepcopy
+import ember
 
 def load_gzip_pickle(filename):
     fp = gzip.open(filename,'rb')
@@ -51,9 +52,9 @@ class JSONAttributeExtractor():
 
         # get general info
         self.attributes.update({
-            "size": self.data["general"]["size"], 
+            "size": self.data["general"]["size"],
             "virtual_size": self.data["general"]["vsize"],
-            "has_debug": self.data["general"]["has_debug"], 
+            "has_debug": self.data["general"]["has_debug"],
             "imports": self.data["general"]["imports"],
             "exports": self.data["general"]["exports"],
             "has_relocations": self.data["general"]["has_relocations"],
@@ -128,10 +129,10 @@ class NeedForSpeedModel():
     NUMERICAL_ATTRIBUTES = [
         #'string_paths', 'string_urls', 'string_registry', 'string_MZ', 'size',
         'virtual_size', 'has_debug', 'imports', 'exports', 'has_relocations',
-        'has_resources', 'has_signature', 'has_tls', 'symbols', 'timestamp', 
-        'numberof_sections', 'major_image_version', 'minor_image_version', 
+        'has_resources', 'has_signature', 'has_tls', 'symbols', 'timestamp',
+        'numberof_sections', 'major_image_version', 'minor_image_version',
         'major_linker_version', 'minor_linker_version', 'major_operating_system_version',
-        'minor_operating_system_version', 'major_subsystem_version', 
+        'minor_operating_system_version', 'major_subsystem_version',
         'minor_subsystem_version', 'sizeof_code', 'sizeof_headers', 'sizeof_heap_commit'
     ]
 
@@ -150,8 +151,8 @@ class NeedForSpeedModel():
     LABEL = "label"
 
     # initialize NFS classifier
-    def __init__(self, 
-                categorical_extractor = OneHotEncoder(handle_unknown="ignore"), 
+    def __init__(self,
+                categorical_extractor = OneHotEncoder(handle_unknown="ignore"),
                 # textual_extractor = TfidfVectorizer(max_features=500, token_pattern=r"(?<=\s)(.*?)(?=\s)"),
                 textual_extractor = HashingVectorizer(n_features=50000, token_pattern=r"(?<=\s)(.*?)(?=\s)"),
                 #feature_scaler = MinMaxScaler(),
@@ -196,7 +197,7 @@ class NeedForSpeedModel():
             self.textual_extractors[att] = deepcopy(self.base_textual_extractor)
             # train textual extractor
             self.textual_extractors[att].fit(textual_attributes[att].values)
-    
+
     # transform textual extractor
     def _transform_textual_attributes(self, textual_attributes):
         # initialize features
@@ -215,7 +216,7 @@ class NeedForSpeedModel():
             # append textual features
             # textual_features = self._append_features(textual_features, att_features)
         return textual_features
-        
+
     # train feature scaler
     def _train_feature_scaler(self, features):
         # initialize feature scaler
@@ -306,7 +307,7 @@ class NeedForSpeedModel():
 
     def predict(self,test_data):
         # extract features
-        test_features = self._extract_features(test_data)        
+        test_features = self._extract_features(test_data)
 
         print("Predicting classes...", flush=True)
         # predict features
@@ -314,7 +315,7 @@ class NeedForSpeedModel():
 
     def predict_proba(self,test_data):
         # extract features
-        test_features = self._extract_features(test_data)        
+        test_features = self._extract_features(test_data)
 
         print("Predicting classes (proba)...", flush=True)
         # predict features
@@ -322,7 +323,7 @@ class NeedForSpeedModel():
 
     def predict_threshold(self,test_data, threshold=0.75):
         # extract features
-        test_features = self._extract_features(test_data)        
+        test_features = self._extract_features(test_data)
 
         print("Predicting classes (threshold = {})...".format(threshold), flush=True)
         # predict features
@@ -375,54 +376,16 @@ adv_files = [
 
 if __name__=='__main__':
 
+    ember_2018_path = '/opt/defender/ember2018'
     if not os.path.isfile(CLF_FILE):
-        train_attributes = []
-        gw_data = []
-        mw_data = []
-        # walk in train features
-        for input in train_files:
-            
-            print("Reading {}...".format(input), flush=True)
-
-            # read input file
-            if 'mlsec' in input or 'UCSB' in input:
-                file = open(input, 'r') 
-            else:
-                file = gzip.open(input, 'rb')
-            # read its lines
-            sws = file.readlines() 
-            # print(len(sws))
-            
-            # walk in each sw
-            for sw in sws: 
-                if 'mlsec' in input or 'UCSB' in input:
-                    # atts = at_extractor.extract()
-                    atts = json.loads(sw)
-                    # print( == 0)
-
-                    # if 'UCSB_gw' in input:
-                    #     imbalance_count +=1
-                    #     if imbalance_count <= 1477:                        
-                    #         train_attributes.append(atts)
-                    # else:
-                    #     train_attributes.append(atts)
-                    # print(atts)
-                else:
-                    # initialize extractor
-                    at_extractor = JSONAttributeExtractor(sw)
-                    # get train_attributes
-                    atts = at_extractor.extract()
-                # save attribute
-                train_attributes.append(atts)
-
-            # close file
-            file.close()
-        # transform into pandas dataframe
-        train_data = pd.DataFrame(train_attributes)
-        # create a NFS model        
-        clf = NeedForSpeedModel(classifier=RandomForestClassifier(n_jobs=-1))
+        print('Starting to read in the data')
+        X_train, y_train, X_test, y_test = ember.read_vectorized_features(ember_2018_path, feature_version=2)
+        print('Done reading in the data')
+        print('starting to create classifier')
+        # create a NFS model
+        clf = RandomForestClassifier(n_jobs=-1)
         # train it
-        clf.fit(train_data)
+        clf.fit(X_train, y_train)
         # save clf
         print("Saving model...", flush=True)
         # save it
@@ -432,53 +395,53 @@ if __name__=='__main__':
         print("Loading saved classifer...")
         # load model
         clf = load_gzip_pickle(CLF_FILE)
-    
+
     test_attributes = []
     # walk in test features
-    for input in test_files:
-        
-        print("Reading {}...".format(input))
+    # for input in test_files:
 
-        # read input file
-        # file = open(input, 'r') 
-        file = gzip.open(input, 'rb')
-        # read its lines
-        sws = file.readlines() 
-        
-        # walk in each sw
-        for sw in sws: 
-            # initialize extractor
-            at_extractor = JSONAttributeExtractor(sw)
-            # get test_attributes
-            atts = at_extractor.extract()
-            # save attribute
-            test_attributes.append(atts)
+    #     print("Reading {}...".format(input))
 
-        # close file
-        file.close()
+    #     # read input file
+    #     # file = open(input, 'r')
+    #     file = gzip.open(input, 'rb')
+    #     # read its lines
+    #     sws = file.readlines()
 
-    test_data = pd.DataFrame(test_attributes)
-    test_data = test_data[(test_data["label"]==1) | (test_data["label"]==0)]
-    #print(test_data)
-    print(test_data.shape)
+    #     # walk in each sw
+    #     for sw in sws:
+    #         # initialize extractor
+    #         at_extractor = JSONAttributeExtractor(sw)
+    #         # get test_attributes
+    #         atts = at_extractor.extract()
+    #         # save attribute
+    #         test_attributes.append(atts)
 
-    test_label = test_data["label"].values
-    y_pred = clf.predict(test_data)
+    #     # close file
+    #     file.close()
+
+    # test_data = pd.DataFrame(test_attributes)
+    # test_data = test_data[(test_data["label"]==1) | (test_data["label"]==0)]
+    # #print(test_data)
+    # print(test_data.shape)
+
+    #test_label = X_test["label"].values
+    y_pred = clf.predict(X_test)
 
     from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
     from sklearn.metrics import confusion_matrix
 
-    acc = accuracy_score(test_label, y_pred)
+    acc = accuracy_score(y_test, y_pred)
     print("Acc:", acc)
-    rec = recall_score(test_label, y_pred)
+    rec = recall_score(y_test, y_pred)
     print("Rec:", rec)
-    pre = precision_score(test_label, y_pred)
+    pre = precision_score(y_test, y_pred)
     print("Pre:", pre)
-    f1s = f1_score(test_label, y_pred)
+    f1s = f1_score(y_test, y_pred)
     print("F1s:", f1s)
-    cm = confusion_matrix(test_label, y_pred)
+    cm = confusion_matrix(y_test, y_pred)
 
-    tn, fp, fn, tp = confusion_matrix(test_label, y_pred).ravel()
+    tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
 
     # Fall out or false positive rate
     FPR = fp/(fp+tn)
@@ -489,109 +452,109 @@ if __name__=='__main__':
     print("FPR:", FPR)
     print("FNR:", FNR)
 
-    y_pred = clf.predict_threshold(test_data, threshold=THRESHOLD)
+    # y_pred = clf.predict_threshold(test_data, threshold=THRESHOLD)
 
-    from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
-    from sklearn.metrics import confusion_matrix
+    # from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
+    # from sklearn.metrics import confusion_matrix
 
-    acc = accuracy_score(test_label, y_pred)
-    print("Acc:", acc)
-    rec = recall_score(test_label, y_pred)
-    print("Rec:", rec)
-    pre = precision_score(test_label, y_pred)
-    print("Pre:", pre)
-    f1s = f1_score(test_label, y_pred)
-    print("F1s:", f1s)
-    cm = confusion_matrix(test_label, y_pred)
+    # acc = accuracy_score(test_label, y_pred)
+    # print("Acc:", acc)
+    # rec = recall_score(test_label, y_pred)
+    # print("Rec:", rec)
+    # pre = precision_score(test_label, y_pred)
+    # print("Pre:", pre)
+    # f1s = f1_score(test_label, y_pred)
+    # print("F1s:", f1s)
+    # cm = confusion_matrix(test_label, y_pred)
 
-    tn, fp, fn, tp = confusion_matrix(test_label, y_pred).ravel()
+    # tn, fp, fn, tp = confusion_matrix(test_label, y_pred).ravel()
 
-    # Fall out or false positive rate
-    FPR = fp/(fp+tn)
-    # False negative rate
-    FNR = fn/(tp+fn)
-    # # False discovery rate
-    # FDR = FP/(TP+FP)
-    print("FPR:", FPR)
-    print("FNR:", FNR)
+    # # Fall out or false positive rate
+    # FPR = fp/(fp+tn)
+    # # False negative rate
+    # FNR = fn/(tp+fn)
+    # # # False discovery rate
+    # # FDR = FP/(TP+FP)
+    # print("FPR:", FPR)
+    # print("FNR:", FNR)
 
-    adv_attributes = []
-    # walk in test features
-    for input in adv_files:
-        
-        print("Reading {}...".format(input))
+    # adv_attributes = []
+    # # walk in test features
+    # for input in adv_files:
 
-        # read input file
-        file = open(input, 'r') 
-        # read its lines
-        sws = file.readlines() 
-        
-        # walk in each sw
-        for sw in sws: 
-            # initialize extractor
-            # at_extractor = JSONAttributeExtractor(sw)
-            # # get adv_attributes
-            # atts = at_extractor.extract()
-            atts = json.loads(sw)
-            # save attribute
-            adv_attributes.append(atts)
+    #     print("Reading {}...".format(input))
 
-        # close file
-        file.close()
+    #     # read input file
+    #     file = open(input, 'r')
+    #     # read its lines
+    #     sws = file.readlines()
 
-    adv_data = pd.DataFrame(adv_attributes)
-    adv_data = adv_data[(adv_data["label"]==1) | (adv_data["label"]==0)]
-    #print(adv_data)
-    print(adv_data.shape)
+    #     # walk in each sw
+    #     for sw in sws:
+    #         # initialize extractor
+    #         # at_extractor = JSONAttributeExtractor(sw)
+    #         # # get adv_attributes
+    #         # atts = at_extractor.extract()
+    #         atts = json.loads(sw)
+    #         # save attribute
+    #         adv_attributes.append(atts)
 
-    adv_label = adv_data["label"].values
-    y_pred = clf.predict(adv_data)
+    #     # close file
+    #     file.close()
 
-    from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
-    from sklearn.metrics import confusion_matrix
+    # adv_data = pd.DataFrame(adv_attributes)
+    # adv_data = adv_data[(adv_data["label"]==1) | (adv_data["label"]==0)]
+    # #print(adv_data)
+    # print(adv_data.shape)
 
-    acc = accuracy_score(adv_label, y_pred)
-    print("Acc:", acc)
-    rec = recall_score(adv_label, y_pred)
-    print("Rec:", rec)
-    pre = precision_score(adv_label, y_pred)
-    print("Pre:", pre)
-    f1s = f1_score(adv_label, y_pred)
-    print("F1s:", f1s)
-    cm = confusion_matrix(adv_label, y_pred)
+    # adv_label = adv_data["label"].values
+    # y_pred = clf.predict(adv_data)
 
-    tn, fp, fn, tp = confusion_matrix(adv_label, y_pred).ravel()
+    # from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
+    # from sklearn.metrics import confusion_matrix
 
-    # Fall out or false positive rate
-    FPR = fp/(fp+tn)
-    # False negative rate
-    FNR = fn/(tp+fn)
-    # # False discovery rate
-    # FDR = FP/(TP+FP)
-    print("FPR:", FPR)
-    print("FNR:", FNR)
-    y_pred = clf.predict_threshold(adv_data, threshold=THRESHOLD)
+    # acc = accuracy_score(adv_label, y_pred)
+    # print("Acc:", acc)
+    # rec = recall_score(adv_label, y_pred)
+    # print("Rec:", rec)
+    # pre = precision_score(adv_label, y_pred)
+    # print("Pre:", pre)
+    # f1s = f1_score(adv_label, y_pred)
+    # print("F1s:", f1s)
+    # cm = confusion_matrix(adv_label, y_pred)
 
-    from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
-    from sklearn.metrics import confusion_matrix
+    # tn, fp, fn, tp = confusion_matrix(adv_label, y_pred).ravel()
 
-    acc = accuracy_score(adv_label, y_pred)
-    print("Acc:", acc)
-    rec = recall_score(adv_label, y_pred)
-    print("Rec:", rec)
-    pre = precision_score(adv_label, y_pred)
-    print("Pre:", pre)
-    f1s = f1_score(adv_label, y_pred)
-    print("F1s:", f1s)
-    cm = confusion_matrix(adv_label, y_pred)
+    # # Fall out or false positive rate
+    # FPR = fp/(fp+tn)
+    # # False negative rate
+    # FNR = fn/(tp+fn)
+    # # # False discovery rate
+    # # FDR = FP/(TP+FP)
+    # print("FPR:", FPR)
+    # print("FNR:", FNR)
+    # y_pred = clf.predict_threshold(adv_data, threshold=THRESHOLD)
 
-    tn, fp, fn, tp = confusion_matrix(adv_label, y_pred).ravel()
+    # from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
+    # from sklearn.metrics import confusion_matrix
 
-    # Fall out or false positive rate
-    FPR = fp/(fp+tn)
-    # False negative rate
-    FNR = fn/(tp+fn)
-    # # False discovery rate
-    # FDR = FP/(TP+FP)
-    print("FPR:", FPR)
-    print("FNR:", FNR)
+    # acc = accuracy_score(adv_label, y_pred)
+    # print("Acc:", acc)
+    # rec = recall_score(adv_label, y_pred)
+    # print("Rec:", rec)
+    # pre = precision_score(adv_label, y_pred)
+    # print("Pre:", pre)
+    # f1s = f1_score(adv_label, y_pred)
+    # print("F1s:", f1s)
+    # cm = confusion_matrix(adv_label, y_pred)
+
+    # tn, fp, fn, tp = confusion_matrix(adv_label, y_pred).ravel()
+
+    # # Fall out or false positive rate
+    # FPR = fp/(fp+tn)
+    # # False negative rate
+    # FNR = fn/(tp+fn)
+    # # # False discovery rate
+    # # FDR = FP/(TP+FP)
+    # print("FPR:", FPR)
+    # print("FNR:", FNR)

@@ -56,4 +56,5 @@ if __name__ == "__main__":
     http_server = WSGIServer(('', port), app)
     http_server.serve_forever()
 
+    print("Server started")
     # curl -XPOST --data-binary @somePEfile http://127.0.0.1:8080/ -H "Content-Type: application/octet-stream"
