@@ -398,7 +398,7 @@ if __name__=='__main__':
 
         print('starting to create classifier')
         # create a NFS model
-        clf = RandomForestClassifier(n_jobs=-1, verbose=1)
+        clf = RandomForestClassifier(n_jobs=-1, verbose=2)
         # train it
         clf.fit(X_train, y_train)
         # save clf
@@ -440,6 +440,9 @@ if __name__=='__main__':
     # #print(test_data)
     # print(test_data.shape)
 
+    print('Starting to read in the data')
+    X_train, y_train, X_test, y_test = ember.read_vectorized_features(ember_2018_path, feature_version=2)
+    print('Done reading in the data, printing out current shapes')
     #test_label = X_test["label"].values
     y_pred = clf.predict(X_test)
 
