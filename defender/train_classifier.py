@@ -380,10 +380,25 @@ if __name__=='__main__':
     if not os.path.isfile(CLF_FILE):
         print('Starting to read in the data')
         X_train, y_train, X_test, y_test = ember.read_vectorized_features(ember_2018_path, feature_version=2)
-        print('Done reading in the data')
+        print('Done reading in the data, printing out current shapes')
+
+        print(X_train.shape)
+        print(y_train.shape)
+        print(X_test.shape)
+        print(y_test.shape)
+
+        print('removing the unknown label data')
+        valid_index = np.asarray(y_train>-1).nonzero()[0]
+        y_train = y_train[valid_index]
+        X_train = X_train[valid_index]
+        print('valid idx only, print shapes of X and y train')
+        print(X_train.shape)
+        print(y_train.shape)
+
+
         print('starting to create classifier')
         # create a NFS model
-        clf = RandomForestClassifier(n_jobs=-1)
+        clf = RandomForestClassifier(n_jobs=-1, verbose=1)
         # train it
         clf.fit(X_train, y_train)
         # save clf
