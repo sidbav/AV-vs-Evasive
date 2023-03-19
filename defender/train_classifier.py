@@ -3,7 +3,7 @@ import gzip
 import json
 import pickle
 import numpy as np
-# import pandas as pd
+import pandas as pd
 # imports
 import _pickle as cPickle
 from scipy import sparse
@@ -51,9 +51,9 @@ class JSONAttributeExtractor():
 
         # get general info
         self.attributes.update({
-            "size": self.data["general"]["size"], 
+            "size": self.data["general"]["size"],
             "virtual_size": self.data["general"]["vsize"],
-            "has_debug": self.data["general"]["has_debug"], 
+            "has_debug": self.data["general"]["has_debug"],
             "imports": self.data["general"]["imports"],
             "exports": self.data["general"]["exports"],
             "has_relocations": self.data["general"]["has_relocations"],
@@ -128,10 +128,10 @@ class NeedForSpeedModel():
     NUMERICAL_ATTRIBUTES = [
         #'string_paths', 'string_urls', 'string_registry', 'string_MZ', 'size',
         'virtual_size', 'has_debug', 'imports', 'exports', 'has_relocations',
-        'has_resources', 'has_signature', 'has_tls', 'symbols', 'timestamp', 
-        'numberof_sections', 'major_image_version', 'minor_image_version', 
+        'has_resources', 'has_signature', 'has_tls', 'symbols', 'timestamp',
+        'numberof_sections', 'major_image_version', 'minor_image_version',
         'major_linker_version', 'minor_linker_version', 'major_operating_system_version',
-        'minor_operating_system_version', 'major_subsystem_version', 
+        'minor_operating_system_version', 'major_subsystem_version',
         'minor_subsystem_version', 'sizeof_code', 'sizeof_headers', 'sizeof_heap_commit'
     ]
 
@@ -150,8 +150,8 @@ class NeedForSpeedModel():
     LABEL = "label"
 
     # initialize NFS classifier
-    def __init__(self, 
-                categorical_extractor = OneHotEncoder(handle_unknown="ignore"), 
+    def __init__(self,
+                categorical_extractor = OneHotEncoder(handle_unknown="ignore"),
                 # textual_extractor = TfidfVectorizer(max_features=500, token_pattern=r"(?<=\s)(.*?)(?=\s)"),
                 textual_extractor = HashingVectorizer(n_features=50000, token_pattern=r"(?<=\s)(.*?)(?=\s)"),
                 #feature_scaler = MinMaxScaler(),
@@ -196,7 +196,7 @@ class NeedForSpeedModel():
             self.textual_extractors[att] = deepcopy(self.base_textual_extractor)
             # train textual extractor
             self.textual_extractors[att].fit(textual_attributes[att].values)
-    
+
     # transform textual extractor
     def _transform_textual_attributes(self, textual_attributes):
         # initialize features
@@ -215,7 +215,7 @@ class NeedForSpeedModel():
             # append textual features
             # textual_features = self._append_features(textual_features, att_features)
         return textual_features
-        
+
     # train feature scaler
     def _train_feature_scaler(self, features):
         # initialize feature scaler
@@ -306,7 +306,7 @@ class NeedForSpeedModel():
 
     def predict(self,test_data):
         # extract features
-        test_features = self._extract_features(test_data)        
+        test_features = self._extract_features(test_data)
 
         print("Predicting classes...", flush=True)
         # predict features
@@ -314,7 +314,7 @@ class NeedForSpeedModel():
 
     def predict_proba(self,test_data):
         # extract features
-        test_features = self._extract_features(test_data)        
+        test_features = self._extract_features(test_data)
 
         print("Predicting classes (proba)...", flush=True)
         # predict features
@@ -322,7 +322,7 @@ class NeedForSpeedModel():
 
     def predict_threshold(self,test_data, threshold=0.75):
         # extract features
-        test_features = self._extract_features(test_data)        
+        test_features = self._extract_features(test_data)
 
         print("Predicting classes (threshold = {})...".format(threshold), flush=True)
         # predict features
@@ -341,31 +341,17 @@ THRESHOLD = 0.75
 CLF_FILE = "NFS_21_ALL_hash_50000_WITH_MLSEC20.pkl"
 
 train_files = [
-    "/home/fabricioceschin/ember/ember/train_features_0.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember/train_features_1.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember/train_features_2.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember/train_features_3.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember/train_features_4.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember/train_features_5.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember_2017_2/train_features_0.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember_2017_2/train_features_1.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember_2017_2/train_features_2.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember_2017_2/train_features_3.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember_2017_2/train_features_4.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember_2017_2/train_features_5.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember2018/train_features_0.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember2018/train_features_1.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember2018/train_features_2.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember2018/train_features_3.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember2018/train_features_4.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember2018/train_features_5.jsonl.gzip",
+    "/Users/sidbav/Documents/TAMU/1Year/2023_Winter/689/Project/2021-Machine-Learning-Security-Evasion-Competition/defender/ember2018/train_features_0.jsonl",
+    "/Users/sidbav/Documents/TAMU/1Year/2023_Winter/689/Project/2021-Machine-Learning-Security-Evasion-Competition/defender/ember2018/train_features_1.jsonl",
+    "/Users/sidbav/Documents/TAMU/1Year/2023_Winter/689/Project/2021-Machine-Learning-Security-Evasion-Competition/defender/ember2018/train_features_2.jsonl",
+    "/Users/sidbav/Documents/TAMU/1Year/2023_Winter/689/Project/2021-Machine-Learning-Security-Evasion-Competition/defender/ember2018/train_features_3.jsonl",
+    "/Users/sidbav/Documents/TAMU/1Year/2023_Winter/689/Project/2021-Machine-Learning-Security-Evasion-Competition/defender/ember2018/train_features_4.jsonl",
+    "/Users/sidbav/Documents/TAMU/1Year/2023_Winter/689/Project/2021-Machine-Learning-Security-Evasion-Competition/defender/ember2018/train_features_5.jsonl"
 ]
 
 
 test_files = [
-    "/home/fabricioceschin/ember/ember/test_features.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember_2017_2/test_features.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember2018/test_features.jsonl.gzip"
+    "/Users/sidbav/Documents/TAMU/1Year/2023_Winter/689/Project/2021-Machine-Learning-Security-Evasion-Competition/defender/ember2018/test_features.jsonl"
 ]
 
 adv_files = [
@@ -381,20 +367,20 @@ if __name__=='__main__':
         mw_data = []
         # walk in train features
         for input in train_files:
-            
+
             print("Reading {}...".format(input), flush=True)
 
             # read input file
-            if 'mlsec' in input or 'UCSB' in input:
-                file = open(input, 'r') 
-            else:
-                file = gzip.open(input, 'rb')
+            #if 'mlsec' in input or 'UCSB' in input:
+            file = open(input, 'r')
+            #else:
+            #    file = gzip.open(input, 'rb')
             # read its lines
-            sws = file.readlines() 
+            sws = file.readlines()
             # print(len(sws))
-            
+
             # walk in each sw
-            for sw in sws: 
+            for sw in sws:
                 if 'mlsec' in input or 'UCSB' in input:
                     # atts = at_extractor.extract()
                     atts = json.loads(sw)
@@ -402,7 +388,7 @@ if __name__=='__main__':
 
                     # if 'UCSB_gw' in input:
                     #     imbalance_count +=1
-                    #     if imbalance_count <= 1477:                        
+                    #     if imbalance_count <= 1477:
                     #         train_attributes.append(atts)
                     # else:
                     #     train_attributes.append(atts)
@@ -417,10 +403,12 @@ if __name__=='__main__':
 
             # close file
             file.close()
+
+        print('starting to train')
         # transform into pandas dataframe
         train_data = pd.DataFrame(train_attributes)
-        # create a NFS model        
-        clf = NeedForSpeedModel(classifier=RandomForestClassifier(n_jobs=-1))
+        # create a NFS model
+        clf = NeedForSpeedModel(classifier=RandomForestClassifier(n_jobs=-1, verbose=2))
         # train it
         clf.fit(train_data)
         # save clf
@@ -432,21 +420,22 @@ if __name__=='__main__':
         print("Loading saved classifer...")
         # load model
         clf = load_gzip_pickle(CLF_FILE)
-    
+
     test_attributes = []
     # walk in test features
     for input in test_files:
-        
+
         print("Reading {}...".format(input))
 
         # read input file
-        # file = open(input, 'r') 
-        file = gzip.open(input, 'rb')
+        # file = open(input, 'r')
+        file = open(input, 'r')
+       # file = gzip.open(input, 'rb')
         # read its lines
-        sws = file.readlines() 
-        
+        sws = file.readlines()
+
         # walk in each sw
-        for sw in sws: 
+        for sw in sws:
             # initialize extractor
             at_extractor = JSONAttributeExtractor(sw)
             # get test_attributes
@@ -518,16 +507,16 @@ if __name__=='__main__':
     adv_attributes = []
     # walk in test features
     for input in adv_files:
-        
+
         print("Reading {}...".format(input))
 
         # read input file
-        file = open(input, 'r') 
+        file = open(input, 'r')
         # read its lines
-        sws = file.readlines() 
-        
+        sws = file.readlines()
+
         # walk in each sw
-        for sw in sws: 
+        for sw in sws:
             # initialize extractor
             # at_extractor = JSONAttributeExtractor(sw)
             # # get adv_attributes
