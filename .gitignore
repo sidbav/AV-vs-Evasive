@@ -1,0 +1,6 @@
+*.zip
+*.pkl
+*.joblib
+*venv*
+defender/ember2018/*
+.DS_Store
