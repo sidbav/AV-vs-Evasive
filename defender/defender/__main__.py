@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
     # CUSTOMIZE: app and model instance
     # with open(model_joblib_path, 'rb') as model_data:
-    model = load_model(model_pkl_path)
+    model = load_gzip_pickle(model_pkl_path)
     # model = StatefulNNEmberModel(model_gz_path,
     #                              model_thresh,
     #                              model_ball_thresh,
