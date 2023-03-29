@@ -22,9 +22,12 @@ def create_app(model, threshold):
         try:
             custom_ext = CustomExtractor(bytez)
             model = app.config['model']
-            result = custom_ext.custom_predict_sample(model)
+            # result = custom_ext.custom_predict_sample(model)
             result_prob = custom_ext.custom_predict_with_threshold(model)
-            result = int(result)
+            result = 0
+            if result_prob[0][0]<0.61: result = 1
+            # else: result = 0
+            # result = int(result)
 
             print('LABEL = ', result)
             print('LABEL PROB = ', result_prob)
@@ -38,7 +41,7 @@ def create_app(model, threshold):
             resp.status_code = 500  # Internal Server Error
             return resp
 
-        resp = jsonify({'result': result, 'result_proba_0': result_prob[0], 'result_proba_1': result_prob[1]})
+        resp = jsonify({'result': result, 'result_proba_0': result_prob[0][0], 'result_proba_1': result_prob[0][1]})
         resp.status_code = 200
         return resp
 
