@@ -77,7 +77,7 @@ def peVocabExtractor(file_path):
         file_data = file.read()
     extractor = CustomExtractor(file_data)
     attributes = extractor.custom_attribute_extractor()
-    print(type(attributes))
+#    print(type(attributes))
     dictVocabExtractor(attributes)
         
 
