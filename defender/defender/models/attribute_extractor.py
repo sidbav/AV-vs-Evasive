@@ -15,6 +15,11 @@ class CustomExtractor():
         raw_features_corrected['section']['entry'] = [raw_features_corrected['section']['entry']]
         return self.ember_extractor.process_raw_features(raw_features_corrected)
 
+    def custom_attribute_extractor(self):
+        raw_features_corrected = self.ember_extractor.raw_features(self.file_data)
+        raw_features_corrected['section']['entry'] = [raw_features_corrected['section']['entry']]
+        return raw_features_corrected
+
     def custom_extract_features(self):
         features = np.array(self.custom_feature_vector(), dtype=np.float32)
         return features

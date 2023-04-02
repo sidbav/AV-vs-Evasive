@@ -1,336 +1,336 @@
-exports->CreateGnbgbier
-imports->CMUTIL.dll->??_FCIniW@@QAEXXZ
-section->sections->name->K7!i-H1w
-imports->ifsutil.dll->??1DP_DRIVE@@UEAA@XZ
-imports->CMUTIL.dll->??1CIniA@@QAE@XZ
-exports->WriteWexatbdru
-imports->win32gnu.dll->__unlink
-imports->ulib.dll->?AppendString@PATH@@QEAAEPEBVWSTRING@@@Z
-exports->_ReleaseIReportClient@4
-imports->CMUTIL.dll->?LoadSection@CIniW@@QBEPAGPBG@Z
-exports->WriteVfxjrpcxjq
-section->sections->name->.0lgfxz
-imports->ulib.dll->?Set@CHKDSK_MESSAGE@@UEAAEKW4MESSAGE_TYPE@@K@Z
-imports->ifsutil.dll->??1MOUNT_POINT_MAP@@UEAA@XZ
-imports->msvcrt40.dll->_fpreset
-section->sections->name->fg1H+`pc
-exports->Sbjdgna
-exports->Effjbjloawl
-exports->IsGoanacjicvj
-imports->CMUTIL.dll->?GetPrimaryFile@CIniW@@QBEPBGXZ
-exports->RegisterLogger
-imports->ifsutil.dll->??0MOUNT_POINT_TUPLE@@QEAA@XZ
-exports->Kcypkyf
-imports->msvcrt40.dll->sprintf
-imports->msvcrt40.dll->strtod
-exports->GetAdnnird
-imports->CORE_RL_magick_.dll->MagickIncarnate
-exports->AddQnwchpwrc
-imports->libpng3.dll->png_write_png
-exports->Rtnigdf
-exports->ApphelpReleaseExe
-imports->msvcrt40.dll->fflush
-imports->msvcrt40.dll->vfprintf
-imports->cmutil.dll->??0CmLogFile@@QEAA@XZ
-imports->ulib.dll->?QueryNextLibraryEntryPoint@SYSTEM@@SAP6A_JXZPEAXPEBVWSTRING@@@Z
-imports->win32gnu.dll->__fclose
-section->entry->.cle
-imports->AEPIC.dll->PicRetrieveFileInfoAppx
-imports->msvcrt40.dll->fopen
-imports->NTMARTA.dll->AccConvertAclToAccess
-exports->Wpxpsiih
-imports->ulib.dll->?FillAndReadByte@BYTE_STREAM@@AEAAEPEAE@Z
-exports->Svxmfye
-exports->UpgradeDBFile
-imports->msvcrt40.dll->isalpha
-exports->Fwolxhg
-imports->win32gnu.dll->tb_start
-section->sections->name->.reloc9
-imports->ulib.dll->?Initialize@CHKDSK_MESSAGE@@QEAAEPEAVSTREAM@@00@Z
-section->sections->name->fgjjicx
-imports->ulib.dll->??1BYTE_STREAM@@UEAA@XZ
-section->sections->name->a2
-exports->_zabiray@8
-exports->Odqgadg
-section->sections->name->a33
-section->sections->name->sV,-/t$)
-exports->Ivtrwdjjwb
-exports->_MyFunc1@4
-exports->WriteUnrjgyvoldg
-imports->CMUTIL.dll->?SetPrimaryRegPath@CIniA@@QAEXPBD@Z
-exports->ReadJnbbdldi
-imports->user32->IsWindowEnabled
-exports->Spfgaqx
-exports->Xmbeuogh
-exports->CreateOttrbpiqmra
-imports->msvcrt40.dll->isdigit
-exports->Qrhiiacho
-exports->CheckForDBUpgrade
-exports->Exuqncrughf
-exports->_hiduk@8
-exports->Jaqqyvlwfn
-exports->BeginIvphrkfmub
-exports->IsCvtdrgwtw
-imports->msvcrt40.dll->fgets
-section->sections->name->.oncez
-imports->NTMARTA.dll->AccConvertSDToAccess
-imports->ulib.dll->?WorkOnReparsePoint@FSNODE@@QEAAEE@Z
-exports->IsSwavafby
-exports->wdmAudio
-section->sections->name->.cuwu
-imports->ulib.dll->?IsLoggingEnabled@MESSAGE@@QEAAEXZ
-exports->ImmAudio
-section->entry->.rdat
-imports->ifsutil.dll->?IsFrontEndPresent@AUTOREG@@SAEPEBVWSTRING@@0@Z
-imports->ifsutil.dll->?AddEntry@AUTOREG@@SAEPEBVWSTRING@@@Z
-imports->ifsutil.dll->?DeleteEntry@AUTOREG@@SAEPEBVWSTRING@@0@Z
-imports->NTMARTA.dll->AccGetExplicitEntries
-section->sections->name->!K"x 
-imports->api-ms-win-core-sysinfo-l1-2-0.dll->SetLocalTime
-imports->opengl32.dll->glArrayElement
-exports->Cstrryxctsf
-exports->Awyunsefue
-exports->Lddarfcrx
-exports->SetHoamjwh
-imports->ulib.dll->?SqmExportOnError@SQMEXPORT@@SAXKKEE_KU_GUID@@@Z
-exports->Qykoimfmn
-exports->Bgvircdan
-imports->ifsutil.dll->??0MOUNT_POINT_MAP@@QEAA@XZ
-section->entry->.huk1
-imports->msvcrt40.dll->malloc
-imports->msvcrt40.dll->getenv
-imports->CMUTIL.dll->?SetSection@CIniW@@QAEXPBG@Z
-imports->ifsutil.dll->?GenerateLabelNotification@SUPERAREA@@SAJPEBVWSTRING@@PEAV2@PEAU_FILE_FS_SIZE_INFORMATION@@PEAU_FILE_FS_VOLUME_INFORMATION@@@Z
-exports->Mjikjhpolyi
-exports->SeeYou
-section->sections->name->.gtcl
-section->sections->name->j 1ej 1e
-section->sections->name->.bsp
-exports->Sgucvjcx
-imports->cmutil.dll->?SetParams@CmLogFile@@QEAAJHKPEBD@Z
-exports->_CreateIReportClient@12
-imports->ulib.dll->??1CHKDSK_MESSAGE@@UEAA@XZ
-imports->WsmSvc.DLL->??1?$AutoDeleteVector@PEBG@@QEAA@XZ
-exports->ReadFafqine
-imports->ulib.dll->?QueryWCExpansion@PATH@@QEAAPEAV1@PEAV1@@Z
-imports->msvcrt40.dll->strspn
-imports->msvcrt40.dll->free
-exports->CloseIumqkqsewsx
-imports->ifsutil.dll->?QueryID@DP_DRIVE@@QEAAEPEAU_GUID@@PEBVWSTRING@@@Z
-exports->SetWjllbmm
-imports->advapi32.dll->CredGetTargetInfoA
-exports->Vpjbaepa
-imports->ifsutil.dll->?SetAutochkTimeOut@VOL_LIODPDRV@@SAEK@Z
-imports->msvcrt40.dll->strchr
-imports->msvcrt40.dll->strcmp
-exports->Ejeveoyq
-section->entry->sV,-/t$)
-imports->ulib.dll->?Strcspn@WSTRING@@QEBAKPEBV1@K@Z
-imports->msvcrt40.dll->_errno
-exports->Memoaries
-imports->WLDAP32.dll->ber_next_element
-exports->Hfmfobadpy
-imports->ulib.dll->??1FSN_FILTER@@UEAA@XZ
-imports->ulib.dll->??0BYTE_STREAM@@QEAA@XZ
-exports->GetTlkmfgxysqs
-imports->msvcrt40.dll->__getmainargs
-imports->ifsutil.dll->?IsArcSystemPartition@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAE@Z
-section->sections->name->BqYj=FIU
-imports->WLDAP32.dll->ldap_parse_resultW
-exports->Ubgvlersm
-imports->msvcrt40.dll->isalnum
-imports->CMUTIL.dll->?SetICSDataPath@CIniA@@QAEXPBD@Z
-imports->ifsutil.dll->?GetSnapshotNtDeviceName@SNAPSHOT@@QEAAPEAGXZ
-section->sections->name->a334
-exports->Gorgeous
-imports->ifsutil.dll->?IsVolumeDirty@IFS_SYSTEM@@SAEPEAVWSTRING@@PEAE1PEAJ@Z
-exports->CloseYpkdmegn
-imports->msvcrt40.dll->bsearch
-exports->Ysuucke
-imports->WLDAP32.dll->ldap_modrdn
-imports->WsmSvc.DLL->??0?$AutoDeleteVector@PEBG@@QEAA@XZ
-exports->WriteAdbrgtk
-exports->GetNnxxquojjje
-imports->msvcrt40.dll->setlocale
-imports->win32gnu.dll->bcopy
-exports->Bisnpjym
-imports->ADVAPI32.dll->GetStringConditionFromBinary
-imports->msvcrt40.dll->fprintf
-exports->ValidateDB
-imports->cmutil.dll->??1CmLogFile@@QEAA@XZ
-imports->ESENT.dll->JetGetIndexInfoW
-imports->APPWIZ.cpl->ConfigStartMenu
-section->sections->name->sijJ
-exports->EndJbbcwwckc
-exports->ReadNunsmalq
-imports->ifsutil.dll->?DosDriveNameToNtDriveName@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAV2@@Z
-imports->WLDAP32.dll->ldap_rename_extA
-imports->ulib.dll->?SetName@PATH@@QEAAEPEBVWSTRING@@@Z
-exports->IsJgxwelfrd
-imports->CMUTIL.dll->?LoadEntry@CIniW@@IBEPAGPBG@Z
-imports->msvcrt40.dll->_iob
-imports->msvcrt40.dll->printf
-exports->CloseDnglmjwjh
-exports->ReadXaeiocnj
-imports->secur32.dll->TranslateNameW
-imports->WLDAP32.dll->ldap_parse_vlv_controlW
-exports->InitIphfatqolp
-imports->ifsutil.dll->?DeleteEntry@AUTOREG@@SAEPEBVWSTRING@@E@Z
-exports->EndQgegfwhhbk
-exports->BeginDydmnma
-exports->Gtaataxahkf
-imports->ADVAPI32.dll->SetInformationCodeAuthzLevelW
-imports->ulib.dll->?Initialize@BYTE_STREAM@@QEAAEPEAVSTREAM@@K@Z
-imports->ScanSetting.DLL->GetImageDialog
-exports->Irqvoicrjpt
-imports->CMUTIL.dll->CmStripFileNameW
-imports->WLDAP32.dll->ldap_perror
-imports->WLDAP32.dll->ldap_modrdn2W
-exports->Unxukaxmq
-imports->WsmSvc.DLL->??4?$AutoDeleteVector@PEBG@@QEAAAEAV0@PEAPEBG@Z
-section->entry->.rol
-section->sections->name->a3
-section->sections->name->.j
-imports->msvcrt40.dll->tolower
-section->sections->name->.lajib
-imports->msvcrt40.dll->_strnicmp
-exports->EndOopkalqb
-imports->msvcrt40.dll->_fstat
-exports->AddAruslwje
-exports->Pkduayuave
-imports->msvcrt40.dll->_getcwd
-section->entry->Themida
-exports->Qdssxhd
-imports->CRTDLL.dll->getenv
-imports->WLDAP32.dll->ldap_compareA
-exports->InitMmtifyxoj
-imports->CMUTIL.dll->?WPPI@CIniA@@QAEXPBD0K@Z
-imports->msvcrt40.dll->_fmode
-exports->_getArchiveInfo@8
-imports->msvcrt40.dll->_read
-imports->msvcrt40.dll->memcpy
-exports->Cruso
-imports->ifsutil.dll->?Initialize@DP_DRIVE@@QEAAEPEBVWSTRING@@PEAVMESSAGE@@EEG@Z
-imports->msvcrt40.dll->exit
-imports->pstoedit.dll->getPstoeditDriverInfo_plainC
-imports->ifsutil.dll->?ReleaseVolumeSnapshot@SNAPSHOT@@SAEPEAV1@@Z
-section->sections->name->%S> a-2K
-exports->CreateKlipdvefypp
-exports->IsRatbtnmp
-exports->WriteXfltevi
-exports->GetLothaqfysy
-imports->WsmSvc.DLL->??0?$AutoDeleteVector@D@@QEAA@PEAD@Z
-imports->msvcrt40.dll->atexit
-imports->ulib.dll->?Initialize@CLASS_DESCRIPTOR@@QEAAEXZ
-exports->Qcvtbalw
-imports->ifsutil.dll->?GetSnapshotErrorMessage@SNAPSHOT@@SAEJPEAVWSTRING@@@Z
-imports->CMUTIL.dll->CmBuildFullPathFromRelativeW
-exports->Urgpoym
-imports->WLDAP32.dll->ldap_sasl_bindW
-imports->cmutil.dll->?Init@CmLogFile@@QEAAJPEAUHINSTANCE__@@HPEBD@Z
-exports->GetSchemaVersion
-imports->ifsutil.dll->?QuerySnapshotDiffAreaVolume@SNAPSHOT@@QEAAEPEAVWSTRING@@@Z
-exports->WriteEokiotlwr
-section->entry->\xc6:/n\xa3uk
-imports->CMUTIL.dll->?Stop@CmLogFile@@QAEJXZ
-imports->WLDAP32.dll->ldap_parse_extended_resultW
-section->entry->j 1ej 1e
-imports->cmutil.dll->?GetPrimaryRegPath@CIniW@@QEBAPEBGXZ
-exports->Idaxlkj
-exports->Ywawlye
-section->sections->name->.cle
-exports->Gmnbhxpuen
-exports->Cifenuwmh
-imports->pstoedit.dll->pstoedit_plainC
-imports->msvcrt40.dll->isspace
-imports->WsmSvc.DLL->??0?$AutoDeleteVector@E@@QEAA@PEAE@Z
-exports->WriteGgykspxg
-imports->CMUTIL.dll->?SetPrimaryRegPath@CIniW@@QAEXPBG@Z
-exports->_futurama@4
-imports->wiadss.dll->FindFirstImportDS
-exports->Glnjreiq
-exports->Kbjsuuv
-exports->AddMvkbcwi
-imports->msvcrt40.dll->fputs
-exports->Mnumbnxjaqd
-exports->Pewrutcqxst
-imports->msvcrt40.dll->_wcsicmp
-imports->WsmSvc.DLL->??1?$AutoDeleteVector@D@@QEAA@XZ
-exports->CreateSdigvrl
-imports->pstoedit.dll->pstoedit_checkversion
-exports->InitNxrppft
-imports->msvcrt40.dll->_stricmp
-imports->msvcrt40.dll->_open
-section->sections->name->.kxvu
-imports->WLDAP32.dll->ldap_free_controls
-imports->CMUTIL.dll->CmStrCpyAllocA
-section->sections->name->.mayari
-exports->_CallPattern@8
-section->sections->name->.psfx
-datadirectories->name->RESERVED
-exports->Uoaqbfqkx
-exports->IsYgffjnhp
-imports->msvcrt40.dll->_fileno
-exports->Ysrgfhp
-imports->ifsutil.dll->?QueryFileSystemName@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAV2@PEAJ1@Z
-imports->msvcrt40.dll->_close
-section->sections->name->_-C!>;
-imports->win32gnu.dll->tb_finish
-section->sections->name->.gy
-imports->ifsutil.dll->?QueryAutochkTimeOut@VOL_LIODPDRV@@SAEPEAK@Z
-exports->InitPlyfxinvhlb
-exports->_UnInit@4
-exports->AddGuvrtiumeh
-exports->Uibijhtkd
-imports->ifsutil.dll->?GetVolumeSnapshot@SNAPSHOT@@SAJPEAVWSTRING@@PEAPEAV1@@Z
-imports->ifsutil.dll->?IsFatalError@SNAPSHOT@@SAEJ@Z
-exports->Hcnyvbmah
-imports->msvcrt40.dll->puts
-section->entry->.nsp1
-section->sections->name->.nuh
-imports->WLDAP32.dll->ldap_modrdn2A
-imports->ifsutil.dll->?QueryVolumeSize@IFS_SYSTEM@@SAEPEBVWSTRING@@PEA_K@Z
-section->sections->name->.ohj
-imports->CRTDLL.dll->putc
-exports->Cmpanaarfs
-exports->CreateNewDBFile
-exports->WriteMenkiskegtf
-exports->OpenDkfomlo
-exports->Suvllhs
-section->entry->sijJ
-exports->BeginGfhchkorn
-imports->msvcrt40.dll->_cexit
-imports->msvcrt40.dll->feof
-imports->msvcrt40.dll->strerror
-imports->user32->GetForegroundWindow
-imports->msvcrt40.dll->putc
-exports->BeginJuxbbwkmfu
-imports->msvcrt40.dll->qsort
-section->sections->name->J
-imports->WLDAP32.dll->ldap_parse_sort_control
-exports->GetGracefulShutdownFlag
-imports->msvcrt40.dll->_setmode
-imports->win32gnu.dll->nt_Sleep
-imports->WLDAP32.dll->ldap_modify_extA
-imports->win32gnu.dll->__fopen
-imports->ifsutil.dll->?Initialize@MOUNT_POINT_MAP@@QEAAEXZ
-imports->ulib.dll->?Get_Standard_Error_Stream@@YAPEAVSTREAM@@XZ
-imports->WLDAP32.dll->ldap_openA
-exports->WriteBamaxgrpcap
-imports->CRTDLL.dll->raise
-imports->ifsutil.dll->??0DP_DRIVE@@QEAA@XZ
-imports->CRTDLL.dll->signal
-imports->ulib.dll->?QueryFsnodeArray@FSN_DIRECTORY@@QEBAPEAVARRAY@@PEAVFSN_FILTER@@@Z
-imports->libpng3.dll->png_set_rows
-imports->CMUTIL.dll->CmStrStrW
-section->sections->name->.cm
-imports->WLDAP32.dll->ldap_err2stringA
-exports->Wslkcisykik
-exports->_GetGuid@4
-imports->NTMARTA.dll->AccFreeIndexArray
-imports->kbdbr.dll->KbdLayerDescriptor
-exports->Ikufgou
-imports->msvcrt40.dll->strncmp
-imports->WLDAP32.dll->ldap_rename_extW
-exports->Hyaywkr
-imports->msvcrt40.dll->fclose
+imports->WsmSvc.DLL->??1?$AutoDeleteVector@D@@QEAA@XZ = 1
+imports->CORE_RL_magick_.dll->MagickIncarnate = 1
+imports->msvcrt40.dll->exit = 1
+section->sections->name->.cm = 1
+imports->msvcrt40.dll->memcpy = 1
+imports->pstoedit.dll->getPstoeditDriverInfo_plainC = 1
+exports->Ysrgfhp = 1
+exports->WriteAdbrgtk = 1
+imports->secur32.dll->TranslateNameW = 1
+imports->CMUTIL.dll->CmStrStrW = 1
+exports->Xmbeuogh = 1
+imports->WLDAP32.dll->ldap_sasl_bindW = 1
+imports->CMUTIL.dll->CmStrCpyAllocA = 1
+imports->CMUTIL.dll->?GetPrimaryFile@CIniW@@QBEPBGXZ = 1
+imports->ulib.dll->?QueryWCExpansion@PATH@@QEAAPEAV1@PEAV1@@Z = 1
+imports->WLDAP32.dll->ldap_rename_extW = 1
+imports->WLDAP32.dll->ber_next_element = 1
+imports->msvcrt40.dll->vfprintf = 1
+imports->ulib.dll->??1CHKDSK_MESSAGE@@UEAA@XZ = 1
+imports->ifsutil.dll->?ReleaseVolumeSnapshot@SNAPSHOT@@SAEPEAV1@@Z = 1
+imports->ADVAPI32.dll->SetInformationCodeAuthzLevelW = 1
+section->sections->name->.0lgfxz = 1
+imports->msvcrt40.dll->_setmode = 1
+imports->msvcrt40.dll->fprintf = 1
+exports->SetWjllbmm = 1
+section->sections->name->.cuwu = 1
+imports->ulib.dll->??1BYTE_STREAM@@UEAA@XZ = 1
+imports->libpng3.dll->png_set_rows = 1
+exports->RegisterLogger = 1
+imports->msvcrt40.dll->strncmp = 1
+imports->msvcrt40.dll->free = 1
+imports->CMUTIL.dll->?LoadEntry@CIniW@@IBEPAGPBG@Z = 1
+imports->msvcrt40.dll->isalnum = 1
+imports->kbdbr.dll->KbdLayerDescriptor = 1
+imports->msvcrt40.dll->fflush = 1
+exports->Ubgvlersm = 1
+exports->Irqvoicrjpt = 1
+imports->ulib.dll->?QueryFsnodeArray@FSN_DIRECTORY@@QEBAPEAVARRAY@@PEAVFSN_FILTER@@@Z = 2
+imports->ifsutil.dll->??0MOUNT_POINT_MAP@@QEAA@XZ = 1
+imports->CMUTIL.dll->?SetPrimaryRegPath@CIniA@@QAEXPBD@Z = 1
+exports->Hfmfobadpy = 1
+section->sections->name->%S> a-2K = 1
+imports->ulib.dll->?SetName@PATH@@QEAAEPEBVWSTRING@@@Z = 1
+exports->GetGracefulShutdownFlag = 1
+imports->msvcrt40.dll->putc = 1
+imports->win32gnu.dll->__unlink = 1
+exports->Uibijhtkd = 1
+exports->EndQgegfwhhbk = 1
+exports->WriteGgykspxg = 1
+exports->Ikufgou = 1
+imports->ifsutil.dll->?AddEntry@AUTOREG@@SAEPEBVWSTRING@@@Z = 2
+imports->CMUTIL.dll->?SetPrimaryRegPath@CIniW@@QAEXPBG@Z = 1
+imports->ifsutil.dll->??0MOUNT_POINT_TUPLE@@QEAA@XZ = 1
+exports->ApphelpReleaseExe = 2
+imports->ifsutil.dll->?Initialize@MOUNT_POINT_MAP@@QEAAEXZ = 1
+exports->Ywawlye = 1
+exports->IsGoanacjicvj = 1
+imports->win32gnu.dll->tb_finish = 2
+imports->WLDAP32.dll->ldap_rename_extA = 1
+exports->CloseYpkdmegn = 1
+section->sections->name->sV,-/t$) = 1
+section->sections->name->a2 = 1
+imports->msvcrt40.dll->strspn = 1
+imports->win32gnu.dll->tb_start = 2
+imports->APPWIZ.cpl->ConfigStartMenu = 1
+imports->msvcrt40.dll->fgets = 1
+section->entry->.rdat = 2
+imports->NTMARTA.dll->AccConvertSDToAccess = 2
+section->entry->.rol\x07 = 1
+section->sections->name->K7!i-H1w = 1
+imports->CRTDLL.dll->getenv = 1
+imports->msvcrt40.dll->qsort = 1
+imports->CRTDLL.dll->raise = 1
+exports->_MyFunc1@4 = 1
+imports->msvcrt40.dll->fputs = 1
+exports->Wpxpsiih = 1
+section->entry->.huk1 = 1
+exports->Ivtrwdjjwb = 1
+exports->Rtnigdf = 1
+section->entry->sV,-/t$) = 1
+imports->opengl32.dll->glArrayElement = 1
+exports->Lddarfcrx = 1
+exports->Gmnbhxpuen = 1
+section->sections->name->.lajib = 1
+imports->msvcrt40.dll->strchr = 1
+imports->libpng3.dll->png_write_png = 1
+section->sections->name->.psfx = 1
+imports->wiadss.dll->FindFirstImportDS = 1
+exports->Urgpoym = 1
+imports->ifsutil.dll->?DeleteEntry@AUTOREG@@SAEPEBVWSTRING@@0@Z = 2
+exports->ValidateDB = 1
+exports->Mjikjhpolyi = 1
+imports->ifsutil.dll->?DosDriveNameToNtDriveName@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAV2@@Z = 3
+imports->msvcrt40.dll->_cexit = 1
+imports->ifsutil.dll->?QueryVolumeSize@IFS_SYSTEM@@SAEPEBVWSTRING@@PEA_K@Z = 1
+exports->Idaxlkj = 1
+imports->win32gnu.dll->bcopy = 1
+imports->msvcrt40.dll->atexit = 1
+imports->msvcrt40.dll->setlocale = 1
+imports->msvcrt40.dll->strerror = 1
+imports->CMUTIL.dll->?LoadSection@CIniW@@QBEPAGPBG@Z = 1
+section->entry->\\xc6:/n\\xa3uk = 1
+exports->Pkduayuave = 1
+imports->ifsutil.dll->?IsFrontEndPresent@AUTOREG@@SAEPEBVWSTRING@@0@Z = 1
+exports->CloseIumqkqsewsx = 1
+imports->ADVAPI32.dll->GetStringConditionFromBinary = 1
+exports->Bisnpjym = 1
+imports->ifsutil.dll->?QueryAutochkTimeOut@VOL_LIODPDRV@@SAEPEAK@Z = 1
+imports->msvcrt40.dll->isalpha = 1
+imports->WLDAP32.dll->ldap_modrdn2W = 1
+imports->win32gnu.dll->__fclose = 1
+exports->ReadFafqine = 1
+imports->msvcrt40.dll->_stricmp = 1
+exports->SeeYou = 1
+imports->pstoedit.dll->pstoedit_plainC = 1
+section->sections->name->_-C!>\x1f\x04; = 1
+exports->Awyunsefue = 1
+exports->Uoaqbfqkx = 1
+imports->cmutil.dll->?Init@CmLogFile@@QEAAJPEAUHINSTANCE__@@HPEBD@Z = 1
+imports->msvcrt40.dll->getenv = 1
+imports->msvcrt40.dll->_read = 1
+exports->Spfgaqx = 1
+imports->msvcrt40.dll->_open = 1
+exports->BeginDydmnma = 1
+imports->WLDAP32.dll->ldap_perror = 1
+imports->msvcrt40.dll->_iob = 1
+exports->WriteBamaxgrpcap = 1
+exports->CreateNewDBFile = 1
+imports->ifsutil.dll->?GetSnapshotErrorMessage@SNAPSHOT@@SAEJPEAVWSTRING@@@Z = 1
+section->sections->name->fgjjicx = 1
+exports->_ReleaseIReportClient@4 = 1
+exports->Ejeveoyq = 1
+exports->IsRatbtnmp = 1
+section->entry->Themida  = 2
+exports->WriteEokiotlwr = 1
+imports->WLDAP32.dll->ldap_parse_sort_control = 1
+section->entry->.cle = 5
+exports->_GetGuid@4 = 1
+imports->ulib.dll->?SqmExportOnError@SQMEXPORT@@SAXKKEE_KU_GUID@@@Z = 1
+exports->_CallPattern@8 = 1
+exports->ImmAudio = 1
+exports->ReadXaeiocnj = 1
+exports->BeginIvphrkfmub = 1
+section->sections->name->sijJ = 1
+exports->Cruso = 1
+imports->msvcrt40.dll->fopen = 1
+exports->Hyaywkr = 1
+imports->NTMARTA.dll->AccGetExplicitEntries = 2
+exports->WriteUnrjgyvoldg = 1
+imports->WLDAP32.dll->ldap_modrdn2A = 1
+exports->InitPlyfxinvhlb = 1
+exports->Gtaataxahkf = 1
+exports->AddGuvrtiumeh = 1
+exports->ReadNunsmalq = 1
+imports->cmutil.dll->?GetPrimaryRegPath@CIniW@@QEBAPEBGXZ = 1
+exports->Qcvtbalw = 1
+imports->ifsutil.dll->?IsVolumeDirty@IFS_SYSTEM@@SAEPEAVWSTRING@@PEAE1PEAJ@Z = 2
+imports->ulib.dll->?QueryNextLibraryEntryPoint@SYSTEM@@SAP6A_JXZPEAXPEBVWSTRING@@@Z = 1
+imports->CMUTIL.dll->?WPPI@CIniA@@QAEXPBD0K@Z = 1
+imports->cmutil.dll->??1CmLogFile@@QEAA@XZ = 2
+exports->GetSchemaVersion = 1
+exports->InitNxrppft = 1
+section->entry->j 1ej 1e = 1
+imports->ulib.dll->?Initialize@CHKDSK_MESSAGE@@QEAAEPEAVSTREAM@@00@Z = 1
+imports->WLDAP32.dll->ldap_parse_resultW = 1
+section->sections->name->a33 = 1
+imports->msvcrt40.dll->puts = 1
+imports->msvcrt40.dll->tolower = 1
+imports->ifsutil.dll->?IsFatalError@SNAPSHOT@@SAEJ@Z = 1
+imports->WLDAP32.dll->ldap_compareA = 1
+imports->NTMARTA.dll->AccFreeIndexArray = 2
+imports->NTMARTA.dll->AccConvertAclToAccess = 2
+exports->Cifenuwmh = 1
+exports->CreateOttrbpiqmra = 1
+exports->CheckForDBUpgrade = 1
+imports->WsmSvc.DLL->??1?$AutoDeleteVector@PEBG@@QEAA@XZ = 1
+exports->WriteXfltevi = 1
+imports->ulib.dll->?Set@CHKDSK_MESSAGE@@UEAAEKW4MESSAGE_TYPE@@K@Z = 1
+exports->CreateGnbgbier = 1
+imports->msvcrt40.dll->bsearch = 1
+imports->CMUTIL.dll->?SetSection@CIniW@@QAEXPBG@Z = 1
+imports->ifsutil.dll->?SetAutochkTimeOut@VOL_LIODPDRV@@SAEK@Z = 1
+section->sections->name->a334 = 1
+exports->Glnjreiq = 1
+exports->GetAdnnird = 1
+section->sections->name->.ohj = 1
+section->sections->name->a3 = 1
+imports->msvcrt40.dll->sprintf = 1
+imports->msvcrt40.dll->_errno = 1
+imports->CMUTIL.dll->CmBuildFullPathFromRelativeW = 1
+section->sections->name->.reloc9 = 1
+exports->Mnumbnxjaqd = 1
+exports->IsYgffjnhp = 1
+imports->AEPIC.dll->PicRetrieveFileInfoAppx = 1
+section->sections->name->\x04!K"x \x07\x10 = 1
+imports->user32->GetForegroundWindow = 1
+exports->Ysuucke = 1
+imports->msvcrt40.dll->isspace = 1
+imports->ifsutil.dll->?QueryID@DP_DRIVE@@QEAAEPEAU_GUID@@PEBVWSTRING@@@Z = 1
+imports->msvcrt40.dll->feof = 1
+imports->cmutil.dll->??0CmLogFile@@QEAA@XZ = 2
+imports->ifsutil.dll->??0DP_DRIVE@@QEAA@XZ = 2
+imports->ScanSetting.DLL->GetImageDialog = 1
+exports->Qdssxhd = 1
+exports->BeginGfhchkorn = 1
+section->entry->sijJ = 1
+imports->win32gnu.dll->__fopen = 1
+imports->ulib.dll->?Get_Standard_Error_Stream@@YAPEAVSTREAM@@XZ = 1
+imports->WsmSvc.DLL->??0?$AutoDeleteVector@D@@QEAA@PEAD@Z = 1
+exports->IsJgxwelfrd = 1
+imports->CMUTIL.dll->?Stop@CmLogFile@@QAEJXZ = 1
+exports->SetHoamjwh = 1
+exports->Exuqncrughf = 1
+exports->AddQnwchpwrc = 1
+imports->CMUTIL.dll->??1CIniA@@QAE@XZ = 1
+imports->WLDAP32.dll->ldap_modify_extA = 1
+imports->ifsutil.dll->?Initialize@DP_DRIVE@@QEAAEPEBVWSTRING@@PEAVMESSAGE@@EEG@Z = 2
+imports->ifsutil.dll->?QuerySnapshotDiffAreaVolume@SNAPSHOT@@QEAAEPEAVWSTRING@@@Z = 1
+imports->advapi32.dll->CredGetTargetInfoA = 1
+datadirectories->name->RESERVED = 610
+exports->UpgradeDBFile = 1
+exports->CloseDnglmjwjh = 1
+imports->msvcrt40.dll->_fstat = 1
+exports->Wslkcisykik = 1
+exports->EndOopkalqb = 1
+imports->msvcrt40.dll->strtod = 1
+imports->msvcrt40.dll->fclose = 1
+imports->msvcrt40.dll->_fmode = 1
+imports->ulib.dll->??1FSN_FILTER@@UEAA@XZ = 2
+imports->CMUTIL.dll->CmStripFileNameW = 1
+imports->WLDAP32.dll->ldap_openA = 1
+exports->Kcypkyf = 1
+imports->ulib.dll->?Initialize@BYTE_STREAM@@QEAAEPEAVSTREAM@@K@Z = 1
+imports->ulib.dll->?Initialize@CLASS_DESCRIPTOR@@QEAAEXZ = 4
+exports->CreateSdigvrl = 1
+imports->msvcrt40.dll->_fileno = 1
+exports->AddMvkbcwi = 1
+exports->Sbjdgna = 1
+exports->Effjbjloawl = 1
+imports->user32->IsWindowEnabled = 1
+section->sections->name->.mayari = 1
+exports->CreateKlipdvefypp = 1
+exports->Odqgadg = 1
+imports->msvcrt40.dll->_strnicmp = 1
+imports->ifsutil.dll->??1DP_DRIVE@@UEAA@XZ = 2
+imports->WsmSvc.DLL->??0?$AutoDeleteVector@E@@QEAA@PEAE@Z = 1
+section->sections->name->J = 1
+imports->ifsutil.dll->?IsArcSystemPartition@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAE@Z = 1
+imports->msvcrt40.dll->_fpreset = 1
+exports->_CreateIReportClient@12 = 1
+exports->WriteWexatbdru = 1
+imports->CRTDLL.dll->signal = 1
+exports->Hcnyvbmah = 1
+exports->ReadJnbbdldi = 1
+exports->Qrhiiacho = 1
+exports->Memoaries = 1
+section->sections->name->.gy = 1
+exports->WriteVfxjrpcxjq = 1
+imports->ulib.dll->?AppendString@PATH@@QEAAEPEBVWSTRING@@@Z = 1
+imports->WsmSvc.DLL->??0?$AutoDeleteVector@PEBG@@QEAA@XZ = 1
+imports->msvcrt40.dll->isdigit = 1
+exports->AddAruslwje = 1
+imports->api-ms-win-core-sysinfo-l1-2-0.dll->SetLocalTime = 1
+imports->pstoedit.dll->pstoedit_checkversion = 1
+imports->ifsutil.dll->?GetSnapshotNtDeviceName@SNAPSHOT@@QEAAPEAGXZ = 1
+imports->msvcrt40.dll->_wcsicmp = 1
+imports->msvcrt40.dll->strcmp = 1
+imports->ulib.dll->?FillAndReadByte@BYTE_STREAM@@AEAAEPEAE@Z = 1
+exports->Cstrryxctsf = 1
+exports->Kbjsuuv = 1
+exports->Fwolxhg = 1
+imports->ESENT.dll->JetGetIndexInfoW = 1
+section->sections->name->.bsp = 1
+imports->cmutil.dll->?SetParams@CmLogFile@@QEAAJHKPEBD@Z = 1
+exports->_UnInit@4 = 1
+imports->msvcrt40.dll->_close = 1
+exports->Suvllhs = 1
+section->sections->name->j 1ej 1e = 3
+imports->msvcrt40.dll->malloc = 1
+exports->GetNnxxquojjje = 1
+imports->ifsutil.dll->?DeleteEntry@AUTOREG@@SAEPEBVWSTRING@@E@Z = 1
+exports->Svxmfye = 1
+exports->Gorgeous = 1
+exports->Qykoimfmn = 1
+exports->_getArchiveInfo@8 = 1
+exports->_futurama@4 = 2
+exports->InitMmtifyxoj = 1
+section->sections->name->.gtcl = 1
+imports->WsmSvc.DLL->??4?$AutoDeleteVector@PEBG@@QEAAAEAV0@PEAPEBG@Z = 1
+exports->wdmAudio = 1
+section->sections->name->.nuh = 1
+imports->WLDAP32.dll->ldap_modrdn = 1
+imports->ifsutil.dll->??1MOUNT_POINT_MAP@@UEAA@XZ = 1
+imports->WLDAP32.dll->ldap_free_controls = 1
+section->sections->name->.oncez = 1
+imports->msvcrt40.dll->printf = 1
+exports->GetLothaqfysy = 1
+exports->InitIphfatqolp = 1
+exports->EndJbbcwwckc = 1
+section->sections->name->BqYj=FIU = 1
+exports->_zabiray@8 = 1
+exports->_hiduk@8 = 1
+section->sections->name->.kxvu = 1
+exports->BeginJuxbbwkmfu = 1
+exports->WriteMenkiskegtf = 1
+imports->ifsutil.dll->?QueryFileSystemName@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAV2@PEAJ1@Z = 3
+exports->Jaqqyvlwfn = 1
+imports->msvcrt40.dll->__getmainargs = 1
+imports->WLDAP32.dll->ldap_parse_extended_resultW = 1
+imports->WLDAP32.dll->ldap_err2stringA = 1
+exports->OpenDkfomlo = 1
+imports->ulib.dll->?IsLoggingEnabled@MESSAGE@@QEAAEXZ = 1
+section->entry->.nsp1 = 1
+exports->Sgucvjcx = 1
+imports->CMUTIL.dll->?SetICSDataPath@CIniA@@QAEXPBD@Z = 1
+exports->Bgvircdan = 1
+exports->Unxukaxmq = 1
+exports->Cmpanaarfs = 1
+imports->msvcrt40.dll->_getcwd = 1
+imports->CMUTIL.dll->??_FCIniW@@QAEXXZ = 1
+imports->ulib.dll->?Strcspn@WSTRING@@QEBAKPEBV1@K@Z = 1
+exports->GetTlkmfgxysqs = 1
+imports->ifsutil.dll->?GetVolumeSnapshot@SNAPSHOT@@SAJPEAVWSTRING@@PEAPEAV1@@Z = 1
+exports->IsSwavafby = 1
+exports->IsCvtdrgwtw = 1
+section->sections->name->.cle = 5
+exports->Pewrutcqxst = 1
+exports->Vpjbaepa = 1
+imports->WLDAP32.dll->ldap_parse_vlv_controlW = 1
+section->sections->name->.j = 1
+imports->ulib.dll->?WorkOnReparsePoint@FSNODE@@QEAAEE@Z = 1
+section->sections->name->fg1H+`pc = 1
+imports->ulib.dll->??0BYTE_STREAM@@QEAA@XZ = 1
+imports->win32gnu.dll->nt_Sleep = 1
+imports->ifsutil.dll->?GenerateLabelNotification@SUPERAREA@@SAJPEBVWSTRING@@PEAV2@PEAU_FILE_FS_SIZE_INFORMATION@@PEAU_FILE_FS_VOLUME_INFORMATION@@@Z = 1
+imports->CRTDLL.dll->putc = 2

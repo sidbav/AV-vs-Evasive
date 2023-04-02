@@ -33,14 +33,16 @@ def travel(element, key_string):
             #print(key)
             travel(element[key], key_string+"->"+key)
     elif type(element) == str:
-        vocab_element = key_string+"->"+element
-#        if vocab_element not in vocab:
-#            vocab.append(vocab_element)
-        if vocab_element not in vocab:
-            vocab_count[vocab_element] = 1
-            vocab.add(vocab_element)
-        else:
-            vocab_count[vocab_element] += 1
+        if element.strip() != "":
+            vocab_element = key_string+"->"+element
+            vocab_element = vocab_element.encode("unicode_escape").decode("utf-8")
+    #        if vocab_element not in vocab:
+    #            vocab.append(vocab_element)
+            if vocab_element not in vocab:
+                vocab_count[vocab_element] = 1
+                vocab.add(vocab_element)
+            else:
+                vocab_count[vocab_element] += 1
     elif type(element) == int or type(element) == float:
         pass
     else:
