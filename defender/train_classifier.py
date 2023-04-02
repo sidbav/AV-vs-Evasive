@@ -374,6 +374,46 @@ adv_files = [
     "/home/fabricioceschin/ember/adversaries/mlsec20.jsonl",
 ]
 
+goodware_train_files = [
+    "path/to/something",
+    "path/to/something1",
+]
+
+malware_train_files = [
+    "path/to/something"
+    "path/to/something1",
+]
+
+
+def get_pkl_features(X_train, y_train):
+    def get_pkl_features_helper(pkl_files):
+        res_arr = []
+        for pkl_file in pkl_files:
+            arr = load_gzip_pickle(pkl_file)
+            res_arr.extend(arr)
+
+        return res_arr
+
+
+    features_malware = get_pkl_features_helper(malware_train_files)
+    labels_malware = [1]*len(features_malware)
+
+    features_goodware = get_pkl_features_helper(goodware_train_files)
+    labels_goodware = [1]*len(features_malware)
+
+    features = features_malware
+    features.extend(features_goodware)
+    features = np.array(features)
+
+    labels = labels_malware
+    labels.extend(labels_goodware)
+    labels = np.array(labels)
+
+    np.append(X_train,features)
+    np.append(y_train,labels)
+
+    return X_train, y_train
+
 if __name__=='__main__':
 
     ember_2018_path = '/opt/defender/ember2018'
@@ -394,6 +434,8 @@ if __name__=='__main__':
         print('valid idx only, print shapes of X and y train')
         print(X_train.shape)
         print(y_train.shape)
+
+        X_train, y_train = get_pkl_features(X_train, y_train)
 
 
         print('starting to create classifier')
