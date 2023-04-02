@@ -2,6 +2,7 @@ import json
 import os
 import sys
 import magic
+import re
 
 from defender.models.attribute_extractor import *
 
@@ -17,6 +18,7 @@ train_paths = args[input_flag_index+1:output_flag_index]
 out_path = args[output_flag_index+1]
 
 vocab = set()
+vocab_count = dict()
 
 # The fields that will be used to build the vocab
 interesting_fields = ['imports','exports', 'section', 'header', 'optional']
@@ -34,7 +36,11 @@ def travel(element, key_string):
         vocab_element = key_string+"->"+element
 #        if vocab_element not in vocab:
 #            vocab.append(vocab_element)
-        vocab.add(vocab_element)
+        if vocab_element not in vocab:
+            vocab_count[vocab_element] = 1
+            vocab.add(vocab_element)
+        else:
+            vocab_count[vocab_element] += 1
     elif type(element) == int or type(element) == float:
         pass
     else:
@@ -91,7 +97,8 @@ for train_path in train_paths:
     print(file_type)
     if file_type == "JSON data":
         jsonVocabExtractor(train_path)
-    elif file_type == "PE32 executable (GUI) Intel 80386, for MS Windows":
+    #elif file_type == "PE32 executable (GUI) Intel 80386, for MS Windows":
+    elif re.match('.*PE.*executable.*',file_type,re.IGNORECASE) != None:
         peVocabExtractor(train_path)
     else:
         print("SOME OTHER FILE FOUND ", file_type)
@@ -99,7 +106,10 @@ for train_path in train_paths:
 
 if out_path != "":
     with open(out_path,'w') as file:
-        file.write('\n'.join(list(vocab)) + '\n')
+        #file.write('\n'.join(list(vocab)) + '\n')
+        for item in list(vocab):
+            file.write(f"{item} = {vocab_count[item]}\n")
+        file.write("\n")
 else:
     print("Vocab here")
     print(vocab)
