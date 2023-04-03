@@ -7,7 +7,7 @@ import ember
 
 class CustomExtractor():
     def __init__(self, file_data):
-        self.ember_extractor = ember.PEFeatureExtractor(feature_version = 2)
+        self.ember_extractor = ember.PEFeatureExtractor(print_feature_warning=False, feature_version = 2)
         self.file_data = file_data
 
     def custom_feature_vector(self):

@@ -46,6 +46,7 @@ if __name__ == "__main__":
     #                              model_ball_thresh,
     #                              model_max_history,
     #                              model_name)
+    model.verbose = 0
 
     app = create_app(model, model_thresh)
 
