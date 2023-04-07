@@ -1,5 +1,5 @@
 import lief
-# import pandas as pd
+import pandas as pd
 from flask import Flask, jsonify, request
 from defender.models.attribute_extractor import *
 
@@ -28,7 +28,20 @@ def create_app(model, threshold):
 
             #print('LABEL = ', result)
             #print('LABEL PROB = ', result_prob)
-            extractor = PEAttributeExtractor(bytez)
+
+            # initialize feature extractor with bytez
+            pe_att_ext = PEAttributeExtractor(bytez)
+            # extract PE attributes
+            atts = pe_att_ext.extract()
+            # transform into a dataframe
+            atts = pd.DataFrame([atts])
+            model = app.config['model']
+
+            # query the model
+            result = model.predict_threshold(atts, threshold)[0]
+            result_probability = model.predict_proba(atts)
+            print("PROB SCORES = ", result_probability)
+            print('LABEL = ', result)
 
         except (lief.bad_format, lief.read_out_of_bound) as e:
             print("Error:", e)
