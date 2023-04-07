@@ -258,10 +258,13 @@ class NeedForSpeedModel():
         # train textual extractor (MALWARE ONLY)
         # self._train_textual_extractor(train_data[train_labels == 1][self.TEXTUAL_ATTRIBUTES])
         # transform textual data
+        print("_train_textual_extractor() is done")
         tex_train_features = self._transform_textual_attributes(train_data[self.TEXTUAL_ATTRIBUTES])
         # append textual_features to train_features
         # train_features = self._append_features(train_features, tex_train_features)
+        print("_transform_textual_attributes is done")
         train_features = sparse.hstack((train_features, tex_train_features))
+        print("sparse hstack is done")
         # transform in sparse matrix
         # train_features = csr_matrix(train_features)
 

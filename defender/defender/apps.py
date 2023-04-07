@@ -20,14 +20,16 @@ def create_app(model, threshold):
         bytez = request.data
 
         try:
-            custom_ext = CustomExtractor(bytez)
-            model = app.config['model']
-            result = custom_ext.custom_predict_sample(model)
-            result_prob = custom_ext.custom_predict_with_threshold(model)
-            result = int(result)
+            #custom_ext = CustomExtractor(bytez)
+            #model = app.config['model']
+            #result = custom_ext.custom_predict_sample(model)
+            #result_prob = custom_ext.custom_predict_with_threshold(model)
+            #result = int(result)
 
-            print('LABEL = ', result)
-            print('LABEL PROB = ', result_prob)
+            #print('LABEL = ', result)
+            #print('LABEL PROB = ', result_prob)
+            extractor = PEAttributeExtractor(bytez)
+
         except (lief.bad_format, lief.read_out_of_bound) as e:
             print("Error:", e)
             result = 1
