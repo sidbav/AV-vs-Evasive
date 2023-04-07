@@ -338,25 +338,30 @@ class NeedForSpeedModel():
 
 
 THRESHOLD = 0.75
-CLF_FILE = "NFS_21_ALL_hash_50000_WITH_MLSEC20.pkl"
+CLF_FILE = "RFC_100_5_ProfFeature_EmberAll.pkl"
 
 train_files = [
-    "/Users/sidbav/Documents/TAMU/1Year/2023_Winter/689/Project/2021-Machine-Learning-Security-Evasion-Competition/defender/ember2018/train_features_0.jsonl",
-    "/Users/sidbav/Documents/TAMU/1Year/2023_Winter/689/Project/2021-Machine-Learning-Security-Evasion-Competition/defender/ember2018/train_features_1.jsonl",
-    "/Users/sidbav/Documents/TAMU/1Year/2023_Winter/689/Project/2021-Machine-Learning-Security-Evasion-Competition/defender/ember2018/train_features_2.jsonl",
-    "/Users/sidbav/Documents/TAMU/1Year/2023_Winter/689/Project/2021-Machine-Learning-Security-Evasion-Competition/defender/ember2018/train_features_3.jsonl",
-    "/Users/sidbav/Documents/TAMU/1Year/2023_Winter/689/Project/2021-Machine-Learning-Security-Evasion-Competition/defender/ember2018/train_features_4.jsonl",
-    "/Users/sidbav/Documents/TAMU/1Year/2023_Winter/689/Project/2021-Machine-Learning-Security-Evasion-Competition/defender/ember2018/train_features_5.jsonl"
+    "./ember2018/train_features_0.jsonl",
+    "./ember2018/train_features_1.jsonl",
+    "./ember2018/train_features_2.jsonl",
+    "./ember2018/train_features_3.jsonl",
+    "./ember2018/train_features_4.jsonl",
+    "./ember2018/train_features_5.jsonl",
+    "./ember_2017_2/train_features_0.jsonl",
+    "./ember_2017_2/train_features_1.jsonl",
+    "./ember_2017_2/train_features_2.jsonl",
+    "./ember_2017_2/train_features_3.jsonl",
+    "./ember_2017_2/train_features_4.jsonl",
+    "./ember_2017_2/train_features_5.jsonl",
 ]
 
 
 test_files = [
-    "/Users/sidbav/Documents/TAMU/1Year/2023_Winter/689/Project/2021-Machine-Learning-Security-Evasion-Competition/defender/ember2018/test_features.jsonl"
+    "./ember2018/test_features.jsonl",
+    "./ember_2017_2/test_features.jsonl"
 ]
 
 adv_files = [
-    "/home/fabricioceschin/ember/adversaries/mlsec19.jsonl",
-    "/home/fabricioceschin/ember/adversaries/mlsec20.jsonl",
 ]
 
 if __name__=='__main__':
@@ -408,7 +413,7 @@ if __name__=='__main__':
         # transform into pandas dataframe
         train_data = pd.DataFrame(train_attributes)
         # create a NFS model
-        clf = NeedForSpeedModel(classifier=RandomForestClassifier(n_jobs=-1, verbose=2))
+        clf = NeedForSpeedModel(classifier=RandomForestClassifier(n_jobs=-1, verbose=2, max_depth=5))
         # train it
         clf.fit(train_data)
         # save clf
