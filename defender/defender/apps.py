@@ -2,7 +2,8 @@ import lief
 # import pandas as pd
 from flask import Flask, jsonify, request
 from defender.models.attribute_extractor import *
-
+import pefile
+import sys
 
 def create_app(model, threshold):
     app = Flask(__name__)
@@ -18,6 +19,13 @@ def create_app(model, threshold):
             return resp
 
         bytez = request.data
+        # lief.logging.enable()
+        # #lief.logging.set_level(1)
+        # lief.logging.LOGGING_LEVEL(1)
+        # lief_binary = lief.PE.parse(list(bytez), name='test')
+        # print(lief_binary)
+        # lief_binary = lief.parse(list(bytez), name='test')
+        # print(lief_binary)
 
         try:
             custom_ext = CustomExtractor(bytez)
@@ -45,12 +53,12 @@ def create_app(model, threshold):
         resp.status_code = 200
         return resp
 
-    # get the model info
-    @app.route('/model', methods=['GET'])
-    def get_model():
-        # curl -XGET http://127.0.0.1:8080/model
-        resp = jsonify(app.config['model'].model_info())
-        resp.status_code = 200
-        return resp
+    # # get the model info
+    # @app.route('/model', methods=['GET'])
+    # def get_model():
+    #     # curl -XGET http://127.0.0.1:8080/model
+    #     resp = jsonify(app.config['model'].model_info())
+    #     resp.status_code = 200
+    #     return resp
 
     return app
