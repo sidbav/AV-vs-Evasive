@@ -341,9 +341,9 @@ class NeedForSpeedModel():
 
 
 THRESHOLD = 0.75
-CLF_FILE = "RFC_100_5_ProfFeature_EmberAll.pkl"
+CLF_FILE = "test.pkl"
 
-train_files = [
+train_files_jsonl = [
     "./ember2018/train_features_0.jsonl",
     "./ember2018/train_features_1.jsonl",
     "./ember2018/train_features_2.jsonl",
@@ -367,56 +367,82 @@ test_files = [
 adv_files = [
 ]
 
+def extract_from_jsonl(jsonl_file_paths, train_attributes):
+    for file in jsonl_file_paths:
+        print("Reading {}...".format(file), flush=True)
+        file = open(file, 'r')
+        sws = file.readlines()
+        for sw in sws:
+            data = json.loads(sw)
+            if data["label"] == -1:
+                continue
+            # initialize extractor
+            at_extractor = JSONAttributeExtractor(sw)
+            # get train_attributes
+            atts = at_extractor.extract()
+            train_attributes.append(atts)
+        file.close()
+
+def extract_from_pe(pe_file_paths, train_attributes):
+
+
+
 if __name__=='__main__':
 
     if not os.path.isfile(CLF_FILE):
         train_attributes = []
         gw_data = []
         mw_data = []
+
+        extract_from_jsonl(train_files_jsonl,train_attributes)
+
         # walk in train features
-        for input in train_files:
-
-            print("Reading {}...".format(input), flush=True)
-
-            # read input file
-            #if 'mlsec' in input or 'UCSB' in input:
-            file = open(input, 'r')
-            #else:
-            #    file = gzip.open(input, 'rb')
-            # read its lines
-            sws = file.readlines()
-            # print(len(sws))
-
-            # walk in each sw
-            for sw in sws:
-                if 'mlsec' in input or 'UCSB' in input:
-                    # atts = at_extractor.extract()
-                    atts = json.loads(sw)
-                    # print( == 0)
-
-                    # if 'UCSB_gw' in input:
-                    #     imbalance_count +=1
-                    #     if imbalance_count <= 1477:
-                    #         train_attributes.append(atts)
-                    # else:
-                    #     train_attributes.append(atts)
-                    # print(atts)
-                else:
-                    # initialize extractor
-                    at_extractor = JSONAttributeExtractor(sw)
-                    # get train_attributes
-                    atts = at_extractor.extract()
-                # save attribute
-                train_attributes.append(atts)
-
-            # close file
-            file.close()
+#        for input in train_files_jsonl:
+#
+#            print("Reading {}...".format(input), flush=True)
+#
+#            # read input file
+#            #if 'mlsec' in input or 'UCSB' in input:
+#            file = open(input, 'r')
+#            #else:
+#            #    file = gzip.open(input, 'rb')
+#            # read its lines
+#            sws = file.readlines()
+#            # print(len(sws))
+#
+#            # walk in each sw
+#            for sw in sws:
+#                if 'mlsec' in input or 'UCSB' in input:
+#                    # atts = at_extractor.extract()
+#                    atts = json.loads(sw)
+#                    # print( == 0)
+#
+#                    # if 'UCSB_gw' in input:
+#                    #     imbalance_count +=1
+#                    #     if imbalance_count <= 1477:
+#                    #         train_attributes.append(atts)
+#                    # else:
+#                    #     train_attributes.append(atts)
+#                    # print(atts)
+#                else:
+#                    data = json.loads(sw)
+#                    if data["label"] == -1:
+#                        continue
+#                    # initialize extractor
+#                    at_extractor = JSONAttributeExtractor(sw)
+#                    # get train_attributes
+#                    atts = at_extractor.extract()
+#                # save attribute
+#                train_attributes.append(atts)
+#
+#            # close file
+#            file.close()
 
         print('starting to train')
         # transform into pandas dataframe
         train_data = pd.DataFrame(train_attributes)
         # create a NFS model
-        clf = NeedForSpeedModel(classifier=RandomForestClassifier(n_jobs=-1, verbose=2, max_depth=5))
+        clf = NeedForSpeedModel(classifier=RandomForestClassifier(n_jobs=-1, verbose=2))
         # train it
         clf.fit(train_data)
         # save clf

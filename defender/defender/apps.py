@@ -53,7 +53,7 @@ def create_app(model, threshold):
             resp.status_code = 500  # Internal Server Error
             return resp
 
-        resp = jsonify({'result': result})
+        resp = jsonify({'result': result, 'result_prob_0': result_probability[0][0], 'result_prob_1': result_probability[0][1] })
         resp.status_code = 200
         return resp
 
