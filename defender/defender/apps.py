@@ -5,6 +5,12 @@ from defender.models.attribute_extractor import *
 import pefile
 import sys
 
+import re
+import math
+import numpy as np
+# import pandas as pd
+import ember
+
 def create_app(model, threshold):
     app = Flask(__name__)
     app.config['model'] = model
@@ -19,16 +25,15 @@ def create_app(model, threshold):
             return resp
 
         bytez = request.data
-        # lief.logging.enable()
-        # #lief.logging.set_level(1)
-        # lief.logging.LOGGING_LEVEL(1)
-        # lief_binary = lief.PE.parse(list(bytez), name='test')
-        # print(lief_binary)
-        # lief_binary = lief.parse(list(bytez), name='test')
-        # print(lief_binary)
+        
 
         try:
             custom_ext = CustomExtractor(bytez)
+            attributes = custom_ext.custom_attribute_extractor()
+            print(attributes['header'])
+
+
+
             model = app.config['model']
             # result = custom_ext.custom_predict_sample(model)
             result_prob = custom_ext.custom_predict_with_threshold(model)
