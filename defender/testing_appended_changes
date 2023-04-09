@@ -1,0 +1,3826 @@
+Server started!
+computed size 1925120
+bytez recieved size 1925120
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:01] "POST / HTTP/1.1" 200 165 1.219208
+computed size 880640
+bytez recieved size 877568
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.42 0.58]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:01] "POST / HTTP/1.1" 200 165 0.527450
+computed size 434176
+bytez recieved size 434176
+LABEL =  1
+LABEL PROB =  [[0.14 0.86]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:02] "POST / HTTP/1.1" 200 165 0.367174
+computed size 208896
+bytez recieved size 208896
+LABEL =  1
+LABEL PROB =  [[0.34 0.66]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:02] "POST / HTTP/1.1" 200 165 0.167352
+computed size 380928
+bytez recieved size 386528
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.38 0.62]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:02] "POST / HTTP/1.1" 200 165 0.171041
+computed size 515072
+bytez recieved size 512000
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.16 0.84]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:02] "POST / HTTP/1.1" 200 165 0.255519
+computed size 393216
+bytez recieved size 398528
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.26 0.74]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:02] "POST / HTTP/1.1" 200 165 0.192855
+computed size 375296
+bytez recieved size 375296
+Unable to find the section associated with EXCEPTION_TABLE
+LABEL =  1
+LABEL PROB =  [[0.36 0.64]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:03] "POST / HTTP/1.1" 200 165 0.343181
+computed size 2324992
+bytez recieved size 2324992
+LABEL =  0
+LABEL PROB =  [[0.7 0.3]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:05] "POST / HTTP/1.1" 200 163 2.628780
+computed size 106496
+bytez recieved size 107008
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.74 0.26]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:06] "POST / HTTP/1.1" 200 165 0.193745
+computed size 180224
+bytez recieved size 180224
+LABEL =  1
+LABEL PROB =  [[0.32 0.68]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:06] "POST / HTTP/1.1" 200 165 0.480890
+computed size 1925120
+bytez recieved size 1925120
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:07] "POST / HTTP/1.1" 200 165 1.099559
+computed size 585728
+bytez recieved size 585728
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  1
+LABEL PROB =  [[0.18 0.82]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:08] "POST / HTTP/1.1" 200 165 0.286298
+computed size 182571
+bytez recieved size 196608
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Can't read the padding content of section '.rsrc'
+Data of section section '.reloc' is too large (0xfffff92b)
+LABEL =  0
+LABEL PROB =  [[0.62 0.38]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:08] "POST / HTTP/1.1" 200 165 0.237361
+computed size 385024
+bytez recieved size 391504
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.34 0.66]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:08] "POST / HTTP/1.1" 200 165 0.273972
+computed size 38400
+bytez recieved size 38400
+LABEL =  1
+LABEL PROB =  [[0.1 0.9]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:08] "POST / HTTP/1.1" 200 163 0.084746
+computed size 829952
+bytez recieved size 826880
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.38 0.62]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:09] "POST / HTTP/1.1" 200 165 0.320441
+computed size 124416
+bytez recieved size 124416
+LABEL =  1
+LABEL PROB =  [[0.28 0.72]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:09] "POST / HTTP/1.1" 200 165 0.221074
+computed size 3514368
+bytez recieved size 3514368
+LABEL =  1
+LABEL PROB =  [[0.12 0.88]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:10] "POST / HTTP/1.1" 200 165 1.309344
+computed size 118784
+bytez recieved size 125656
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.2 0.8]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:10] "POST / HTTP/1.1" 200 163 0.124028
+computed size 342528
+bytez recieved size 342528
+LABEL =  0
+LABEL PROB =  [[0.64 0.36]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:11] "POST / HTTP/1.1" 200 165 0.261965
+computed size 17408
+bytez recieved size 17408
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:11] "POST / HTTP/1.1" 200 165 0.137690
+computed size 17408
+bytez recieved size 17408
+LABEL =  0
+LABEL PROB =  [[0.9 0.1]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:11] "POST / HTTP/1.1" 200 163 0.120594
+computed size 1925120
+bytez recieved size 1925120
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:12] "POST / HTTP/1.1" 200 165 1.097036
+computed size 411136
+bytez recieved size 408064
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.24 0.76]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:12] "POST / HTTP/1.1" 200 165 0.183913
+computed size 180224
+bytez recieved size 180224
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  0
+LABEL PROB =  [[0.62 0.38]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:12] "POST / HTTP/1.1" 200 165 0.186976
+computed size 1747456
+bytez recieved size 1747456
+LABEL =  1
+LABEL PROB =  [[0.4 0.6]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:13] "POST / HTTP/1.1" 200 163 0.621531
+computed size 1341952
+bytez recieved size 1341952
+LABEL =  1
+LABEL PROB =  [[0.32 0.68]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:13] "POST / HTTP/1.1" 200 165 0.510408
+computed size 190464
+bytez recieved size 190467
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.28 0.72]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:14] "POST / HTTP/1.1" 200 165 0.119306
+computed size 1413632
+bytez recieved size 1413632
+LABEL =  1
+LABEL PROB =  [[0.34 0.66]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:14] "POST / HTTP/1.1" 200 165 0.530384
+computed size 2476544
+bytez recieved size 2476544
+LABEL =  1
+LABEL PROB =  [[0.44 0.56]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:15] "POST / HTTP/1.1" 200 165 0.881325
+computed size 81920
+bytez recieved size 81920
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  1
+LABEL PROB =  [[0.56 0.44]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:15] "POST / HTTP/1.1" 200 165 0.153709
+computed size 3829760
+bytez recieved size 3829760
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  0
+LABEL PROB =  [[0.74 0.26]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:16] "POST / HTTP/1.1" 200 165 1.208020
+computed size 97280
+bytez recieved size 417664
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:17] "POST / HTTP/1.1" 200 165 0.253270
+computed size 40448
+bytez recieved size 37376
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.24 0.76]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:17] "POST / HTTP/1.1" 200 165 0.068967
+computed size 268800
+bytez recieved size 265728
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.4 0.6]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:17] "POST / HTTP/1.1" 200 163 0.157908
+computed size 97280
+bytez recieved size 341547
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:17] "POST / HTTP/1.1" 200 165 0.257971
+computed size 474112
+bytez recieved size 474112
+LABEL =  0
+LABEL PROB =  [[0.8 0.2]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:18] "POST / HTTP/1.1" 200 163 0.803515
+computed size 234496
+bytez recieved size 231424
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.4 0.6]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:18] "POST / HTTP/1.1" 200 163 0.163213
+computed size 97792
+bytez recieved size 190324
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.9 0.1]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:18] "POST / HTTP/1.1" 200 163 0.230211
+computed size 190464
+bytez recieved size 190464
+LABEL =  1
+LABEL PROB =  [[0.28 0.72]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:19] "POST / HTTP/1.1" 200 165 0.119600
+computed size 61440
+bytez recieved size 61440
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:19] "POST / HTTP/1.1" 200 165 0.146206
+computed size 860672
+bytez recieved size 857600
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.16 0.84]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:19] "POST / HTTP/1.1" 200 165 0.354258
+computed size 65536
+bytez recieved size 65536
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  0
+LABEL PROB =  [[0.66 0.34]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:19] "POST / HTTP/1.1" 200 165 0.157322
+computed size 92672
+bytez recieved size 336829
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:20] "POST / HTTP/1.1" 200 165 0.245917
+computed size 47536
+bytez recieved size 560101
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.3 0.7]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:20] "POST / HTTP/1.1" 200 163 0.160232
+computed size 97280
+bytez recieved size 417667
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:20] "POST / HTTP/1.1" 200 165 0.255449
+computed size 1949696
+bytez recieved size 1952768
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Can't read the padding content of section 'Themida '
+LABEL =  1
+LABEL PROB =  [[0.16 0.84]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:21] "POST / HTTP/1.1" 200 165 0.693013
+computed size 18944
+bytez recieved size 15872
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.48 0.52]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:21] "POST / HTTP/1.1" 200 165 0.056336
+computed size 91648
+bytez recieved size 88576
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.36 0.64]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:21] "POST / HTTP/1.1" 200 165 0.085169
+computed size 1069056
+bytez recieved size 1069061
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  1
+LABEL PROB =  [[0.42 0.58]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:21] "POST / HTTP/1.1" 200 165 0.426949
+computed size 190464
+bytez recieved size 190464
+LABEL =  1
+LABEL PROB =  [[0.28 0.72]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:21] "POST / HTTP/1.1" 200 165 0.115356
+computed size 3829760
+bytez recieved size 3829760
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  0
+LABEL PROB =  [[0.7 0.3]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:23] "POST / HTTP/1.1" 200 163 1.219067
+computed size 690176
+bytez recieved size 690176
+LABEL =  1
+LABEL PROB =  [[0.52 0.48]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:23] "POST / HTTP/1.1" 200 165 0.305615
+computed size 97280
+bytez recieved size 408649
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:23] "POST / HTTP/1.1" 200 165 0.265528
+computed size 270848
+bytez recieved size 267776
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.28 0.72]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:23] "POST / HTTP/1.1" 200 165 0.160715
+computed size 544256
+bytez recieved size 544256
+Unable to find the section associated with BASE_RELOCATION_TABLE
+TLS's template corrupted
+LABEL =  1
+LABEL PROB =  [[0.2 0.8]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:24] "POST / HTTP/1.1" 200 163 0.276921
+computed size 2935808
+bytez recieved size 2932736
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.48 0.52]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:25] "POST / HTTP/1.1" 200 165 1.010598
+computed size 4132864
+bytez recieved size 4132864
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  0
+LABEL PROB =  [[0.7 0.3]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:26] "POST / HTTP/1.1" 200 163 1.324343
+computed size 160768
+bytez recieved size 157696
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.4 0.6]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:26] "POST / HTTP/1.1" 200 163 0.132010
+computed size 497664
+bytez recieved size 497664
+LABEL =  1
+LABEL PROB =  [[0.48 0.52]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:27] "POST / HTTP/1.1" 200 165 0.786844
+computed size 77312
+bytez recieved size 148489
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.78 0.22]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:27] "POST / HTTP/1.1" 200 165 0.210317
+computed size 398336
+bytez recieved size 395264
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.2 0.8]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:28] "POST / HTTP/1.1" 200 163 0.174399
+computed size 460800
+bytez recieved size 457728
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.32 0.68]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:28] "POST / HTTP/1.1" 200 165 0.211033
+computed size 1949696
+bytez recieved size 1952768
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Can't read the padding content of section 'Themida '
+LABEL =  1
+LABEL PROB =  [[0.16 0.84]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:28] "POST / HTTP/1.1" 200 165 0.671635
+computed size 337920
+bytez recieved size 334848
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.52 0.48]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:29] "POST / HTTP/1.1" 200 165 0.181955
+computed size 574464
+bytez recieved size 571392
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.64 0.36]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:29] "POST / HTTP/1.1" 200 165 0.268207
+computed size 159744
+bytez recieved size 159744
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  1
+LABEL PROB =  [[0.12 0.88]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:29] "POST / HTTP/1.1" 200 165 0.149741
+computed size 520192
+bytez recieved size 517120
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.4 0.6]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:29] "POST / HTTP/1.1" 200 163 0.250361
+computed size 903168
+bytez recieved size 900096
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.34 0.66]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:30] "POST / HTTP/1.1" 200 165 0.428531
+computed size 1118208
+bytez recieved size 1118208
+LABEL =  1
+LABEL PROB =  [[0.58 0.42]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:31] "POST / HTTP/1.1" 200 165 1.211859
+computed size 97280
+bytez recieved size 293418
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:31] "POST / HTTP/1.1" 200 165 0.233573
+computed size 2587136
+bytez recieved size 2587136
+LABEL =  0
+LABEL PROB =  [[0.68 0.32]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:34] "POST / HTTP/1.1" 200 165 2.684555
+computed size 566784
+bytez recieved size 566784
+LABEL =  1
+LABEL PROB =  [[0.52 0.48]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:34] "POST / HTTP/1.1" 200 165 0.257463
+computed size 225280
+bytez recieved size 225280
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  1
+LABEL PROB =  [[0.32 0.68]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:34] "POST / HTTP/1.1" 200 165 0.164720
+computed size 178688
+bytez recieved size 182820
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.56 0.44]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:35] "POST / HTTP/1.1" 200 165 0.258718
+computed size 183430
+bytez recieved size 192512
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Can't read the padding content of section '.rsrc'
+Data of section section '.reloc' is too large (0xfffffc86)
+Data of section section '.mackt' is too large (0xffffec86)
+LABEL =  1
+LABEL PROB =  [[0.54 0.46]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:35] "POST / HTTP/1.1" 200 165 0.136356
+computed size 91136
+bytez recieved size 91136
+LABEL =  1
+LABEL PROB =  [[0.1 0.9]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:35] "POST / HTTP/1.1" 200 163 0.189987
+computed size 53248
+bytez recieved size 176200
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.66 0.34]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:35] "POST / HTTP/1.1" 200 165 0.131269
+computed size 109056
+bytez recieved size 109056
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:35] "POST / HTTP/1.1" 200 165 0.094903
+computed size 15360
+bytez recieved size 16352
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.26 0.74]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:35] "POST / HTTP/1.1" 200 165 0.067622
+computed size 6144
+bytez recieved size 7128
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.8 0.2]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:35] "POST / HTTP/1.1" 200 163 0.066411
+computed size 106496
+bytez recieved size 112592
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.42 0.58]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:36] "POST / HTTP/1.1" 200 165 0.183018
+computed size 72192
+bytez recieved size 72192
+LABEL =  0
+LABEL PROB =  [[0.64 0.36]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:36] "POST / HTTP/1.1" 200 165 0.160812
+computed size 105472
+bytez recieved size 105472
+LABEL =  1
+LABEL PROB =  [[0.16 0.84]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:36] "POST / HTTP/1.1" 200 165 0.104653
+computed size 330240
+bytez recieved size 336312
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.58 0.42]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:36] "POST / HTTP/1.1" 200 165 0.366445
+computed size 94208
+bytez recieved size 94208
+LABEL =  1
+LABEL PROB =  [[0.04 0.96]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:37] "POST / HTTP/1.1" 200 165 0.168301
+computed size 91136
+bytez recieved size 91136
+LABEL =  1
+LABEL PROB =  [[0.1 0.9]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:37] "POST / HTTP/1.1" 200 163 0.191755
+computed size 17920
+bytez recieved size 18904
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.24 0.76]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:37] "POST / HTTP/1.1" 200 165 0.081828
+computed size 404480
+bytez recieved size 404480
+LABEL =  1
+LABEL PROB =  [[0.5 0.5]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:37] "POST / HTTP/1.1" 200 163 0.287718
+computed size 44032
+bytez recieved size 114436
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:37] "POST / HTTP/1.1" 200 165 0.145689
+computed size 333824
+bytez recieved size 334080
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.4 0.6]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:38] "POST / HTTP/1.1" 200 163 0.239206
+computed size 10240
+bytez recieved size 10240
+LABEL =  0
+LABEL PROB =  [[0.68 0.32]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:38] "POST / HTTP/1.1" 200 165 0.106870
+computed size 91136
+bytez recieved size 91136
+LABEL =  1
+LABEL PROB =  [[0.1 0.9]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:38] "POST / HTTP/1.1" 200 163 0.193684
+computed size 153600
+bytez recieved size 156544
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.34 0.66]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:38] "POST / HTTP/1.1" 200 165 0.154231
+computed size 487424
+bytez recieved size 487461
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.46 0.54]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:39] "POST / HTTP/1.1" 200 165 0.558124
+computed size 36864
+bytez recieved size 36864
+LABEL =  1
+LABEL PROB =  [[0.6 0.4]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:39] "POST / HTTP/1.1" 200 163 0.138994
+computed size 233984
+bytez recieved size 233984
+LABEL =  1
+LABEL PROB =  [[0.14 0.86]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:39] "POST / HTTP/1.1" 200 165 0.122531
+computed size 381440
+bytez recieved size 381440
+LABEL =  1
+LABEL PROB =  [[0.54 0.46]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:39] "POST / HTTP/1.1" 200 165 0.304627
+computed size 974848
+bytez recieved size 1032240
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.46 0.54]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:40] "POST / HTTP/1.1" 200 165 0.477289
+computed size 53248
+bytez recieved size 53248
+LABEL =  0
+LABEL PROB =  [[0.66 0.34]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:40] "POST / HTTP/1.1" 200 165 0.120583
+computed size 175616
+bytez recieved size 175616
+LABEL =  1
+LABEL PROB =  [[0.34 0.66]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:40] "POST / HTTP/1.1" 200 165 0.187446
+computed size 61440
+bytez recieved size 61440
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  0
+LABEL PROB =  [[0.78 0.22]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:40] "POST / HTTP/1.1" 200 165 0.167266
+computed size 128512
+bytez recieved size 128512
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:40] "POST / HTTP/1.1" 200 165 0.099519
+computed size 81408
+bytez recieved size 81408
+LABEL =  1
+LABEL PROB =  [[0.02 0.98]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:41] "POST / HTTP/1.1" 200 165 0.189176
+computed size 71680
+bytez recieved size 84408
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.74 0.26]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:41] "POST / HTTP/1.1" 200 165 0.190269
+computed size 53248
+bytez recieved size 53248
+LABEL =  0
+LABEL PROB =  [[0.74 0.26]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:41] "POST / HTTP/1.1" 200 165 0.110642
+computed size 22016
+bytez recieved size 22016
+LABEL =  0
+LABEL PROB =  [[0.9 0.1]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:41] "POST / HTTP/1.1" 200 163 0.057874
+computed size 110080
+bytez recieved size 110080
+LABEL =  1
+LABEL PROB =  [[0.54 0.46]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:41] "POST / HTTP/1.1" 200 165 0.117476
+computed size 281600
+bytez recieved size 281600
+LABEL =  1
+LABEL PROB =  [[0.1 0.9]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:41] "POST / HTTP/1.1" 200 163 0.169299
+computed size 98304
+bytez recieved size 98304
+LABEL =  1
+LABEL PROB =  [[0.3 0.7]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:41] "POST / HTTP/1.1" 200 163 0.172535
+computed size 53248
+bytez recieved size 53248
+LABEL =  0
+LABEL PROB =  [[0.64 0.36]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:42] "POST / HTTP/1.1" 200 165 0.116207
+computed size 561664
+bytez recieved size 561664
+LABEL =  1
+LABEL PROB =  [[0.22 0.78]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:42] "POST / HTTP/1.1" 200 165 0.217883
+computed size 333824
+bytez recieved size 334080
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.4 0.6]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:42] "POST / HTTP/1.1" 200 163 0.232670
+computed size 360960
+bytez recieved size 360960
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:42] "POST / HTTP/1.1" 200 165 0.286288
+computed size 2678784
+bytez recieved size 2684856
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  0
+LABEL PROB =  [[0.68 0.32]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:43] "POST / HTTP/1.1" 200 165 0.949087
+computed size 172032
+bytez recieved size 172069
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  0
+LABEL PROB =  [[0.8 0.2]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:44] "POST / HTTP/1.1" 200 163 0.242500
+computed size 23552
+bytez recieved size 20480
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.24 0.76]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:44] "POST / HTTP/1.1" 200 165 0.063938
+computed size 22016
+bytez recieved size 23000
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.22 0.78]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:44] "POST / HTTP/1.1" 200 165 0.089425
+computed size 241152
+bytez recieved size 241152
+LABEL =  0
+LABEL PROB =  [[0.68 0.32]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:44] "POST / HTTP/1.1" 200 165 0.333566
+computed size 14336
+bytez recieved size 14636
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.64 0.36]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:44] "POST / HTTP/1.1" 200 165 0.145293
+computed size 27136
+bytez recieved size 27136
+LABEL =  0
+LABEL PROB =  [[0.8 0.2]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:44] "POST / HTTP/1.1" 200 163 0.126042
+computed size 483840
+bytez recieved size 483840
+LABEL =  1
+LABEL PROB =  [[0.08 0.92]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:45] "POST / HTTP/1.1" 200 165 0.273874
+computed size 137728
+bytez recieved size 137728
+LABEL =  1
+LABEL PROB =  [[0.26 0.74]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:45] "POST / HTTP/1.1" 200 165 0.212272
+computed size 531456
+bytez recieved size 531456
+LABEL =  1
+LABEL PROB =  [[0.16 0.84]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:45] "POST / HTTP/1.1" 200 165 0.261281
+computed size 99328
+bytez recieved size 159806
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:45] "POST / HTTP/1.1" 200 165 0.232861
+computed size 40960
+bytez recieved size 40960
+LABEL =  0
+LABEL PROB =  [[0.62 0.38]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:46] "POST / HTTP/1.1" 200 165 0.167563
+computed size 175104
+bytez recieved size 175104
+LABEL =  1
+LABEL PROB =  [[0.5 0.5]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:46] "POST / HTTP/1.1" 200 163 0.367971
+computed size 10240
+bytez recieved size 11224
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.18 0.82]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:46] "POST / HTTP/1.1" 200 165 0.067708
+computed size 1113088
+bytez recieved size 1113088
+LABEL =  1
+LABEL PROB =  [[0.24 0.76]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:47] "POST / HTTP/1.1" 200 165 0.454983
+computed size 81408
+bytez recieved size 81408
+LABEL =  1
+LABEL PROB =  [[0.02 0.98]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:47] "POST / HTTP/1.1" 200 165 0.252351
+computed size 32768
+bytez recieved size 32768
+LABEL =  0
+LABEL PROB =  [[0.74 0.26]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:47] "POST / HTTP/1.1" 200 165 0.062400
+computed size 81408
+bytez recieved size 81408
+LABEL =  1
+LABEL PROB =  [[0.02 0.98]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:47] "POST / HTTP/1.1" 200 165 0.461740
+computed size 77824
+bytez recieved size 77824
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:48] "POST / HTTP/1.1" 200 165 0.160775
+computed size 386048
+bytez recieved size 447304
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.38 0.62]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:48] "POST / HTTP/1.1" 200 165 0.199086
+computed size 153600
+bytez recieved size 154368
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.32 0.68]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:48] "POST / HTTP/1.1" 200 165 0.207551
+computed size 856064
+bytez recieved size 856576
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.28 0.72]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:49] "POST / HTTP/1.1" 200 165 1.001137
+computed size 122880
+bytez recieved size 122880
+LABEL =  1
+LABEL PROB =  [[0.18 0.82]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:49] "POST / HTTP/1.1" 200 165 0.124866
+computed size 689664
+bytez recieved size 689664
+LABEL =  1
+LABEL PROB =  [[0.2 0.8]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:49] "POST / HTTP/1.1" 200 163 0.304957
+computed size 207872
+bytez recieved size 207872
+LABEL =  1
+LABEL PROB =  [[0. 1.]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:50] "POST / HTTP/1.1" 200 163 0.119788
+computed size 335872
+bytez recieved size 336229
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.06 0.94]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:50] "POST / HTTP/1.1" 200 165 0.436648
+computed size 146944
+bytez recieved size 143872
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.04 0.96]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:50] "POST / HTTP/1.1" 200 165 0.115741
+computed size 392704
+bytez recieved size 392704
+LABEL =  1
+LABEL PROB =  [[0.06 0.94]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:50] "POST / HTTP/1.1" 200 165 0.265831
+computed size 32768
+bytez recieved size 33962
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.64 0.36]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:51] "POST / HTTP/1.1" 200 165 0.125569
+computed size 135168
+bytez recieved size 135168
+LABEL =  1
+LABEL PROB =  [[0.12 0.88]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:51] "POST / HTTP/1.1" 200 165 0.112141
+computed size 70144
+bytez recieved size 67072
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  1
+LABEL PROB =  [[0.22 0.78]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:51] "POST / HTTP/1.1" 200 165 0.201500
+computed size 311296
+bytez recieved size 312064
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.06 0.94]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:51] "POST / HTTP/1.1" 200 165 0.263528
+computed size 3072
+bytez recieved size 4096
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.28 0.72]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:51] "POST / HTTP/1.1" 200 165 0.059412
+computed size 315392
+bytez recieved size 315392
+LABEL =  1
+LABEL PROB =  [[0.26 0.74]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:52] "POST / HTTP/1.1" 200 165 0.244850
+computed size 217600
+bytez recieved size 218060
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0. 1.]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:52] "POST / HTTP/1.1" 200 163 0.128100
+computed size 122880
+bytez recieved size 122880
+LABEL =  1
+LABEL PROB =  [[0.28 0.72]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:52] "POST / HTTP/1.1" 200 165 0.127323
+computed size 115712
+bytez recieved size 115712
+LABEL =  1
+LABEL PROB =  [[0.12 0.88]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:52] "POST / HTTP/1.1" 200 165 0.326419
+computed size 122880
+bytez recieved size 122880
+LABEL =  1
+LABEL PROB =  [[0.2 0.8]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:52] "POST / HTTP/1.1" 200 163 0.127717
+computed size 773120
+bytez recieved size 773120
+LABEL =  1
+LABEL PROB =  [[0.28 0.72]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:53] "POST / HTTP/1.1" 200 165 1.074378
+computed size 217600
+bytez recieved size 217998
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0. 1.]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:54] "POST / HTTP/1.1" 200 163 0.130965
+computed size 135168
+bytez recieved size 135168
+LABEL =  1
+LABEL PROB =  [[0.06 0.94]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:54] "POST / HTTP/1.1" 200 165 0.194761
+computed size 467456
+bytez recieved size 467456
+LABEL =  1
+LABEL PROB =  [[0.16 0.84]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:54] "POST / HTTP/1.1" 200 165 0.308649
+computed size 439808
+bytez recieved size 439808
+LABEL =  1
+LABEL PROB =  [[0.32 0.68]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:54] "POST / HTTP/1.1" 200 165 0.241590
+computed size 381440
+bytez recieved size 410598
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.12 0.88]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:55] "POST / HTTP/1.1" 200 165 0.228293
+computed size 808448
+bytez recieved size 808960
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.24 0.76]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:56] "POST / HTTP/1.1" 200 165 1.050583
+computed size 24576
+bytez recieved size 21504
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.1 0.9]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:56] "POST / HTTP/1.1" 200 163 0.077459
+computed size 231424
+bytez recieved size 231424
+LABEL =  1
+LABEL PROB =  [[0.06 0.94]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:56] "POST / HTTP/1.1" 200 165 0.656277
+computed size 3072
+bytez recieved size 4096
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.18 0.82]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:56] "POST / HTTP/1.1" 200 165 0.053487
+computed size 172032
+bytez recieved size 168960
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.54 0.46]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:57] "POST / HTTP/1.1" 200 165 0.199991
+computed size 489472
+bytez recieved size 489984
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.38 0.62]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:57] "POST / HTTP/1.1" 200 165 0.258973
+computed size 347136
+bytez recieved size 347168
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.24 0.76]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:57] "POST / HTTP/1.1" 200 165 0.182624
+computed size 229376
+bytez recieved size 229632
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.32 0.68]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:57] "POST / HTTP/1.1" 200 165 0.121945
+computed size 229376
+bytez recieved size 229632
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.32 0.68]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:57] "POST / HTTP/1.1" 200 165 0.119415
+computed size 238592
+bytez recieved size 238592
+LABEL =  1
+LABEL PROB =  [[0.04 0.96]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:58] "POST / HTTP/1.1" 200 165 0.192746
+computed size 825344
+bytez recieved size 825344
+LABEL =  1
+LABEL PROB =  [[0.38 0.62]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:58] "POST / HTTP/1.1" 200 165 0.431999
+computed size 94720
+bytez recieved size 94720
+LABEL =  1
+LABEL PROB =  [[0.04 0.96]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:58] "POST / HTTP/1.1" 200 165 0.083598
+computed size 684544
+bytez recieved size 684544
+LABEL =  1
+LABEL PROB =  [[0.18 0.82]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:59] "POST / HTTP/1.1" 200 165 0.865065
+computed size 207360
+bytez recieved size 207360
+LABEL =  1
+LABEL PROB =  [[0. 1.]]
+::ffff:172.17.0.1 - - [2023-04-09 01:42:59] "POST / HTTP/1.1" 200 163 0.157879
+computed size 358912
+bytez recieved size 358912
+LABEL =  1
+LABEL PROB =  [[0.3 0.7]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:00] "POST / HTTP/1.1" 200 163 0.285406
+computed size 229376
+bytez recieved size 229632
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.32 0.68]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:00] "POST / HTTP/1.1" 200 165 0.143787
+computed size 229376
+bytez recieved size 229632
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.32 0.68]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:00] "POST / HTTP/1.1" 200 165 0.184948
+computed size 825344
+bytez recieved size 825344
+LABEL =  1
+LABEL PROB =  [[0.38 0.62]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:00] "POST / HTTP/1.1" 200 165 0.432766
+computed size 88064
+bytez recieved size 88064
+LABEL =  0
+LABEL PROB =  [[0.68 0.32]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:00] "POST / HTTP/1.1" 200 165 0.078903
+computed size 123392
+bytez recieved size 123392
+LABEL =  1
+LABEL PROB =  [[0.04 0.96]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:01] "POST / HTTP/1.1" 200 165 0.094975
+computed size 121856
+bytez recieved size 121856
+LABEL =  1
+LABEL PROB =  [[0.38 0.62]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:01] "POST / HTTP/1.1" 200 165 0.285685
+computed size 207360
+bytez recieved size 207936
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.02 0.98]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:01] "POST / HTTP/1.1" 200 165 0.119595
+computed size 524288
+bytez recieved size 524288
+LABEL =  1
+LABEL PROB =  [[0.2 0.8]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:02] "POST / HTTP/1.1" 200 163 0.821990
+computed size 585728
+bytez recieved size 585728
+LABEL =  1
+LABEL PROB =  [[0.18 0.82]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:03] "POST / HTTP/1.1" 200 165 0.736827
+computed size 318464
+bytez recieved size 318464
+LABEL =  1
+LABEL PROB =  [[0.32 0.68]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:03] "POST / HTTP/1.1" 200 165 0.199571
+computed size 667136
+bytez recieved size 667136
+LABEL =  1
+LABEL PROB =  [[0.14 0.86]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:04] "POST / HTTP/1.1" 200 165 0.884160
+computed size 29184
+bytez recieved size 29184
+LABEL =  1
+LABEL PROB =  [[0.26 0.74]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:04] "POST / HTTP/1.1" 200 165 0.051483
+computed size 1080832
+bytez recieved size 1081872
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.54 0.46]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:04] "POST / HTTP/1.1" 200 165 0.436281
+computed size 294912
+bytez recieved size 294912
+LABEL =  1
+LABEL PROB =  [[0.2 0.8]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:04] "POST / HTTP/1.1" 200 163 0.138366
+computed size 229376
+bytez recieved size 229632
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.32 0.68]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:05] "POST / HTTP/1.1" 200 165 0.119131
+computed size 118272
+bytez recieved size 118272
+LABEL =  1
+LABEL PROB =  [[0.08 0.92]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:05] "POST / HTTP/1.1" 200 165 0.102359
+computed size 94720
+bytez recieved size 94720
+LABEL =  1
+LABEL PROB =  [[0.02 0.98]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:05] "POST / HTTP/1.1" 200 165 0.081636
+computed size 176640
+bytez recieved size 176640
+LABEL =  1
+LABEL PROB =  [[0.1 0.9]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:05] "POST / HTTP/1.1" 200 163 0.164737
+computed size 825344
+bytez recieved size 825344
+LABEL =  1
+LABEL PROB =  [[0.38 0.62]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:05] "POST / HTTP/1.1" 200 165 0.449920
+computed size 243200
+bytez recieved size 243200
+LABEL =  1
+LABEL PROB =  [[0.28 0.72]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:06] "POST / HTTP/1.1" 200 165 0.216590
+computed size 215040
+bytez recieved size 215245
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.06 0.94]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:06] "POST / HTTP/1.1" 200 165 0.142152
+computed size 861184
+bytez recieved size 861184
+LABEL =  1
+LABEL PROB =  [[0.3 0.7]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:06] "POST / HTTP/1.1" 200 163 0.438119
+computed size 589824
+bytez recieved size 589824
+LABEL =  1
+LABEL PROB =  [[0.2 0.8]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:07] "POST / HTTP/1.1" 200 163 0.351189
+computed size 29184
+bytez recieved size 29184
+LABEL =  1
+LABEL PROB =  [[0.28 0.72]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:07] "POST / HTTP/1.1" 200 165 0.055603
+computed size 91648
+bytez recieved size 91648
+LABEL =  1
+LABEL PROB =  [[0.1 0.9]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:07] "POST / HTTP/1.1" 200 163 0.213744
+computed size 9216
+bytez recieved size 9216
+LABEL =  0
+LABEL PROB =  [[0.74 0.26]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:07] "POST / HTTP/1.1" 200 165 0.077125
+computed size 730112
+bytez recieved size 730112
+LABEL =  1
+LABEL PROB =  [[0.32 0.68]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:07] "POST / HTTP/1.1" 200 165 0.380507
+computed size 89600
+bytez recieved size 647512
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.44 0.56]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:08] "POST / HTTP/1.1" 200 165 0.157722
+computed size 329728
+bytez recieved size 329728
+LABEL =  1
+LABEL PROB =  [[0.26 0.74]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:08] "POST / HTTP/1.1" 200 165 0.253172
+computed size 327168
+bytez recieved size 327168
+LABEL =  1
+LABEL PROB =  [[0.22 0.78]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:08] "POST / HTTP/1.1" 200 165 0.406615
+computed size 531456
+bytez recieved size 531456
+LABEL =  1
+LABEL PROB =  [[0.22 0.78]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:09] "POST / HTTP/1.1" 200 165 0.329524
+computed size 587264
+bytez recieved size 592752
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.46 0.54]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:09] "POST / HTTP/1.1" 200 165 0.282013
+computed size 209683
+bytez recieved size 206611
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.08 0.92]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:09] "POST / HTTP/1.1" 200 165 0.123308
+computed size 881152
+bytez recieved size 881152
+LABEL =  1
+LABEL PROB =  [[0.42 0.58]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:09] "POST / HTTP/1.1" 200 165 0.343749
+computed size 549888
+bytez recieved size 549888
+LABEL =  1
+LABEL PROB =  [[0.32 0.68]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:10] "POST / HTTP/1.1" 200 165 0.234909
+computed size 748544
+bytez recieved size 748544
+LABEL =  1
+LABEL PROB =  [[0.32 0.68]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:10] "POST / HTTP/1.1" 200 165 0.425934
+computed size 775680
+bytez recieved size 775680
+LABEL =  1
+LABEL PROB =  [[0.28 0.72]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:10] "POST / HTTP/1.1" 200 165 0.294500
+computed size 419840
+bytez recieved size 419840
+LABEL =  1
+LABEL PROB =  [[0.28 0.72]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:11] "POST / HTTP/1.1" 200 165 0.340344
+computed size 180224
+bytez recieved size 180224
+LABEL =  1
+LABEL PROB =  [[0.24 0.76]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:11] "POST / HTTP/1.1" 200 165 0.203296
+computed size 667648
+bytez recieved size 667648
+LABEL =  1
+LABEL PROB =  [[0.08 0.92]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:11] "POST / HTTP/1.1" 200 165 0.257070
+computed size 434176
+bytez recieved size 434176
+LABEL =  1
+LABEL PROB =  [[0.14 0.86]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:12] "POST / HTTP/1.1" 200 165 0.320589
+computed size 81920
+bytez recieved size 85952
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.68 0.32]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:12] "POST / HTTP/1.1" 200 165 0.151316
+computed size 364032
+bytez recieved size 364032
+LABEL =  1
+LABEL PROB =  [[0.2 0.8]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:12] "POST / HTTP/1.1" 200 163 0.274632
+computed size 115200
+bytez recieved size 120653
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.18 0.82]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:12] "POST / HTTP/1.1" 200 165 0.083972
+computed size 439296
+bytez recieved size 439296
+LABEL =  1
+LABEL PROB =  [[0.08 0.92]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:12] "POST / HTTP/1.1" 200 165 0.183618
+computed size 46080
+bytez recieved size 46080
+LABEL =  1
+LABEL PROB =  [[0.6 0.4]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:12] "POST / HTTP/1.1" 200 163 0.063052
+computed size 33792
+bytez recieved size 235551
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.74 0.26]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:13] "POST / HTTP/1.1" 200 165 0.220805
+computed size 801280
+bytez recieved size 801280
+LABEL =  1
+LABEL PROB =  [[0.38 0.62]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:13] "POST / HTTP/1.1" 200 165 0.289388
+computed size 75776
+bytez recieved size 1660135
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.82 0.18]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:13] "POST / HTTP/1.1" 200 165 0.328381
+computed size 2064384
+bytez recieved size 2064384
+LABEL =  1
+LABEL PROB =  [[0.04 0.96]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:14] "POST / HTTP/1.1" 200 165 0.785923
+computed size 13312
+bytez recieved size 2077538
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.46 0.54]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:14] "POST / HTTP/1.1" 200 165 0.369841
+computed size 5120
+bytez recieved size 749055
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:15] "POST / HTTP/1.1" 200 165 0.170471
+computed size 47616
+bytez recieved size 2140518
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  1
+LABEL PROB =  [[0.42 0.58]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:15] "POST / HTTP/1.1" 200 165 0.411896
+computed size 2109440
+bytez recieved size 754342
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Can't read the padding content of section '.text'
+Data of section section '.rdata' is too large (0xfffd22a6)
+Data of section section '.data' is too large (0xfffa32a6)
+Data of section section '.tls' is too large (0xfff9d2a6)
+Data of section section '.rsrc' is too large (0xfff9c2a6)
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:15] "POST / HTTP/1.1" 200 165 0.295343
+computed size 120320
+bytez recieved size 120320
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  1
+LABEL PROB =  [[0.22 0.78]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:16] "POST / HTTP/1.1" 200 165 0.144180
+computed size 35328
+bytez recieved size 428746
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Unable to find the section associated with LOAD_CONFIG_TABLE
+Relocation corrupted: BlockSize is out of bound the binary's virtual size
+LABEL =  1
+LABEL PROB =  [[0.02 0.98]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:16] "POST / HTTP/1.1" 200 165 0.151484
+computed size 1030144
+bytez recieved size 1030144
+LABEL =  1
+LABEL PROB =  [[0.3 0.7]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:16] "POST / HTTP/1.1" 200 163 0.370175
+computed size 866304
+bytez recieved size 866304
+LABEL =  1
+LABEL PROB =  [[0.42 0.58]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:17] "POST / HTTP/1.1" 200 165 0.564168
+computed size 1225574
+bytez recieved size 1225574
+LABEL =  1
+LABEL PROB =  [[0.2 0.8]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:17] "POST / HTTP/1.1" 200 163 0.525263
+computed size 259072
+bytez recieved size 274981
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:18] "POST / HTTP/1.1" 200 165 0.301866
+computed size 29184
+bytez recieved size 29184
+LABEL =  1
+LABEL PROB =  [[0.14 0.86]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:18] "POST / HTTP/1.1" 200 165 0.056849
+computed size 41472
+bytez recieved size 157472
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  1
+LABEL PROB =  [[0.26 0.74]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:18] "POST / HTTP/1.1" 200 165 0.164117
+computed size 2691072
+bytez recieved size 2691072
+LABEL =  1
+LABEL PROB =  [[0.1 0.9]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:19] "POST / HTTP/1.1" 200 163 0.996812
+computed size 417792
+bytez recieved size 417792
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  1
+LABEL PROB =  [[0.06 0.94]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:19] "POST / HTTP/1.1" 200 165 0.206235
+computed size 1377792
+bytez recieved size 1377792
+LABEL =  1
+LABEL PROB =  [[0.06 0.94]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:20] "POST / HTTP/1.1" 200 165 0.487377
+computed size 13312
+bytez recieved size 4610916
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.46 0.54]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:20] "POST / HTTP/1.1" 200 165 0.625591
+computed size 177382
+bytez recieved size 5027324
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Can't read the padding content of section '.rsrc'
+Data of section section '.rol' is too large (0xffef44e6)
+LABEL =  1
+LABEL PROB =  [[0.04 0.96]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:21] "POST / HTTP/1.1" 200 165 0.725792
+computed size 819200
+bytez recieved size 824304
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.22 0.78]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:21] "POST / HTTP/1.1" 200 165 0.364814
+computed size 286720
+bytez recieved size 954508
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.52 0.48]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:22] "POST / HTTP/1.1" 200 165 0.278772
+computed size 4608
+bytez recieved size 219636
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.18 0.82]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:22] "POST / HTTP/1.1" 200 165 0.099939
+computed size 110459
+bytez recieved size 1163159
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.04 0.96]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:22] "POST / HTTP/1.1" 200 165 0.233461
+computed size 662528
+bytez recieved size 662528
+LABEL =  1
+LABEL PROB =  [[0.04 0.96]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:22] "POST / HTTP/1.1" 200 165 0.325430
+computed size 107008
+bytez recieved size 110592
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0. 1.]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:22] "POST / HTTP/1.1" 200 163 0.084962
+computed size 218624
+bytez recieved size 218624
+LABEL =  1
+LABEL PROB =  [[0.28 0.72]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:23] "POST / HTTP/1.1" 200 165 0.131304
+computed size 2060288
+bytez recieved size 2060291
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.06 0.94]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:23] "POST / HTTP/1.1" 200 165 0.789833
+computed size 44544
+bytez recieved size 44544
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  1
+LABEL PROB =  [[0.18 0.82]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:24] "POST / HTTP/1.1" 200 165 0.104117
+computed size 486912
+bytez recieved size 486912
+LABEL =  0
+LABEL PROB =  [[0.66 0.34]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:24] "POST / HTTP/1.1" 200 165 0.487169
+computed size 1717760
+bytez recieved size 1717760
+LABEL =  1
+LABEL PROB =  [[0.1 0.9]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:25] "POST / HTTP/1.1" 200 163 0.591784
+computed size 964096
+bytez recieved size 964096
+LABEL =  1
+LABEL PROB =  [[0.38 0.62]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:26] "POST / HTTP/1.1" 200 165 1.180474
+computed size 832000
+bytez recieved size 825776
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.44 0.56]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:26] "POST / HTTP/1.1" 200 165 0.560128
+computed size 359936
+bytez recieved size 367904
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:27] "POST / HTTP/1.1" 200 165 0.206540
+computed size 24064
+bytez recieved size 52052
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.06 0.94]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:27] "POST / HTTP/1.1" 200 165 0.063273
+computed size 13312
+bytez recieved size 4143368
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.26 0.74]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:27] "POST / HTTP/1.1" 200 165 0.579235
+computed size 7168
+bytez recieved size 7168
+LABEL =  1
+LABEL PROB =  [[0.02 0.98]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:27] "POST / HTTP/1.1" 200 165 0.059406
+computed size 2121728
+bytez recieved size 2121728
+LABEL =  1
+LABEL PROB =  [[0.02 0.98]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:28] "POST / HTTP/1.1" 200 165 0.822511
+computed size 495616
+bytez recieved size 495616
+LABEL =  1
+LABEL PROB =  [[0.2 0.8]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:29] "POST / HTTP/1.1" 200 163 0.753526
+computed size 13312
+bytez recieved size 4689517
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.46 0.54]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:30] "POST / HTTP/1.1" 200 165 0.649718
+computed size 347648
+bytez recieved size 347648
+LABEL =  1
+LABEL PROB =  [[0.26 0.74]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:30] "POST / HTTP/1.1" 200 165 0.412141
+computed size 83968
+bytez recieved size 1274648
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Unable to find the section associated with BASE_RELOCATION_TABLE
+LABEL =  0
+LABEL PROB =  [[0.8 0.2]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:30] "POST / HTTP/1.1" 200 163 0.296035
+computed size 4034048
+bytez recieved size 727720
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Can't read the padding content of section '.text'
+Data of section section '.rsrc' is too large (0xffd084a8)
+Data of section section '.reloc' is too large (0xffcd8ea8)
+LABEL =  1
+LABEL PROB =  [[0.36 0.64]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:31] "POST / HTTP/1.1" 200 165 0.253725
+computed size 385024
+bytez recieved size 385024
+LABEL =  1
+LABEL PROB =  [[0.34 0.66]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:31] "POST / HTTP/1.1" 200 165 0.163219
+computed size 421888
+bytez recieved size 427448
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.24 0.76]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:31] "POST / HTTP/1.1" 200 165 0.179083
+computed size 110459
+bytez recieved size 905111
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.04 0.96]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:31] "POST / HTTP/1.1" 200 165 0.183692
+computed size 2059264
+bytez recieved size 2059264
+LABEL =  1
+LABEL PROB =  [[0.04 0.96]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:32] "POST / HTTP/1.1" 200 165 0.795347
+computed size 39936
+bytez recieved size 1015826
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.26 0.74]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:32] "POST / HTTP/1.1" 200 165 0.188165
+computed size 920576
+bytez recieved size 920576
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:33] "POST / HTTP/1.1" 200 165 1.030342
+computed size 186368
+bytez recieved size 532906
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.62 0.38]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:33] "POST / HTTP/1.1" 200 165 0.176117
+computed size 1385984
+bytez recieved size 1385984
+LABEL =  1
+LABEL PROB =  [[0.04 0.96]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:34] "POST / HTTP/1.1" 200 165 0.486941
+computed size 425984
+bytez recieved size 425984
+LABEL =  1
+LABEL PROB =  [[0.16 0.84]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:34] "POST / HTTP/1.1" 200 165 0.253915
+computed size 2987520
+bytez recieved size 2987520
+LABEL =  0
+LABEL PROB =  [[0.72 0.28]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:36] "POST / HTTP/1.1" 200 165 1.383327
+computed size 81408
+bytez recieved size 81408
+LABEL =  1
+LABEL PROB =  [[0.02 0.98]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:36] "POST / HTTP/1.1" 200 165 0.179524
+computed size 159232
+bytez recieved size 159232
+LABEL =  1
+LABEL PROB =  [[0.28 0.72]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:36] "POST / HTTP/1.1" 200 165 0.221693
+computed size 200704
+bytez recieved size 200704
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  1
+LABEL PROB =  [[0.08 0.92]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:36] "POST / HTTP/1.1" 200 165 0.143929
+computed size 36352
+bytez recieved size 42348
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.12 0.88]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:36] "POST / HTTP/1.1" 200 165 0.086169
+computed size 417792
+bytez recieved size 417792
+LABEL =  1
+LABEL PROB =  [[0.06 0.94]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:37] "POST / HTTP/1.1" 200 165 0.230363
+computed size 17408
+bytez recieved size 24098
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.34 0.66]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:37] "POST / HTTP/1.1" 200 165 0.119744
+computed size 665088
+bytez recieved size 846260
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.78 0.22]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:37] "POST / HTTP/1.1" 200 165 0.774913
+computed size 110080
+bytez recieved size 110080
+LABEL =  1
+LABEL PROB =  [[0.28 0.72]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:38] "POST / HTTP/1.1" 200 165 0.082005
+computed size 192512
+bytez recieved size 192512
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  1
+LABEL PROB =  [[0.16 0.84]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:38] "POST / HTTP/1.1" 200 165 0.154561
+computed size 91134
+bytez recieved size 614400
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.04 0.96]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:38] "POST / HTTP/1.1" 200 165 0.228117
+computed size 81408
+bytez recieved size 81408
+LABEL =  1
+LABEL PROB =  [[0.02 0.98]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:38] "POST / HTTP/1.1" 200 165 0.192508
+computed size 282624
+bytez recieved size 282624
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  1
+LABEL PROB =  [[0.06 0.94]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:38] "POST / HTTP/1.1" 200 165 0.177556
+computed size 136192
+bytez recieved size 136192
+LABEL =  1
+LABEL PROB =  [[0.22 0.78]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:39] "POST / HTTP/1.1" 200 165 0.087587
+computed size 250368
+bytez recieved size 247296
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.28 0.72]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:39] "POST / HTTP/1.1" 200 165 0.138140
+computed size 8192
+bytez recieved size 5120
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0. 1.]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:39] "POST / HTTP/1.1" 200 163 0.065146
+computed size 200704
+bytez recieved size 201839
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.08 0.92]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:39] "POST / HTTP/1.1" 200 165 0.203026
+computed size 91134
+bytez recieved size 307200
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.04 0.96]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:39] "POST / HTTP/1.1" 200 165 0.186685
+computed size 424448
+bytez recieved size 424448
+LABEL =  1
+LABEL PROB =  [[0.22 0.78]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:39] "POST / HTTP/1.1" 200 165 0.221009
+computed size 413696
+bytez recieved size 413696
+LABEL =  1
+LABEL PROB =  [[0.22 0.78]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:40] "POST / HTTP/1.1" 200 165 0.234628
+computed size 890368
+bytez recieved size 890368
+LABEL =  1
+LABEL PROB =  [[0.32 0.68]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:40] "POST / HTTP/1.1" 200 165 0.397414
+computed size 662016
+bytez recieved size 662016
+LABEL =  1
+LABEL PROB =  [[0.32 0.68]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:41] "POST / HTTP/1.1" 200 165 0.881351
+computed size 1263104
+bytez recieved size 1398272
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.3 0.7]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:41] "POST / HTTP/1.1" 200 163 0.477477
+computed size 817664
+bytez recieved size 817664
+Infinite loop detected on resources
+LABEL =  1
+LABEL PROB =  [[0.44 0.56]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:42] "POST / HTTP/1.1" 200 165 0.335643
+computed size 292864
+bytez recieved size 347360
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.14 0.86]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:42] "POST / HTTP/1.1" 200 165 0.140295
+computed size 497152
+bytez recieved size 497152
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:42] "POST / HTTP/1.1" 200 165 0.201816
+computed size 149504
+bytez recieved size 150569
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.46 0.54]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:43] "POST / HTTP/1.1" 200 165 0.650677
+computed size 131072
+bytez recieved size 131072
+LABEL =  1
+LABEL PROB =  [[0.24 0.76]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:43] "POST / HTTP/1.1" 200 165 0.233341
+computed size 421888
+bytez recieved size 421888
+LABEL =  1
+LABEL PROB =  [[0.2 0.8]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:43] "POST / HTTP/1.1" 200 163 0.234919
+computed size 375296
+bytez recieved size 375296
+LABEL =  1
+LABEL PROB =  [[0.22 0.78]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:44] "POST / HTTP/1.1" 200 165 0.165637
+computed size 47616
+bytez recieved size 47631
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.8 0.2]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:44] "POST / HTTP/1.1" 200 163 0.134385
+computed size 286720
+bytez recieved size 286720
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  1
+LABEL PROB =  [[0.04 0.96]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:44] "POST / HTTP/1.1" 200 165 0.177761
+computed size 186368
+bytez recieved size 384815
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.38 0.62]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:44] "POST / HTTP/1.1" 200 165 0.259273
+computed size 373760
+bytez recieved size 373760
+LABEL =  1
+LABEL PROB =  [[0.28 0.72]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:44] "POST / HTTP/1.1" 200 165 0.233795
+computed size 237568
+bytez recieved size 237568
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  1
+LABEL PROB =  [[0.14 0.86]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:45] "POST / HTTP/1.1" 200 165 0.160131
+computed size 134144
+bytez recieved size 134144
+Infinite loop detected on resources
+LABEL =  1
+LABEL PROB =  [[0.14 0.86]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:45] "POST / HTTP/1.1" 200 165 0.129755
+computed size 471040
+bytez recieved size 471040
+LABEL =  1
+LABEL PROB =  [[0.06 0.94]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:45] "POST / HTTP/1.1" 200 165 0.260556
+computed size 29696
+bytez recieved size 29696
+LABEL =  1
+LABEL PROB =  [[0. 1.]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:45] "POST / HTTP/1.1" 200 163 0.057082
+computed size 361984
+bytez recieved size 361984
+LABEL =  1
+LABEL PROB =  [[0.34 0.66]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:45] "POST / HTTP/1.1" 200 165 0.163603
+computed size 104448
+bytez recieved size 104448
+TLS's template corrupted
+LABEL =  1
+LABEL PROB =  [[0.54 0.46]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:46] "POST / HTTP/1.1" 200 165 0.316241
+computed size 687616
+bytez recieved size 694472
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.44 0.56]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:46] "POST / HTTP/1.1" 200 165 0.379855
+computed size 212992
+bytez recieved size 212992
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  1
+LABEL PROB =  [[0.24 0.76]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:46] "POST / HTTP/1.1" 200 165 0.149355
+computed size 467456
+bytez recieved size 467456
+LABEL =  1
+LABEL PROB =  [[0.38 0.62]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:46] "POST / HTTP/1.1" 200 165 0.191407
+computed size 192000
+bytez recieved size 192000
+LABEL =  1
+LABEL PROB =  [[0.18 0.82]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:46] "POST / HTTP/1.1" 200 165 0.122346
+computed size 3453440
+bytez recieved size 3450368
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.64 0.36]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:48] "POST / HTTP/1.1" 200 165 1.496729
+computed size 233472
+bytez recieved size 233472
+LABEL =  1
+LABEL PROB =  [[0.12 0.88]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:48] "POST / HTTP/1.1" 200 165 0.232420
+computed size 438784
+bytez recieved size 439296
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.1 0.9]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:48] "POST / HTTP/1.1" 200 163 0.182423
+computed size 266240
+bytez recieved size 266240
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  1
+LABEL PROB =  [[0.06 0.94]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:49] "POST / HTTP/1.1" 200 165 0.245589
+computed size 459776
+bytez recieved size 459776
+LABEL =  1
+LABEL PROB =  [[0.2 0.8]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:49] "POST / HTTP/1.1" 200 163 0.298611
+::ffff:172.17.0.1 - - [2023-04-09 01:43:49] "POST / HTTP/1.1" 400 142 0.002913
+::ffff:172.17.0.1 - - [2023-04-09 01:43:49] "POST / HTTP/1.1" 400 142 0.024894
+::ffff:172.17.0.1 - - [2023-04-09 01:43:49] "POST / HTTP/1.1" 400 142 0.001127
+computed size 147968
+bytez recieved size 5143912
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.9 0.1]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:50] "POST / HTTP/1.1" 200 163 0.816074
+computed size 153600
+bytez recieved size 1091752
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.82 0.18]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:50] "POST / HTTP/1.1" 200 165 0.315153
+::ffff:172.17.0.1 - - [2023-04-09 01:43:50] "POST / HTTP/1.1" 400 142 0.001442
+::ffff:172.17.0.1 - - [2023-04-09 01:43:50] "POST / HTTP/1.1" 400 142 0.184227
+computed size 1028608
+bytez recieved size 1032248
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.72 0.28]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:51] "POST / HTTP/1.1" 200 165 0.416833
+computed size 59904
+bytez recieved size 3389035
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:51] "POST / HTTP/1.1" 200 165 0.590746
+::ffff:172.17.0.1 - - [2023-04-09 01:43:51] "POST / HTTP/1.1" 400 142 0.001257
+computed size 946176
+bytez recieved size 960168
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.14 0.86]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:52] "POST / HTTP/1.1" 200 165 0.898773
+::ffff:172.17.0.1 - - [2023-04-09 01:43:52] "POST / HTTP/1.1" 400 142 0.003736
+::ffff:172.17.0.1 - - [2023-04-09 01:43:52] "POST / HTTP/1.1" 400 142 0.013006
+::ffff:172.17.0.1 - - [2023-04-09 01:43:52] "POST / HTTP/1.1" 400 142 0.001248
+::ffff:172.17.0.1 - - [2023-04-09 01:43:52] "POST / HTTP/1.1" 400 142 0.002646
+::ffff:172.17.0.1 - - [2023-04-09 01:43:53] "POST / HTTP/1.1" 400 142 0.077570
+::ffff:172.17.0.1 - - [2023-04-09 01:43:53] "POST / HTTP/1.1" 400 142 0.025576
+::ffff:172.17.0.1 - - [2023-04-09 01:43:53] "POST / HTTP/1.1" 400 142 0.011257
+::ffff:172.17.0.1 - - [2023-04-09 01:43:53] "POST / HTTP/1.1" 400 142 0.011373
+::ffff:172.17.0.1 - - [2023-04-09 01:43:53] "POST / HTTP/1.1" 400 142 0.010183
+::ffff:172.17.0.1 - - [2023-04-09 01:43:53] "POST / HTTP/1.1" 400 142 0.021130
+computed size 210432
+bytez recieved size 228544
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:53] "POST / HTTP/1.1" 200 165 0.408382
+::ffff:172.17.0.1 - - [2023-04-09 01:43:53] "POST / HTTP/1.1" 400 142 0.003231
+::ffff:172.17.0.1 - - [2023-04-09 01:43:53] "POST / HTTP/1.1" 400 142 0.004918
+computed size 693760
+bytez recieved size 699864
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.66 0.34]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:54] "POST / HTTP/1.1" 200 165 0.543897
+::ffff:172.17.0.1 - - [2023-04-09 01:43:54] "POST / HTTP/1.1" 400 142 0.001140
+::ffff:172.17.0.1 - - [2023-04-09 01:43:54] "POST / HTTP/1.1" 400 142 0.023381
+::ffff:172.17.0.1 - - [2023-04-09 01:43:54] "POST / HTTP/1.1" 400 142 0.012969
+::ffff:172.17.0.1 - - [2023-04-09 01:43:54] "POST / HTTP/1.1" 400 142 0.032695
+computed size 136704
+bytez recieved size 2828480
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.82 0.18]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:54] "POST / HTTP/1.1" 200 165 0.529865
+computed size 70144
+bytez recieved size 2214992
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Unable to find the section associated with BASE_RELOCATION_TABLE
+LABEL =  0
+LABEL PROB =  [[0.82 0.18]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:55] "POST / HTTP/1.1" 200 165 0.411022
+::ffff:172.17.0.1 - - [2023-04-09 01:43:55] "POST / HTTP/1.1" 400 142 0.022961
+::ffff:172.17.0.1 - - [2023-04-09 01:43:55] "POST / HTTP/1.1" 400 142 0.001042
+::ffff:172.17.0.1 - - [2023-04-09 01:43:55] "POST / HTTP/1.1" 400 142 0.001158
+::ffff:172.17.0.1 - - [2023-04-09 01:43:55] "POST / HTTP/1.1" 400 142 0.066576
+::ffff:172.17.0.1 - - [2023-04-09 01:43:55] "POST / HTTP/1.1" 400 142 0.001026
+computed size 294912
+bytez recieved size 4374528
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.78 0.22]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:56] "POST / HTTP/1.1" 200 165 0.702618
+::ffff:172.17.0.1 - - [2023-04-09 01:43:56] "POST / HTTP/1.1" 400 142 0.000936
+::ffff:172.17.0.1 - - [2023-04-09 01:43:56] "POST / HTTP/1.1" 400 142 0.373695
+::ffff:172.17.0.1 - - [2023-04-09 01:43:56] "POST / HTTP/1.1" 400 142 0.000990
+computed size 56832
+bytez recieved size 3455856
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:57] "POST / HTTP/1.1" 200 165 0.551945
+computed size 1152512
+bytez recieved size 1152512
+LABEL =  0
+LABEL PROB =  [[0.78 0.22]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:57] "POST / HTTP/1.1" 200 165 0.477431
+computed size 15872
+bytez recieved size 4430104
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.8 0.2]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:58] "POST / HTTP/1.1" 200 163 0.636368
+computed size 59904
+bytez recieved size 622949
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Unable to find the section associated with BASE_RELOCATION_TABLE
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:58] "POST / HTTP/1.1" 200 165 0.212289
+computed size 119296
+bytez recieved size 608232
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:58] "POST / HTTP/1.1" 200 165 0.250504
+computed size 53248
+bytez recieved size 2572275
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:43:59] "POST / HTTP/1.1" 200 165 0.458100
+computed size 3363840
+bytez recieved size 3367392
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.7 0.3]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:00] "POST / HTTP/1.1" 200 163 1.683924
+computed size 863232
+bytez recieved size 876304
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.82 0.18]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:01] "POST / HTTP/1.1" 200 165 0.350203
+computed size 462848
+bytez recieved size 4522568
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:02] "POST / HTTP/1.1" 200 165 0.979894
+computed size 465408
+bytez recieved size 1293856
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.68 0.32]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:02] "POST / HTTP/1.1" 200 165 0.402997
+computed size 1402880
+bytez recieved size 4100944
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:04] "POST / HTTP/1.1" 200 165 1.783449
+computed size 406016
+bytez recieved size 2868456
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.74 0.26]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:05] "POST / HTTP/1.1" 200 165 0.664703
+computed size 465408
+bytez recieved size 1318080
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.42 0.58]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:05] "POST / HTTP/1.1" 200 165 0.419159
+computed size 51712
+bytez recieved size 370923
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.74 0.26]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:05] "POST / HTTP/1.1" 200 165 0.178359
+computed size 2131456
+bytez recieved size 2131936
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.5 0.5]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:06] "POST / HTTP/1.1" 200 163 0.747952
+computed size 57856
+bytez recieved size 3604454
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:07] "POST / HTTP/1.1" 200 165 0.568086
+computed size 35840
+bytez recieved size 3086696
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:07] "POST / HTTP/1.1" 200 165 0.615414
+computed size 371200
+bytez recieved size 3410080
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.7 0.3]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:08] "POST / HTTP/1.1" 200 163 0.652074
+computed size 73216
+bytez recieved size 4845384
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Relocation corrupted: BlockSize is out of bound the binary's virtual size
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:09] "POST / HTTP/1.1" 200 165 0.771553
+computed size 353792
+bytez recieved size 1897224
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Unable to find the section associated with BASE_RELOCATION_TABLE
+LABEL =  0
+LABEL PROB =  [[0.68 0.32]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:09] "POST / HTTP/1.1" 200 165 0.426347
+computed size 465408
+bytez recieved size 1305328
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.7 0.3]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:10] "POST / HTTP/1.1" 200 163 0.405177
+computed size 23040
+bytez recieved size 23040
+LABEL =  0
+LABEL PROB =  [[0.82 0.18]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:10] "POST / HTTP/1.1" 200 165 0.052895
+computed size 77824
+bytez recieved size 572304
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Unable to find the section associated with BASE_RELOCATION_TABLE
+LABEL =  0
+LABEL PROB =  [[0.8 0.2]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:10] "POST / HTTP/1.1" 200 163 0.224055
+computed size 101888
+bytez recieved size 1129424
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Unable to find the section associated with BASE_RELOCATION_TABLE
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:10] "POST / HTTP/1.1" 200 165 0.296031
+computed size 56832
+bytez recieved size 932346
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:11] "POST / HTTP/1.1" 200 165 0.248745
+computed size 56832
+bytez recieved size 2601200
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:11] "POST / HTTP/1.1" 200 165 0.459707
+::ffff:172.17.0.1 - - [2023-04-09 01:44:11] "POST / HTTP/1.1" 400 142 0.001734
+computed size 128512
+bytez recieved size 2845104
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Unable to find the section associated with BASE_RELOCATION_TABLE
+LABEL =  0
+LABEL PROB =  [[0.62 0.38]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:12] "POST / HTTP/1.1" 200 165 0.501202
+computed size 74752
+bytez recieved size 4309472
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Relocation corrupted: BlockSize is out of bound the binary's virtual size
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:12] "POST / HTTP/1.1" 200 165 0.699439
+computed size 48128
+bytez recieved size 1672224
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:13] "POST / HTTP/1.1" 200 165 0.397299
+computed size 61440
+bytez recieved size 627801
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:13] "POST / HTTP/1.1" 200 165 0.191456
+computed size 56320
+bytez recieved size 1500215
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Unable to find the section associated with BASE_RELOCATION_TABLE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:13] "POST / HTTP/1.1" 200 165 0.339218
+computed size 54272
+bytez recieved size 2039080
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:14] "POST / HTTP/1.1" 200 165 0.372178
+computed size 248832
+bytez recieved size 1067760
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Unable to find the section associated with BASE_RELOCATION_TABLE
+LABEL =  1
+LABEL PROB =  [[0.44 0.56]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:14] "POST / HTTP/1.1" 200 165 0.303987
+computed size 54272
+bytez recieved size 1587544
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:14] "POST / HTTP/1.1" 200 165 0.343578
+computed size 56320
+bytez recieved size 684792
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Unable to find the section associated with BASE_RELOCATION_TABLE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:15] "POST / HTTP/1.1" 200 165 0.222332
+computed size 138752
+bytez recieved size 1497580
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:15] "POST / HTTP/1.1" 200 165 0.347541
+computed size 485376
+bytez recieved size 491120
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.78 0.22]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:15] "POST / HTTP/1.1" 200 165 0.239695
+computed size 54272
+bytez recieved size 1696448
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:16] "POST / HTTP/1.1" 200 165 0.346110
+computed size 70144
+bytez recieved size 2228364
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.8 0.2]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:16] "POST / HTTP/1.1" 200 163 0.478171
+computed size 61952
+bytez recieved size 1094931
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Unable to find the section associated with BASE_RELOCATION_TABLE
+LABEL =  0
+LABEL PROB =  [[0.8 0.2]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:16] "POST / HTTP/1.1" 200 163 0.276980
+computed size 238592
+bytez recieved size 844908
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Unable to find the section associated with BASE_RELOCATION_TABLE
+LABEL =  1
+LABEL PROB =  [[0.4 0.6]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:17] "POST / HTTP/1.1" 200 163 0.270436
+computed size 54272
+bytez recieved size 1249152
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:17] "POST / HTTP/1.1" 200 165 0.297396
+computed size 16384
+bytez recieved size 16384
+Unable to find the section associated with BOUND_IMPORT
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:17] "POST / HTTP/1.1" 200 165 0.080906
+computed size 190464
+bytez recieved size 272256
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Relocation corrupted: BlockSize is out of bound the binary's virtual size
+LABEL =  0
+LABEL PROB =  [[0.68 0.32]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:17] "POST / HTTP/1.1" 200 165 0.268987
+computed size 498688
+bytez recieved size 506440
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.66 0.34]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:18] "POST / HTTP/1.1" 200 165 0.214428
+computed size 66048
+bytez recieved size 4448968
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Relocation corrupted: BlockSize is out of bound the binary's virtual size
+LABEL =  0
+LABEL PROB =  [[0.82 0.18]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:18] "POST / HTTP/1.1" 200 165 0.741253
+computed size 119296
+bytez recieved size 3735432
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:19] "POST / HTTP/1.1" 200 165 0.613148
+computed size 56832
+bytez recieved size 4475115
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:20] "POST / HTTP/1.1" 200 165 0.667746
+computed size 56832
+bytez recieved size 1570958
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:20] "POST / HTTP/1.1" 200 165 0.328223
+computed size 84480
+bytez recieved size 3243860
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Relocation corrupted: BlockSize is out of bound the binary's virtual size
+LABEL =  0
+LABEL PROB =  [[0.64 0.36]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:21] "POST / HTTP/1.1" 200 165 0.584501
+computed size 54272
+bytez recieved size 4315312
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:21] "POST / HTTP/1.1" 200 165 0.644950
+computed size 119296
+bytez recieved size 1354632
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:22] "POST / HTTP/1.1" 200 165 0.330734
+computed size 58880
+bytez recieved size 5080920
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Relocation corrupted: BlockSize is out of bound the binary's virtual size
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:22] "POST / HTTP/1.1" 200 165 0.777697
+computed size 54272
+bytez recieved size 2393816
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:23] "POST / HTTP/1.1" 200 165 0.433274
+computed size 27648
+bytez recieved size 306030
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.48 0.52]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:23] "POST / HTTP/1.1" 200 165 0.111849
+computed size 1239552
+bytez recieved size 1239552
+LABEL =  1
+LABEL PROB =  [[0.56 0.44]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:24] "POST / HTTP/1.1" 200 165 0.953834
+computed size 151040
+bytez recieved size 4456576
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.78 0.22]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:25] "POST / HTTP/1.1" 200 165 0.767018
+computed size 141824
+bytez recieved size 2782704
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:25] "POST / HTTP/1.1" 200 165 0.525640
+computed size 437760
+bytez recieved size 4807435
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:26] "POST / HTTP/1.1" 200 165 1.009935
+computed size 328192
+bytez recieved size 328192
+LABEL =  0
+LABEL PROB =  [[0.8 0.2]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:27] "POST / HTTP/1.1" 200 163 0.439039
+computed size 635904
+bytez recieved size 648952
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.7 0.3]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:27] "POST / HTTP/1.1" 200 163 0.281464
+computed size 56832
+bytez recieved size 3235064
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:28] "POST / HTTP/1.1" 200 165 0.528581
+computed size 1056768
+bytez recieved size 1076744
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.12 0.88]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:29] "POST / HTTP/1.1" 200 165 1.010200
+computed size 140800
+bytez recieved size 3403024
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:29] "POST / HTTP/1.1" 200 165 0.593104
+computed size 140800
+bytez recieved size 4759456
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:30] "POST / HTTP/1.1" 200 165 0.754194
+computed size 140800
+bytez recieved size 4557760
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:31] "POST / HTTP/1.1" 200 165 0.732228
+computed size 59392
+bytez recieved size 1671168
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.68 0.32]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:31] "POST / HTTP/1.1" 200 165 0.394690
+computed size 60416
+bytez recieved size 4455958
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.7 0.3]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:32] "POST / HTTP/1.1" 200 163 0.712173
+computed size 273408
+bytez recieved size 286432
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:32] "POST / HTTP/1.1" 200 165 0.170120
+computed size 1134592
+bytez recieved size 1148328
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.24 0.76]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:33] "POST / HTTP/1.1" 200 165 1.090784
+computed size 69120
+bytez recieved size 1708037
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Unable to find the section associated with BASE_RELOCATION_TABLE
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:34] "POST / HTTP/1.1" 200 165 0.350528
+computed size 59392
+bytez recieved size 4121400
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:34] "POST / HTTP/1.1" 200 165 0.720297
+computed size 99328
+bytez recieved size 3670088
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:35] "POST / HTTP/1.1" 200 165 0.647461
+computed size 140800
+bytez recieved size 4931304
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.9 0.1]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:36] "POST / HTTP/1.1" 200 163 0.781111
+computed size 54272
+bytez recieved size 4574392
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:36] "POST / HTTP/1.1" 200 165 0.663362
+computed size 791552
+bytez recieved size 791552
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:37] "POST / HTTP/1.1" 200 165 0.885908
+computed size 5632
+bytez recieved size 5632
+LABEL =  0
+LABEL PROB =  [[0.9 0.1]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:37] "POST / HTTP/1.1" 200 163 0.068649
+computed size 3203072
+bytez recieved size 3313496
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.74 0.26]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:39] "POST / HTTP/1.1" 200 165 1.299966
+computed size 71168
+bytez recieved size 1131627
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:39] "POST / HTTP/1.1" 200 165 0.337484
+computed size 9728
+bytez recieved size 9216
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.7 0.3]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:39] "POST / HTTP/1.1" 200 163 0.082792
+computed size 56832
+bytez recieved size 181742
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.7 0.3]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:39] "POST / HTTP/1.1" 200 163 0.219380
+computed size 333824
+bytez recieved size 333824
+LABEL =  1
+LABEL PROB =  [[0.6 0.4]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:40] "POST / HTTP/1.1" 200 163 0.293699
+computed size 793088
+bytez recieved size 793088
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:41] "POST / HTTP/1.1" 200 165 0.899981
+computed size 196096
+bytez recieved size 865641
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.72 0.28]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:41] "POST / HTTP/1.1" 200 165 0.320218
+computed size 119296
+bytez recieved size 2929939
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:42] "POST / HTTP/1.1" 200 165 0.522098
+computed size 56832
+bytez recieved size 4922154
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:42] "POST / HTTP/1.1" 200 165 0.687083
+computed size 58368
+bytez recieved size 2949520
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.82 0.18]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:43] "POST / HTTP/1.1" 200 165 0.527967
+computed size 60928
+bytez recieved size 2438830
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.72 0.28]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:43] "POST / HTTP/1.1" 200 165 0.471975
+computed size 195584
+bytez recieved size 195584
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:44] "POST / HTTP/1.1" 200 165 0.185394
+computed size 1304576
+bytez recieved size 1304590
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.7 0.3]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:44] "POST / HTTP/1.1" 200 163 0.601178
+computed size 19456
+bytez recieved size 19456
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:44] "POST / HTTP/1.1" 200 165 0.101979
+computed size 56832
+bytez recieved size 666166
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:45] "POST / HTTP/1.1" 200 165 0.229192
+computed size 48128
+bytez recieved size 474640
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.8 0.2]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:45] "POST / HTTP/1.1" 200 163 0.243774
+computed size 66560
+bytez recieved size 126059
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.22 0.78]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:45] "POST / HTTP/1.1" 200 165 0.079571
+computed size 49664
+bytez recieved size 503500
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:45] "POST / HTTP/1.1" 200 165 0.237777
+computed size 467456
+bytez recieved size 467456
+LABEL =  0
+LABEL PROB =  [[1. 0.]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:46] "POST / HTTP/1.1" 200 163 0.454566
+computed size 2261504
+bytez recieved size 2261504
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:47] "POST / HTTP/1.1" 200 165 1.053945
+computed size 13312
+bytez recieved size 13312
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:47] "POST / HTTP/1.1" 200 165 0.087788
+computed size 49152
+bytez recieved size 2633439
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:47] "POST / HTTP/1.1" 200 165 0.504176
+computed size 585728
+bytez recieved size 582656
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.56 0.44]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:48] "POST / HTTP/1.1" 200 165 0.269380
+computed size 90112
+bytez recieved size 90112
+LABEL =  1
+LABEL PROB =  [[0.42 0.58]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:48] "POST / HTTP/1.1" 200 165 0.125937
+computed size 53248
+bytez recieved size 124013
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.54 0.46]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:48] "POST / HTTP/1.1" 200 165 0.087563
+computed size 26624
+bytez recieved size 22016
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.78 0.22]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:48] "POST / HTTP/1.1" 200 165 0.086008
+computed size 97792
+bytez recieved size 4971085
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.74 0.26]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:49] "POST / HTTP/1.1" 200 165 0.871123
+computed size 35328
+bytez recieved size 35328
+LABEL =  0
+LABEL PROB =  [[0.78 0.22]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:49] "POST / HTTP/1.1" 200 165 0.122346
+computed size 1757184
+bytez recieved size 1757184
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:50] "POST / HTTP/1.1" 200 165 0.772056
+computed size 70656
+bytez recieved size 2712619
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:50] "POST / HTTP/1.1" 200 165 0.526826
+computed size 50688
+bytez recieved size 5172604
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:51] "POST / HTTP/1.1" 200 165 0.785424
+computed size 53248
+bytez recieved size 501031
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+TLS's template corrupted
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:51] "POST / HTTP/1.1" 200 165 0.203514
+computed size 364032
+bytez recieved size 364032
+LABEL =  1
+LABEL PROB =  [[0.6 0.4]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:52] "POST / HTTP/1.1" 200 163 0.299700
+computed size 23552
+bytez recieved size 23552
+LABEL =  0
+LABEL PROB =  [[0.8 0.2]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:52] "POST / HTTP/1.1" 200 163 0.103839
+computed size 6656
+bytez recieved size 6656
+LABEL =  0
+LABEL PROB =  [[0.78 0.22]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:52] "POST / HTTP/1.1" 200 165 0.079825
+computed size 1300992
+bytez recieved size 1301006
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.72 0.28]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:52] "POST / HTTP/1.1" 200 165 0.584551
+computed size 181248
+bytez recieved size 235981
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:53] "POST / HTTP/1.1" 200 165 0.240248
+computed size 18432
+bytez recieved size 18432
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:53] "POST / HTTP/1.1" 200 165 0.096783
+computed size 49152
+bytez recieved size 49152
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:53] "POST / HTTP/1.1" 200 165 0.109396
+computed size 69632
+bytez recieved size 69632
+LABEL =  0
+LABEL PROB =  [[0.82 0.18]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:53] "POST / HTTP/1.1" 200 165 0.160711
+computed size 519680
+bytez recieved size 516608
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.78 0.22]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:53] "POST / HTTP/1.1" 200 165 0.258025
+computed size 1440256
+bytez recieved size 1440270
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.68 0.32]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:54] "POST / HTTP/1.1" 200 165 0.642661
+computed size 19456
+bytez recieved size 19456
+LABEL =  0
+LABEL PROB =  [[0.82 0.18]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:54] "POST / HTTP/1.1" 200 165 0.109310
+computed size 618496
+bytez recieved size 752959
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:55] "POST / HTTP/1.1" 200 165 0.420792
+computed size 217088
+bytez recieved size 217088
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:55] "POST / HTTP/1.1" 200 165 0.169594
+computed size 19968
+bytez recieved size 19968
+LABEL =  0
+LABEL PROB =  [[0.82 0.18]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:55] "POST / HTTP/1.1" 200 165 0.093035
+computed size 118784
+bytez recieved size 2610503
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:55] "POST / HTTP/1.1" 200 165 0.485075
+computed size 40960
+bytez recieved size 40960
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:56] "POST / HTTP/1.1" 200 165 0.097375
+computed size 1025536
+bytez recieved size 1041176
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:56] "POST / HTTP/1.1" 200 165 0.533437
+computed size 2234880
+bytez recieved size 2250512
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:57] "POST / HTTP/1.1" 200 165 0.983368
+computed size 1546752
+bytez recieved size 1562392
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:58] "POST / HTTP/1.1" 200 165 0.703563
+computed size 1198592
+bytez recieved size 1214232
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:58] "POST / HTTP/1.1" 200 165 0.602409
+computed size 941056
+bytez recieved size 956688
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.9 0.1]]
+::ffff:172.17.0.1 - - [2023-04-09 01:44:59] "POST / HTTP/1.1" 200 163 0.496924
+computed size 2696192
+bytez recieved size 2711824
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:00] "POST / HTTP/1.1" 200 165 1.052972
+computed size 3010560
+bytez recieved size 3026192
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:01] "POST / HTTP/1.1" 200 165 1.244940
+computed size 2024960
+bytez recieved size 2040592
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:02] "POST / HTTP/1.1" 200 165 0.827147
+computed size 682496
+bytez recieved size 698136
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:03] "POST / HTTP/1.1" 200 165 0.440209
+computed size 371712
+bytez recieved size 387344
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:03] "POST / HTTP/1.1" 200 165 0.340747
+computed size 1295360
+bytez recieved size 1310936
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:04] "POST / HTTP/1.1" 200 165 0.569225
+computed size 333312
+bytez recieved size 338856
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.42 0.58]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:04] "POST / HTTP/1.1" 200 165 0.436036
+computed size 952832
+bytez recieved size 968472
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.82 0.18]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:05] "POST / HTTP/1.1" 200 165 0.656549
+computed size 414208
+bytez recieved size 429848
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.78 0.22]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:05] "POST / HTTP/1.1" 200 165 0.330122
+computed size 429568
+bytez recieved size 445200
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.8 0.2]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:05] "POST / HTTP/1.1" 200 163 0.342870
+computed size 551936
+bytez recieved size 558320
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:06] "POST / HTTP/1.1" 200 165 0.314255
+computed size 561664
+bytez recieved size 567648
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:06] "POST / HTTP/1.1" 200 165 0.313306
+computed size 278528
+bytez recieved size 928134
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:06] "POST / HTTP/1.1" 200 165 0.365441
+computed size 354304
+bytez recieved size 362208
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.56 0.44]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:07] "POST / HTTP/1.1" 200 165 0.212059
+computed size 1177088
+bytez recieved size 1192728
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:07] "POST / HTTP/1.1" 200 165 0.585782
+computed size 482304
+bytez recieved size 497944
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.82 0.18]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:08] "POST / HTTP/1.1" 200 165 0.504172
+computed size 1534464
+bytez recieved size 1550104
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:08] "POST / HTTP/1.1" 200 165 0.684194
+computed size 1867264
+bytez recieved size 1882896
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:09] "POST / HTTP/1.1" 200 165 0.779296
+computed size 1533952
+bytez recieved size 1549592
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.9 0.1]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:10] "POST / HTTP/1.1" 200 163 0.694583
+computed size 1915904
+bytez recieved size 1931536
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:11] "POST / HTTP/1.1" 200 165 0.826245
+computed size 501248
+bytez recieved size 516880
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:11] "POST / HTTP/1.1" 200 165 0.475038
+computed size 510976
+bytez recieved size 526616
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:12] "POST / HTTP/1.1" 200 165 0.361821
+computed size 2659840
+bytez recieved size 2666200
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.8 0.2]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:13] "POST / HTTP/1.1" 200 163 0.839077
+computed size 1251328
+bytez recieved size 1258296
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:13] "POST / HTTP/1.1" 200 165 0.532024
+computed size 425472
+bytez recieved size 441112
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.78 0.22]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:13] "POST / HTTP/1.1" 200 165 0.327763
+computed size 633344
+bytez recieved size 648976
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.8 0.2]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:14] "POST / HTTP/1.1" 200 163 0.387705
+computed size 2713600
+bytez recieved size 2729240
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:15] "POST / HTTP/1.1" 200 165 1.061784
+computed size 280576
+bytez recieved size 283944
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.72 0.28]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:15] "POST / HTTP/1.1" 200 165 0.136599
+computed size 2352640
+bytez recieved size 851968
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+Can't read the padding content of section '.rsrc'
+Data of section section '.reloc' is too large (0xffe93a00)
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:16] "POST / HTTP/1.1" 200 165 0.514394
+computed size 377856
+bytez recieved size 384008
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:16] "POST / HTTP/1.1" 200 165 0.355721
+computed size 249856
+bytez recieved size 249856
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:16] "POST / HTTP/1.1" 200 165 0.336678
+computed size 2737152
+bytez recieved size 2752784
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[1. 0.]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:17] "POST / HTTP/1.1" 200 163 1.078380
+computed size 4241408
+bytez recieved size 4257040
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:19] "POST / HTTP/1.1" 200 165 1.552825
+computed size 282112
+bytez recieved size 292408
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  1
+LABEL PROB =  [[0.5 0.5]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:19] "POST / HTTP/1.1" 200 163 0.179262
+computed size 824320
+bytez recieved size 833584
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:20] "POST / HTTP/1.1" 200 165 0.430874
+computed size 3679744
+bytez recieved size 3695384
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:21] "POST / HTTP/1.1" 200 165 1.437500
+computed size 525312
+bytez recieved size 531960
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:21] "POST / HTTP/1.1" 200 165 0.303493
+computed size 530944
+bytez recieved size 546576
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:22] "POST / HTTP/1.1" 200 165 0.371173
+computed size 747008
+bytez recieved size 762640
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:22] "POST / HTTP/1.1" 200 165 0.455555
+computed size 614400
+bytez recieved size 623656
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:23] "POST / HTTP/1.1" 200 165 0.341735
+computed size 471040
+bytez recieved size 486680
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:23] "POST / HTTP/1.1" 200 165 0.351804
+computed size 1822208
+bytez recieved size 1837848
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[1. 0.]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:24] "POST / HTTP/1.1" 200 163 0.795205
+computed size 940544
+bytez recieved size 956184
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.8 0.2]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:24] "POST / HTTP/1.1" 200 163 0.593807
+computed size 958976
+bytez recieved size 974616
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:25] "POST / HTTP/1.1" 200 165 0.529577
+computed size 1581056
+bytez recieved size 1594144
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.62 0.38]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:26] "POST / HTTP/1.1" 200 165 0.701846
+computed size 33792
+bytez recieved size 364880
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:26] "POST / HTTP/1.1" 200 165 0.224356
+computed size 348160
+bytez recieved size 354632
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:26] "POST / HTTP/1.1" 200 165 0.347622
+computed size 614400
+bytez recieved size 623984
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:27] "POST / HTTP/1.1" 200 165 0.336707
+computed size 605696
+bytez recieved size 621328
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.82 0.18]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:27] "POST / HTTP/1.1" 200 165 0.392271
+computed size 853504
+bytez recieved size 866648
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:28] "POST / HTTP/1.1" 200 165 0.697192
+computed size 2398720
+bytez recieved size 2405192
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:29] "POST / HTTP/1.1" 200 165 1.412405
+computed size 351744
+bytez recieved size 358392
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:29] "POST / HTTP/1.1" 200 165 0.265614
+computed size 1085952
+bytez recieved size 1101592
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:30] "POST / HTTP/1.1" 200 165 0.545207
+computed size 1755136
+bytez recieved size 1770768
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:31] "POST / HTTP/1.1" 200 165 0.781489
+computed size 198144
+bytez recieved size 213784
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:31] "POST / HTTP/1.1" 200 165 0.247200
+computed size 351744
+bytez recieved size 356928
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:31] "POST / HTTP/1.1" 200 165 0.317162
+computed size 1564160
+bytez recieved size 1579792
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:32] "POST / HTTP/1.1" 200 165 0.822794
+computed size 1411072
+bytez recieved size 1426704
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:33] "POST / HTTP/1.1" 200 165 0.644292
+computed size 2005504
+bytez recieved size 2021136
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:34] "POST / HTTP/1.1" 200 165 0.836972
+computed size 73728
+bytez recieved size 1690375
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.78 0.22]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:34] "POST / HTTP/1.1" 200 165 0.403804
+computed size 435200
+bytez recieved size 450832
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:34] "POST / HTTP/1.1" 200 165 0.351389
+computed size 258560
+bytez recieved size 274200
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:35] "POST / HTTP/1.1" 200 165 0.395378
+computed size 935424
+bytez recieved size 951064
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:35] "POST / HTTP/1.1" 200 165 0.525104
+computed size 2699776
+bytez recieved size 2715408
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:37] "POST / HTTP/1.1" 200 165 1.060014
+computed size 81920
+bytez recieved size 1164204
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.8 0.2]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:37] "POST / HTTP/1.1" 200 163 0.314297
+computed size 2060800
+bytez recieved size 2076432
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:38] "POST / HTTP/1.1" 200 165 0.840806
+computed size 670208
+bytez recieved size 685840
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:38] "POST / HTTP/1.1" 200 165 0.418337
+computed size 537088
+bytez recieved size 537088
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:39] "POST / HTTP/1.1" 200 165 0.657336
+computed size 95232
+bytez recieved size 95232
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:39] "POST / HTTP/1.1" 200 165 0.226889
+computed size 49152
+bytez recieved size 49152
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:39] "POST / HTTP/1.1" 200 165 0.200560
+computed size 44032
+bytez recieved size 44032
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:39] "POST / HTTP/1.1" 200 165 0.165767
+computed size 57344
+bytez recieved size 57344
+LABEL =  0
+LABEL PROB =  [[0.72 0.28]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:40] "POST / HTTP/1.1" 200 165 0.117644
+computed size 42496
+bytez recieved size 42496
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:40] "POST / HTTP/1.1" 200 165 0.168117
+computed size 18432
+bytez recieved size 18432
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:40] "POST / HTTP/1.1" 200 165 0.115326
+computed size 139776
+bytez recieved size 139776
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:40] "POST / HTTP/1.1" 200 165 0.254408
+computed size 52224
+bytez recieved size 52224
+LABEL =  0
+LABEL PROB =  [[0.9 0.1]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:40] "POST / HTTP/1.1" 200 163 0.210016
+computed size 22528
+bytez recieved size 22528
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:41] "POST / HTTP/1.1" 200 165 0.134301
+computed size 225280
+bytez recieved size 235936
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:41] "POST / HTTP/1.1" 200 165 0.353093
+computed size 142848
+bytez recieved size 142848
+LABEL =  0
+LABEL PROB =  [[0.68 0.32]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:41] "POST / HTTP/1.1" 200 165 0.240380
+computed size 285696
+bytez recieved size 285696
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:42] "POST / HTTP/1.1" 200 165 0.461542
+computed size 73216
+bytez recieved size 73216
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:42] "POST / HTTP/1.1" 200 165 0.204699
+computed size 27136
+bytez recieved size 27136
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:42] "POST / HTTP/1.1" 200 165 0.143478
+computed size 36352
+bytez recieved size 36352
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:42] "POST / HTTP/1.1" 200 165 0.165251
+computed size 92672
+bytez recieved size 92672
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:42] "POST / HTTP/1.1" 200 165 0.210711
+computed size 45568
+bytez recieved size 45568
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:43] "POST / HTTP/1.1" 200 165 0.190197
+computed size 198144
+bytez recieved size 216816
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:43] "POST / HTTP/1.1" 200 165 0.369255
+computed size 94208
+bytez recieved size 94208
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:43] "POST / HTTP/1.1" 200 165 0.236718
+computed size 1255936
+bytez recieved size 1255936
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:45] "POST / HTTP/1.1" 200 165 1.445825
+computed size 1074688
+bytez recieved size 1074688
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:46] "POST / HTTP/1.1" 200 165 0.993460
+computed size 29696
+bytez recieved size 29696
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:46] "POST / HTTP/1.1" 200 165 0.104657
+computed size 19968
+bytez recieved size 19968
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:46] "POST / HTTP/1.1" 200 165 0.142341
+computed size 32256
+bytez recieved size 32256
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:46] "POST / HTTP/1.1" 200 165 0.147563
+computed size 869888
+bytez recieved size 869888
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:47] "POST / HTTP/1.1" 200 165 0.670964
+computed size 20480
+bytez recieved size 20480
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:47] "POST / HTTP/1.1" 200 165 0.136752
+computed size 7680
+bytez recieved size 7680
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:47] "POST / HTTP/1.1" 200 165 0.068091
+computed size 16384
+bytez recieved size 16384
+LABEL =  0
+LABEL PROB =  [[1. 0.]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:47] "POST / HTTP/1.1" 200 163 0.112188
+computed size 20992
+bytez recieved size 20992
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:47] "POST / HTTP/1.1" 200 165 0.123857
+computed size 50176
+bytez recieved size 59416
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[1. 0.]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:48] "POST / HTTP/1.1" 200 163 0.190903
+computed size 222720
+bytez recieved size 222720
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:48] "POST / HTTP/1.1" 200 165 0.274695
+computed size 31744
+bytez recieved size 31744
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:48] "POST / HTTP/1.1" 200 165 0.170272
+computed size 241152
+bytez recieved size 241152
+LABEL =  0
+LABEL PROB =  [[0.9 0.1]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:48] "POST / HTTP/1.1" 200 163 0.397799
+computed size 355840
+bytez recieved size 355840
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:49] "POST / HTTP/1.1" 200 165 0.625787
+computed size 216064
+bytez recieved size 216064
+LABEL =  0
+LABEL PROB =  [[0.82 0.18]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:49] "POST / HTTP/1.1" 200 165 0.261702
+computed size 165376
+bytez recieved size 165376
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:50] "POST / HTTP/1.1" 200 165 0.298740
+computed size 309760
+bytez recieved size 309760
+LABEL =  0
+LABEL PROB =  [[0.78 0.22]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:50] "POST / HTTP/1.1" 200 165 0.320827
+computed size 10752
+bytez recieved size 10752
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:50] "POST / HTTP/1.1" 200 165 0.083220
+computed size 52224
+bytez recieved size 52224
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:50] "POST / HTTP/1.1" 200 165 0.178292
+computed size 146944
+bytez recieved size 146944
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:51] "POST / HTTP/1.1" 200 165 0.300419
+computed size 36864
+bytez recieved size 36864
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:51] "POST / HTTP/1.1" 200 165 0.182468
+computed size 163840
+bytez recieved size 163840
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:51] "POST / HTTP/1.1" 200 165 0.177057
+computed size 24064
+bytez recieved size 24064
+LABEL =  0
+LABEL PROB =  [[1. 0.]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:51] "POST / HTTP/1.1" 200 163 0.153565
+computed size 176640
+bytez recieved size 176640
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:51] "POST / HTTP/1.1" 200 165 0.316393
+computed size 87040
+bytez recieved size 87040
+LABEL =  0
+LABEL PROB =  [[0.76 0.24]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:52] "POST / HTTP/1.1" 200 165 0.103572
+computed size 561664
+bytez recieved size 561664
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:52] "POST / HTTP/1.1" 200 165 0.833024
+computed size 16896
+bytez recieved size 16896
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:53] "POST / HTTP/1.1" 200 165 0.107601
+computed size 1075712
+bytez recieved size 1093904
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:53] "POST / HTTP/1.1" 200 165 0.701001
+computed size 132608
+bytez recieved size 132608
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:54] "POST / HTTP/1.1" 200 165 0.339647
+computed size 126976
+bytez recieved size 136768
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:54] "POST / HTTP/1.1" 200 165 0.315431
+computed size 105984
+bytez recieved size 105984
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:54] "POST / HTTP/1.1" 200 165 0.243028
+computed size 404992
+bytez recieved size 404992
+LABEL =  0
+LABEL PROB =  [[0.84 0.16]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:56] "POST / HTTP/1.1" 200 165 1.363805
+computed size 20480
+bytez recieved size 20480
+LABEL =  0
+LABEL PROB =  [[1. 0.]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:56] "POST / HTTP/1.1" 200 163 0.373731
+computed size 118784
+bytez recieved size 118784
+LABEL =  0
+LABEL PROB =  [[0.68 0.32]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:56] "POST / HTTP/1.1" 200 165 0.216913
+computed size 919552
+bytez recieved size 919552
+LABEL =  0
+LABEL PROB =  [[0.62 0.38]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:57] "POST / HTTP/1.1" 200 165 0.803022
+computed size 29184
+bytez recieved size 29184
+LABEL =  0
+LABEL PROB =  [[1. 0.]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:57] "POST / HTTP/1.1" 200 163 0.153074
+computed size 367616
+bytez recieved size 367616
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:45:58] "POST / HTTP/1.1" 200 165 1.086030
+computed size 1616896
+bytez recieved size 1616896
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:00] "POST / HTTP/1.1" 200 165 1.803003
+computed size 244736
+bytez recieved size 244736
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:01] "POST / HTTP/1.1" 200 165 0.490228
+computed size 1251840
+bytez recieved size 1271584
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.9 0.1]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:01] "POST / HTTP/1.1" 200 163 0.780150
+computed size 517120
+bytez recieved size 517120
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:02] "POST / HTTP/1.1" 200 165 0.801025
+computed size 10240
+bytez recieved size 10240
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:02] "POST / HTTP/1.1" 200 165 0.083214
+computed size 40448
+bytez recieved size 40448
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:03] "POST / HTTP/1.1" 200 165 0.161495
+computed size 114688
+bytez recieved size 114688
+LABEL =  0
+LABEL PROB =  [[0.62 0.38]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:03] "POST / HTTP/1.1" 200 165 0.126654
+computed size 30720
+bytez recieved size 30720
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:03] "POST / HTTP/1.1" 200 165 0.160220
+computed size 39936
+bytez recieved size 39936
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:03] "POST / HTTP/1.1" 200 165 0.152645
+computed size 388608
+bytez recieved size 388608
+LABEL =  0
+LABEL PROB =  [[0.86 0.14]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:03] "POST / HTTP/1.1" 200 165 0.483992
+computed size 35840
+bytez recieved size 35840
+LABEL =  0
+LABEL PROB =  [[0.94 0.06]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:04] "POST / HTTP/1.1" 200 165 0.159374
+computed size 20480
+bytez recieved size 20480
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:04] "POST / HTTP/1.1" 200 165 0.141067
+computed size 897024
+bytez recieved size 897024
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:04] "POST / HTTP/1.1" 200 165 0.575813
+computed size 242688
+bytez recieved size 253544
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.98 0.02]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:05] "POST / HTTP/1.1" 200 165 0.534861
+computed size 98304
+bytez recieved size 98304
+LABEL =  0
+LABEL PROB =  [[0.88 0.12]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:05] "POST / HTTP/1.1" 200 165 0.218105
+computed size 160256
+bytez recieved size 160256
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:06] "POST / HTTP/1.1" 200 165 0.302988
+computed size 76800
+bytez recieved size 76800
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:06] "POST / HTTP/1.1" 200 165 0.211113
+computed size 104448
+bytez recieved size 112872
+*************POTENITAL Manipulation
+RUNNING WITH REAL SIZE
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:06] "POST / HTTP/1.1" 200 165 0.310567
+computed size 325120
+bytez recieved size 325120
+LABEL =  0
+LABEL PROB =  [[0.7 0.3]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:06] "POST / HTTP/1.1" 200 163 0.339345
+computed size 360960
+bytez recieved size 360960
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:07] "POST / HTTP/1.1" 200 165 0.483304
+computed size 64000
+bytez recieved size 64000
+LABEL =  0
+LABEL PROB =  [[1. 0.]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:07] "POST / HTTP/1.1" 200 163 0.195052
+computed size 888320
+bytez recieved size 888320
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:08] "POST / HTTP/1.1" 200 165 0.645979
+computed size 24064
+bytez recieved size 24064
+LABEL =  0
+LABEL PROB =  [[0.96 0.04]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:08] "POST / HTTP/1.1" 200 165 0.154708
+computed size 42496
+bytez recieved size 42496
+LABEL =  0
+LABEL PROB =  [[0.92 0.08]]
+::ffff:172.17.0.1 - - [2023-04-09 01:46:08] "POST / HTTP/1.1" 200 165 0.200423

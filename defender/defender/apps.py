@@ -25,25 +25,52 @@ def create_app(model, threshold):
             return resp
 
         bytez = request.data
-        
+        try:
+            pe = pefile.PE(data=bytez)
+        except:
+            resp = jsonify({'error': 'Not PE File!'})
+            resp.status_code = 400  # Internal Server Error
+            return resp
+
+
+        # Determine the actual size of the file
+        actual_size = pe.OPTIONAL_HEADER.SizeOfHeaders
+        for section in pe.sections:
+            actual_size += section.SizeOfRawData
+
+        file_size = len(bytez)
+        print('computed size', actual_size)
+        print('bytez recieved size', file_size)
 
         try:
-            custom_ext = CustomExtractor(bytez)
-            attributes = custom_ext.custom_attribute_extractor()
-            print(attributes['header'])
+            if actual_size != file_size:
+                print('*************POTENITAL Manipulation')
+                print('RUNNING WITH REAL SIZE')
+                custom_ext = CustomExtractor(bytez[:actual_size])
+
+                model = app.config['model']
+                result = 0
+                result_prob = custom_ext.custom_predict_with_threshold(model)
+                if result_prob[0][0]<0.61: result = 1
+
+                print('LABEL = ', result)
+                print('LABEL PROB = ', result_prob)
+            else:
+                custom_ext = CustomExtractor(bytez)
+                # attributes = custom_ext.custom_attribute_extractor()
+                # print(attributes['header'])
 
 
+                model = app.config['model']
+                # result = custom_ext.custom_predict_sample(model)
+                result_prob = custom_ext.custom_predict_with_threshold(model)
+                result = 0
+                if result_prob[0][0]<0.61: result = 1
+                # else: result = 0
+                # result = int(result)
 
-            model = app.config['model']
-            # result = custom_ext.custom_predict_sample(model)
-            result_prob = custom_ext.custom_predict_with_threshold(model)
-            result = 0
-            if result_prob[0][0]<0.61: result = 1
-            # else: result = 0
-            # result = int(result)
-
-            print('LABEL = ', result)
-            print('LABEL PROB = ', result_prob)
+                print('LABEL = ', result)
+                print('LABEL PROB = ', result_prob)
         except (lief.bad_format, lief.read_out_of_bound) as e:
             print("Error:", e)
             result = 1
