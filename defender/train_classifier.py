@@ -446,7 +446,7 @@ if __name__=='__main__':
         train_data = pd.DataFrame(train_attributes)
         # create a NFS model
 #        clf = NeedForSpeedModel(classifier=RandomForestClassifier(n_jobs=-1, verbose=2))
-        clf = make_pipeline(StandardScaler(),LinearSVC(loss='hinge', tol=1e-5))
+        clf = NeedForSpeedModel(classifier=make_pipeline(StandardScaler(),LinearSVC(loss='hinge', tol=1e-5)))
 
         # train it
         clf.fit(train_data)
