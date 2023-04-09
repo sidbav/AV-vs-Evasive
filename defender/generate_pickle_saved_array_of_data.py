@@ -24,7 +24,7 @@ import os
 
 
 def usage():
-  print("Usage: python generate_pickle_saved_array_of_data.py <DIRECTORY OF EITHER MALWARE OR GOODWARE FILES> <OUTPUT_FILE_NAME>")
+  print("Usage: python generate_pickle_saved_array_of_data.py <DIRECTORY OF EITHER MALWARE OR GOODWARE FILES> -<b/m> <OUTPUT_FILE_NAME>")
   print("Pass in either an either Malware folder OR entire Goodware Folder, since it will be easier to deal with")
   print()
   sys.exit()
@@ -34,7 +34,13 @@ if __name__ == "__main__":
     usage()
 
   directory_of_files = sys.argv[1]
-  output_file = sys.argv[2]
+  output_file = sys.argv[3]
+  label = sys.argv[2]
+  if label =="-b" : label = 0
+  else if label =="-m" : label = 1
+  else:
+    print("Specify benign or malware properly")
+    sys.exit()
 
   arr_of_features = []
 
@@ -47,7 +53,8 @@ if __name__ == "__main__":
       with open(file_name, 'rb') as file:
         file_data = file.read()
         try:
-          file_data_features = CustomExtractor(file_data).custom_extract_features()
+          file_data_features = PEAttributeExtractor(file_data).extract()
+          file_data_features.update({"label": label})
           arr_of_features.append(file_data_features)
         except:
           print("************************************An exception occurred")
