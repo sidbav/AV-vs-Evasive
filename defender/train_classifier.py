@@ -13,6 +13,9 @@ from sklearn.preprocessing import MinMaxScaler, MaxAbsScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import SGDClassifier
 from sklearn.calibration import CalibratedClassifierCV
+from sklearn.svm import LinearSVC
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import StandardScaler
 from copy import deepcopy
 
 def load_gzip_pickle(filename):
@@ -383,7 +386,7 @@ def extract_from_jsonl(jsonl_file_paths, train_attributes):
             train_attributes.append(atts)
         file.close()
 
-def extract_from_pe(pe_file_paths, train_attributes):
+#def extract_from_pe(pe_file_paths, train_attributes):
 
 
 
@@ -442,7 +445,9 @@ if __name__=='__main__':
         # transform into pandas dataframe
         train_data = pd.DataFrame(train_attributes)
         # create a NFS model
-        clf = NeedForSpeedModel(classifier=RandomForestClassifier(n_jobs=-1, verbose=2))
+#        clf = NeedForSpeedModel(classifier=RandomForestClassifier(n_jobs=-1, verbose=2))
+        clf = make_pipeline(StandardScaler(),LinearSVC(loss='hinge', tol=1e-5))
+
         # train it
         clf.fit(train_data)
         # save clf
@@ -538,83 +543,83 @@ if __name__=='__main__':
     print("FPR:", FPR)
     print("FNR:", FNR)
 
-    adv_attributes = []
-    # walk in test features
-    for input in adv_files:
-
-        print("Reading {}...".format(input))
-
-        # read input file
-        file = open(input, 'r')
-        # read its lines
-        sws = file.readlines()
-
-        # walk in each sw
-        for sw in sws:
-            # initialize extractor
-            # at_extractor = JSONAttributeExtractor(sw)
-            # # get adv_attributes
-            # atts = at_extractor.extract()
-            atts = json.loads(sw)
-            # save attribute
-            adv_attributes.append(atts)
-
-        # close file
-        file.close()
-
-    adv_data = pd.DataFrame(adv_attributes)
-    adv_data = adv_data[(adv_data["label"]==1) | (adv_data["label"]==0)]
-    #print(adv_data)
-    print(adv_data.shape)
-
-    adv_label = adv_data["label"].values
-    y_pred = clf.predict(adv_data)
-
-    from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
-    from sklearn.metrics import confusion_matrix
-
-    acc = accuracy_score(adv_label, y_pred)
-    print("Acc:", acc)
-    rec = recall_score(adv_label, y_pred)
-    print("Rec:", rec)
-    pre = precision_score(adv_label, y_pred)
-    print("Pre:", pre)
-    f1s = f1_score(adv_label, y_pred)
-    print("F1s:", f1s)
-    cm = confusion_matrix(adv_label, y_pred)
-
-    tn, fp, fn, tp = confusion_matrix(adv_label, y_pred).ravel()
-
-    # Fall out or false positive rate
-    FPR = fp/(fp+tn)
-    # False negative rate
-    FNR = fn/(tp+fn)
-    # # False discovery rate
-    # FDR = FP/(TP+FP)
-    print("FPR:", FPR)
-    print("FNR:", FNR)
-    y_pred = clf.predict_threshold(adv_data, threshold=THRESHOLD)
-
-    from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
-    from sklearn.metrics import confusion_matrix
-
-    acc = accuracy_score(adv_label, y_pred)
-    print("Acc:", acc)
-    rec = recall_score(adv_label, y_pred)
-    print("Rec:", rec)
-    pre = precision_score(adv_label, y_pred)
-    print("Pre:", pre)
-    f1s = f1_score(adv_label, y_pred)
-    print("F1s:", f1s)
-    cm = confusion_matrix(adv_label, y_pred)
-
-    tn, fp, fn, tp = confusion_matrix(adv_label, y_pred).ravel()
-
-    # Fall out or false positive rate
-    FPR = fp/(fp+tn)
-    # False negative rate
-    FNR = fn/(tp+fn)
-    # # False discovery rate
-    # FDR = FP/(TP+FP)
-    print("FPR:", FPR)
-    print("FNR:", FNR)
+#    adv_attributes = []
+#    # walk in test features
+#    for input in adv_files:
+#
+#        print("Reading {}...".format(input))
+#
+#        # read input file
+#        file = open(input, 'r')
+#        # read its lines
+#        sws = file.readlines()
+#
+#        # walk in each sw
+#        for sw in sws:
+#            # initialize extractor
+#            # at_extractor = JSONAttributeExtractor(sw)
+#            # # get adv_attributes
+#            # atts = at_extractor.extract()
+#            atts = json.loads(sw)
+#            # save attribute
+#            adv_attributes.append(atts)
+#
+#        # close file
+#        file.close()
+#
+#    adv_data = pd.DataFrame(adv_attributes)
+#    adv_data = adv_data[(adv_data["label"]==1) | (adv_data["label"]==0)]
+#    #print(adv_data)
+#    print(adv_data.shape)
+#
+#    adv_label = adv_data["label"].values
+#    y_pred = clf.predict(adv_data)
+#
+#    from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
+#    from sklearn.metrics import confusion_matrix
+#
+#    acc = accuracy_score(adv_label, y_pred)
+#    print("Acc:", acc)
+#    rec = recall_score(adv_label, y_pred)
+#    print("Rec:", rec)
+#    pre = precision_score(adv_label, y_pred)
+#    print("Pre:", pre)
+#    f1s = f1_score(adv_label, y_pred)
+#    print("F1s:", f1s)
+#    cm = confusion_matrix(adv_label, y_pred)
+#
+#    tn, fp, fn, tp = confusion_matrix(adv_label, y_pred).ravel()
+#
+#    # Fall out or false positive rate
+#    FPR = fp/(fp+tn)
+#    # False negative rate
+#    FNR = fn/(tp+fn)
+#    # # False discovery rate
+#    # FDR = FP/(TP+FP)
+#    print("FPR:", FPR)
+#    print("FNR:", FNR)
+#    y_pred = clf.predict_threshold(adv_data, threshold=THRESHOLD)
+#
+#    from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
+#    from sklearn.metrics import confusion_matrix
+#
+#    acc = accuracy_score(adv_label, y_pred)
+#    print("Acc:", acc)
+#    rec = recall_score(adv_label, y_pred)
+#    print("Rec:", rec)
+#    pre = precision_score(adv_label, y_pred)
+#    print("Pre:", pre)
+#    f1s = f1_score(adv_label, y_pred)
+#    print("F1s:", f1s)
+#    cm = confusion_matrix(adv_label, y_pred)
+#
+#    tn, fp, fn, tp = confusion_matrix(adv_label, y_pred).ravel()
+#
+#    # Fall out or false positive rate
+#    FPR = fp/(fp+tn)
+#    # False negative rate
+#    FNR = fn/(tp+fn)
+#    # # False discovery rate
+#    # FDR = FP/(TP+FP)
+#    print("FPR:", FPR)
+#    print("FNR:", FNR)
