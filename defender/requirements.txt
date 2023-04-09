@@ -11,3 +11,4 @@ scipy
 scikit-learn==0.24.1
 python-magic
 xgboost
+lightgbm

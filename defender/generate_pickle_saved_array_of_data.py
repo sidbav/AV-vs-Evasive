@@ -14,7 +14,6 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import SGDClassifier
 from sklearn.calibration import CalibratedClassifierCV
 from copy import deepcopy
-import ember
 
 import lief
 # import pandas as pd
@@ -30,14 +29,14 @@ def usage():
   sys.exit()
 
 if __name__ == "__main__":
-  if len(sys.argv) != 3:
+  if len(sys.argv) != 4:
     usage()
 
   directory_of_files = sys.argv[1]
   output_file = sys.argv[3]
   label = sys.argv[2]
   if label =="-b" : label = 0
-  else if label =="-m" : label = 1
+  elif label =="-m" : label = 1
   else:
     print("Specify benign or malware properly")
     sys.exit()
