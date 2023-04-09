@@ -48,14 +48,15 @@ if __name__ == "__main__":
     for name in files:
       file_name = os.path.join(path, name)
 
-      print('**************processing', file_name)
+      print('processing', file_name)
       with open(file_name, 'rb') as file:
         file_data = file.read()
         try:
           file_data_features = PEAttributeExtractor(file_data).extract()
           file_data_features.update({"label": label})
           arr_of_features.append(file_data_features)
-        except:
+        except Exception as inst:
+          print(repr(inst))
           print("************************************An exception occurred")
 
 
