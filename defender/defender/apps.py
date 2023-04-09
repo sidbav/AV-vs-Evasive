@@ -2,7 +2,7 @@ import lief
 import pandas as pd
 from flask import Flask, jsonify, request
 from defender.models.attribute_extractor import *
-
+import pefile
 
 def create_app(model, threshold):
     app = Flask(__name__)
@@ -18,6 +18,13 @@ def create_app(model, threshold):
             return resp
 
         bytez = request.data
+
+        try:
+            pe = pefile.PE(data=bytez)
+        except:
+            resp = jsonify({'error': 'Not PE File!'})
+            resp.status_code = 400  # Internal Server Error
+            return resp
 
         try:
             #custom_ext = CustomExtractor(bytez)
@@ -38,9 +45,11 @@ def create_app(model, threshold):
             model = app.config['model']
 
             # query the model
-            result = model.predict_threshold(atts, threshold)[0]
-            result_probability = model.predict_proba(atts)
-            print("PROB SCORES = ", result_probability)
+            result = int(model.predict(atts)[0])
+            print("TYPE HERE:", type(result))
+            #result = model.predict_threshold(atts, threshold)[0]
+            #result_probability = model.predict_proba(atts)
+            #print("PROB SCORES = ", result_probability)
             print('LABEL = ', result)
 
         except (lief.bad_format, lief.read_out_of_bound) as e:
@@ -53,7 +62,8 @@ def create_app(model, threshold):
             resp.status_code = 500  # Internal Server Error
             return resp
 
-        resp = jsonify({'result': result, 'result_prob_0': result_probability[0][0], 'result_prob_1': result_probability[0][1] })
+        #resp = jsonify({'result': result, 'result_prob_0': result_probability[0][0], 'result_prob_1': result_probability[0][1] })
+        resp = jsonify({'result': result})
         resp.status_code = 200
         return resp
 
