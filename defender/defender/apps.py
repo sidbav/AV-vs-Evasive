@@ -2,7 +2,14 @@ import lief
 # import pandas as pd
 from flask import Flask, jsonify, request
 from defender.models.attribute_extractor import *
+import pefile
+import sys
 
+import re
+import math
+import numpy as np
+# import pandas as pd
+import ember
 
 def create_app(model, threshold):
     app = Flask(__name__)
@@ -18,9 +25,15 @@ def create_app(model, threshold):
             return resp
 
         bytez = request.data
+        
 
         try:
             custom_ext = CustomExtractor(bytez)
+            attributes = custom_ext.custom_attribute_extractor()
+            print(attributes['header'])
+
+
+
             model = app.config['model']
             # result = custom_ext.custom_predict_sample(model)
             result_prob = custom_ext.custom_predict_with_threshold(model)
@@ -45,12 +58,12 @@ def create_app(model, threshold):
         resp.status_code = 200
         return resp
 
-    # get the model info
-    @app.route('/model', methods=['GET'])
-    def get_model():
-        # curl -XGET http://127.0.0.1:8080/model
-        resp = jsonify(app.config['model'].model_info())
-        resp.status_code = 200
-        return resp
+    # # get the model info
+    # @app.route('/model', methods=['GET'])
+    # def get_model():
+    #     # curl -XGET http://127.0.0.1:8080/model
+    #     resp = jsonify(app.config['model'].model_info())
+    #     resp.status_code = 200
+    #     return resp
 
     return app
