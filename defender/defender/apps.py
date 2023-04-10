@@ -25,31 +25,27 @@ def create_app(model, threshold):
             return resp
 
         bytez = request.data
-        
+        try:
+            pe = pefile.PE(data=bytez)
+        except:
+            resp = jsonify({'error': 'Not PE File!'})
+            resp.status_code = 400
+            return resp
 
         try:
             custom_ext = CustomExtractor(bytez)
             attributes = custom_ext.custom_attribute_extractor()
-            #print(attributes['header'])
-
-
-
             model = app.config['model']
-            # result = custom_ext.custom_predict_sample(model)
             result_prob = custom_ext.custom_predict_with_threshold(model)
-            print(result_prob)
             result = 0
             gw_normalized = result_prob[0][0]/ (result_prob[0][0] + result_prob[0][1])
             if gw_normalized<0.45: result = 1
-            # else: result = 0
-            # result = int(result)
 
             print('LABEL = ', result)
             print('LABEL PROB = ', result_prob)
         except (lief.bad_format, lief.read_out_of_bound) as e:
             print("Error:", e)
             result = 1
-
 
         if not isinstance(result, int) or result not in {0, 1}:
             resp = jsonify({'error': 'unexpected model result (not in [0,1])'})
