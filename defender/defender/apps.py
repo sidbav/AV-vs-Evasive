@@ -30,7 +30,7 @@ def create_app(model, threshold):
         try:
             custom_ext = CustomExtractor(bytez)
             attributes = custom_ext.custom_attribute_extractor()
-            print(attributes['header'])
+            #print(attributes['header'])
 
 
 
@@ -56,7 +56,7 @@ def create_app(model, threshold):
             resp.status_code = 500  # Internal Server Error
             return resp
 
-        resp = jsonify({'result': result, 'result_proba_0': result_prob[0][0], 'result_proba_1': result_prob[0][1], 'result_proba_-1': result_prob[0][2]})
+        resp = jsonify({'result': result, 'result_proba_0': result_prob[0][0], 'result_proba_1': result_prob[0][1]})#, 'result_proba_-1': result_prob[0][2]})
         resp.status_code = 200
         return resp
 
