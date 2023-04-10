@@ -20,6 +20,7 @@ import lief
 from defender.models.attribute_extractor import *
 import sys
 import os
+import pefile
 
 
 def usage():
@@ -56,6 +57,7 @@ if __name__ == "__main__":
       with open(file_name, 'rb') as file:
         file_data = file.read()
         try:
+          pe = pefile.PE(data=file_data)
           #file_data_features = PEAttributeExtractor(file_data).extract()
           file_data_features = CustomExtractor(file_data).custom_feature_vector()
           X_train.append(file_data_features)
