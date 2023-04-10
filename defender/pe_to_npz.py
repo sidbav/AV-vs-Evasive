@@ -78,4 +78,4 @@ if __name__ == "__main__":
   y_train = np.array(y_train)
   print("Shape of X_train = ", X_train.shape)
   print("Shape of y_train = ", y_train.shape)
-  np.savez(output_file, x=X_train, y=y_train)
+  np.savez(output_file, X=X_train, y=y_train)

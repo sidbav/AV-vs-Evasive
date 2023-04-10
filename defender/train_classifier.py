@@ -387,7 +387,7 @@ CLF_FILE = "justatest.pkl"
 
 
 npz_train_files=[
-    "./mw1_donotuse.npz",
+    "./bodmas.npz",
 ]
 
 def get_pkl_features(X_train, y_train):
@@ -471,7 +471,7 @@ if __name__=='__main__':
 
         for npz_file_path in npz_train_files:
             data =  np.load(npz_file_path, mmap_mode='r+')
-            x_data = data['x']
+            x_data = data['X']
             y_data = data['y']
             print("Loaded npz file with x shape ", x_data.shape, " and y shape ", y_data.shape)
             
