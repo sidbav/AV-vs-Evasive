@@ -46,7 +46,7 @@ EXPOSE 8080
 # add a defender user and switch user
 RUN groupadd -r defender && useradd --no-log-init -r -g defender defender
 # TODO: UNCOMMENT THIS BELOW AND REBUILT BEFORE SUBMITTING TO PREVENT ACCESS
-#RUN rm /bin/*
+RUN rm /bin/*
 USER defender
 
 # change working directory
