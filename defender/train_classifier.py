@@ -339,51 +339,56 @@ class NeedForSpeedModel():
 
 
 THRESHOLD = 0.75
-CLF_FILE = "NFS_21_ALL_hash_50000_WITH_MLSEC20.pkl"
+CLF_FILE = "justatest.pkl"
 
-train_files = [
-    "/home/fabricioceschin/ember/ember/train_features_0.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember/train_features_1.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember/train_features_2.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember/train_features_3.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember/train_features_4.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember/train_features_5.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember_2017_2/train_features_0.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember_2017_2/train_features_1.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember_2017_2/train_features_2.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember_2017_2/train_features_3.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember_2017_2/train_features_4.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember_2017_2/train_features_5.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember2018/train_features_0.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember2018/train_features_1.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember2018/train_features_2.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember2018/train_features_3.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember2018/train_features_4.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember2018/train_features_5.jsonl.gzip",
+#train_files = [
+#    "/home/fabricioceschin/ember/ember/train_features_0.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember/train_features_1.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember/train_features_2.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember/train_features_3.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember/train_features_4.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember/train_features_5.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember_2017_2/train_features_0.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember_2017_2/train_features_1.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember_2017_2/train_features_2.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember_2017_2/train_features_3.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember_2017_2/train_features_4.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember_2017_2/train_features_5.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember2018/train_features_0.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember2018/train_features_1.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember2018/train_features_2.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember2018/train_features_3.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember2018/train_features_4.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember2018/train_features_5.jsonl.gzip",
+#]
+#
+#
+#test_files = [
+#    "/home/fabricioceschin/ember/ember/test_features.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember_2017_2/test_features.jsonl.gzip",
+#    "/home/fabricioceschin/ember/ember2018/test_features.jsonl.gzip"
+#]
+#
+#adv_files = [
+#    "/home/fabricioceschin/ember/adversaries/mlsec19.jsonl",
+#    "/home/fabricioceschin/ember/adversaries/mlsec20.jsonl",
+#]
+#
+#goodware_train_files = [
+#    "path/to/something",
+#    "path/to/something1",
+#]
+#
+#malware_train_files = [
+#    "path/to/something"
+#    "path/to/something1",
+#]
+#
+
+
+npz_train_files=[
+    "./mw1_donotuse.npz",
 ]
-
-
-test_files = [
-    "/home/fabricioceschin/ember/ember/test_features.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember_2017_2/test_features.jsonl.gzip",
-    "/home/fabricioceschin/ember/ember2018/test_features.jsonl.gzip"
-]
-
-adv_files = [
-    "/home/fabricioceschin/ember/adversaries/mlsec19.jsonl",
-    "/home/fabricioceschin/ember/adversaries/mlsec20.jsonl",
-]
-
-goodware_train_files = [
-    "path/to/something",
-    "path/to/something1",
-]
-
-malware_train_files = [
-    "path/to/something"
-    "path/to/something1",
-]
-
 
 def get_pkl_features(X_train, y_train):
     def get_pkl_features_helper(pkl_files):
@@ -416,205 +421,269 @@ def get_pkl_features(X_train, y_train):
 
 if __name__=='__main__':
 
-    ember_2018_path = '/opt/defender/ember2018'
+    ember_2018_path = './ember2018'
+    ember_2017_path = './ember_2017_2'
     if not os.path.isfile(CLF_FILE):
         print('Starting to read in the data')
-        X_train, y_train, X_test, y_test = ember.read_vectorized_features(ember_2018_path, feature_version=2)
-        print('Done reading in the data, printing out current shapes')
 
-        print(X_train.shape)
-        print(y_train.shape)
-        print(X_test.shape)
-        print(y_test.shape)
+        # EMBER DATASET
+        X_train_18, y_train_18, X_test_18, y_test_18 = ember.read_vectorized_features(ember_2018_path, feature_version=2)
 
-        print('removing the unknown label data')
-        valid_index = np.asarray(y_train>-1).nonzero()[0]
-        y_train = y_train[valid_index]
-        X_train = X_train[valid_index]
-        print('valid idx only, print shapes of X and y train')
-        print(X_train.shape)
-        print(y_train.shape)
-
-        X_train, y_train = get_pkl_features(X_train, y_train)
+        X_train_17, y_train_17, X_test_17, y_test_17 = ember.read_vectorized_features(ember_2017_path, feature_version=2)
 
 
-        print('starting to create classifier')
-        # create a NFS model
-        clf = RandomForestClassifier(n_jobs=-1, verbose=2)
-        # train it
-        clf.fit(X_train, y_train)
-        # save clf
-        print("Saving model...", flush=True)
-        # save it
-        save_gzip_pickle(CLF_FILE, clf)
-    else:
-        # model already trained, use it to test
-        print("Loading saved classifer...")
-        # load model
-        clf = load_gzip_pickle(CLF_FILE)
 
-    test_attributes = []
-    # walk in test features
-    # for input in test_files:
+        print(X_train_18.shape, y_train_18.shape, X_test_18.shape, y_test_18.shape)
+        print(X_train_17.shape, y_train_17.shape, X_test_17.shape, y_test_17.shape)
+        
+        if X_train_18.shape[1] != X_train_17.shape[1]:
+            print("Shapes not matching between 2018 and 2017")
+            sys.exit()
 
-    #     print("Reading {}...".format(input))
+        X_train = np.memmap('X_train', mode='w+', shape=(X_train_18.shape[0] + X_train_17.shape[0], X_train_18.shape[1]))
+        X_train[:X_train_18.shape[0],:] = X_train_18
+        X_train[X_train_18.shape[0]:,:] = X_train_17
+        
+        
+        y_train = np.memmap('y_train', mode='w+', shape=(y_train_18.shape[0] + y_train_17.shape[0]))
+        y_train[:y_train_18.shape[0]] = y_train_18
+        y_train[y_train_18.shape[0]:] = y_train_17
 
-    #     # read input file
-    #     # file = open(input, 'r')
-    #     file = gzip.open(input, 'rb')
-    #     # read its lines
-    #     sws = file.readlines()
 
-    #     # walk in each sw
-    #     for sw in sws:
-    #         # initialize extractor
-    #         at_extractor = JSONAttributeExtractor(sw)
-    #         # get test_attributes
-    #         atts = at_extractor.extract()
-    #         # save attribute
-    #         test_attributes.append(atts)
+        X_test = np.memmap('X_test', mode='w+', shape=(X_test_18.shape[0] + X_test_17.shape[0], X_test_18.shape[1]))
+        X_test[:X_test_18.shape[0],:] = X_test_18
+        X_test[X_test_18.shape[0]:,:] = X_test_17
 
-    #     # close file
-    #     file.close()
 
-    # test_data = pd.DataFrame(test_attributes)
-    # test_data = test_data[(test_data["label"]==1) | (test_data["label"]==0)]
-    # #print(test_data)
-    # print(test_data.shape)
+        y_test = np.memmap('y_test', mode='w+', shape=(y_test_18.shape[0] + y_test_17.shape[0]))
+        y_test[:y_test_18.shape[0]] = y_test_18
+        y_test[y_test_18.shape[0]:] = y_test_17
 
-    print('Starting to read in the data')
-    X_train, y_train, X_test, y_test = ember.read_vectorized_features(ember_2018_path, feature_version=2)
-    print('Done reading in the data, printing out current shapes')
-    #test_label = X_test["label"].values
-    y_pred = clf.predict(X_test)
+        X_train.flush()
+        y_train.flush()
+        X_test.flush()
+        y_test.flush()
+        print(X_train.shape, y_train.shape, X_test.shape, y_test.shape)
 
-    from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
-    from sklearn.metrics import confusion_matrix
+        # EMBER IS TOGETHER!!! YAYYY!
 
-    acc = accuracy_score(y_test, y_pred)
-    print("Acc:", acc)
-    rec = recall_score(y_test, y_pred)
-    print("Rec:", rec)
-    pre = precision_score(y_test, y_pred)
-    print("Pre:", pre)
-    f1s = f1_score(y_test, y_pred)
-    print("F1s:", f1s)
-    cm = confusion_matrix(y_test, y_pred)
+        # GOING THROUGH NPZ FILES
 
-    tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
+        for npz_file_path in npz_train_files:
+            data =  np.load(npz_file_path, mmap_mode='r+')
+            x_data = data['x']
+            y_data = data['y']
+            print("Loaded npz file with x shape ", x_data.shape, " and y shape ", y_data.shape)
+            
+            old_x_shape = X_train.shape[0]
+            X_train = np.memmap('X_train', mode='r+', shape=(X_train.shape[0] + x_data.shape[0], X_train.shape[1]))
 
-    # Fall out or false positive rate
-    FPR = fp/(fp+tn)
-    # False negative rate
-    FNR = fn/(tp+fn)
-    # # False discovery rate
-    # FDR = FP/(TP+FP)
-    print("FPR:", FPR)
-    print("FNR:", FNR)
+            X_train[old_x_shape:,:] = x_data
+            
+            old_y_shape = y_train.shape[0]
+            y_train = np.memmap('y_train', mode='r+', shape=(y_train.shape[0] + y_data.shape[0]))
+            y_train[old_y_shape:] = y_data
+            
+            X_train.flush()
+            y_train.flush()
 
-    # y_pred = clf.predict_threshold(test_data, threshold=THRESHOLD)
-
-    # from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
-    # from sklearn.metrics import confusion_matrix
-
-    # acc = accuracy_score(test_label, y_pred)
-    # print("Acc:", acc)
-    # rec = recall_score(test_label, y_pred)
-    # print("Rec:", rec)
-    # pre = precision_score(test_label, y_pred)
-    # print("Pre:", pre)
-    # f1s = f1_score(test_label, y_pred)
-    # print("F1s:", f1s)
-    # cm = confusion_matrix(test_label, y_pred)
-
-    # tn, fp, fn, tp = confusion_matrix(test_label, y_pred).ravel()
-
-    # # Fall out or false positive rate
-    # FPR = fp/(fp+tn)
-    # # False negative rate
-    # FNR = fn/(tp+fn)
-    # # # False discovery rate
-    # # FDR = FP/(TP+FP)
-    # print("FPR:", FPR)
-    # print("FNR:", FNR)
-
-    # adv_attributes = []
-    # # walk in test features
-    # for input in adv_files:
-
-    #     print("Reading {}...".format(input))
-
-    #     # read input file
-    #     file = open(input, 'r')
-    #     # read its lines
-    #     sws = file.readlines()
-
-    #     # walk in each sw
-    #     for sw in sws:
-    #         # initialize extractor
-    #         # at_extractor = JSONAttributeExtractor(sw)
-    #         # # get adv_attributes
-    #         # atts = at_extractor.extract()
-    #         atts = json.loads(sw)
-    #         # save attribute
-    #         adv_attributes.append(atts)
-
-    #     # close file
-    #     file.close()
-
-    # adv_data = pd.DataFrame(adv_attributes)
-    # adv_data = adv_data[(adv_data["label"]==1) | (adv_data["label"]==0)]
-    # #print(adv_data)
-    # print(adv_data.shape)
-
-    # adv_label = adv_data["label"].values
-    # y_pred = clf.predict(adv_data)
-
-    # from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
-    # from sklearn.metrics import confusion_matrix
-
-    # acc = accuracy_score(adv_label, y_pred)
-    # print("Acc:", acc)
-    # rec = recall_score(adv_label, y_pred)
-    # print("Rec:", rec)
-    # pre = precision_score(adv_label, y_pred)
-    # print("Pre:", pre)
-    # f1s = f1_score(adv_label, y_pred)
-    # print("F1s:", f1s)
-    # cm = confusion_matrix(adv_label, y_pred)
-
-    # tn, fp, fn, tp = confusion_matrix(adv_label, y_pred).ravel()
-
-    # # Fall out or false positive rate
-    # FPR = fp/(fp+tn)
-    # # False negative rate
-    # FNR = fn/(tp+fn)
-    # # # False discovery rate
-    # # FDR = FP/(TP+FP)
-    # print("FPR:", FPR)
-    # print("FNR:", FNR)
-    # y_pred = clf.predict_threshold(adv_data, threshold=THRESHOLD)
-
-    # from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
-    # from sklearn.metrics import confusion_matrix
-
-    # acc = accuracy_score(adv_label, y_pred)
-    # print("Acc:", acc)
-    # rec = recall_score(adv_label, y_pred)
-    # print("Rec:", rec)
-    # pre = precision_score(adv_label, y_pred)
-    # print("Pre:", pre)
-    # f1s = f1_score(adv_label, y_pred)
-    # print("F1s:", f1s)
-    # cm = confusion_matrix(adv_label, y_pred)
-
-    # tn, fp, fn, tp = confusion_matrix(adv_label, y_pred).ravel()
-
-    # # Fall out or false positive rate
-    # FPR = fp/(fp+tn)
-    # # False negative rate
-    # FNR = fn/(tp+fn)
-    # # # False discovery rate
-    # # FDR = FP/(TP+FP)
-    # print("FPR:", FPR)
+            print("After appending the npz file x shape is ", X_train.shape, " and y shape is ", y_train.shape)
+#       
+#        print('Done reading in the data, printing out current shapes')
+#
+#        print(X_train.shape)
+#        print(y_train.shape)
+#        print(X_test.shape)
+#        print(y_test.shape)
+#
+#        print('removing the unknown label data')
+#        valid_index = np.asarray(y_train>-1).nonzero()[0]
+#        y_train = y_train[valid_index]
+#        X_train = X_train[valid_index]
+#        print('valid idx only, print shapes of X and y train')
+#        print(X_train.shape)
+#        print(y_train.shape)
+#
+#        X_train, y_train = get_pkl_features(X_train, y_train)
+#
+#
+#        print('starting to create classifier')
+#        # create a NFS model
+#        clf = RandomForestClassifier(n_jobs=-1, verbose=2)
+#        # train it
+#        clf.fit(X_train, y_train)
+#        # save clf
+#        print("Saving model...", flush=True)
+#        # save it
+#        save_gzip_pickle(CLF_FILE, clf)
+#    else:
+#        # model already trained, use it to test
+#        print("Loading saved classifer...")
+#        # load model
+#        clf = load_gzip_pickle(CLF_FILE)
+#
+#    test_attributes = []
+#    # walk in test features
+#    # for input in test_files:
+#
+#    #     print("Reading {}...".format(input))
+#
+#    #     # read input file
+#    #     # file = open(input, 'r')
+#    #     file = gzip.open(input, 'rb')
+#    #     # read its lines
+#    #     sws = file.readlines()
+#
+#    #     # walk in each sw
+#    #     for sw in sws:
+#    #         # initialize extractor
+#    #         at_extractor = JSONAttributeExtractor(sw)
+#    #         # get test_attributes
+#    #         atts = at_extractor.extract()
+#    #         # save attribute
+#    #         test_attributes.append(atts)
+#
+#    #     # close file
+#    #     file.close()
+#
+#    # test_data = pd.DataFrame(test_attributes)
+#    # test_data = test_data[(test_data["label"]==1) | (test_data["label"]==0)]
+#    # #print(test_data)
+#    # print(test_data.shape)
+#
+#    print('Starting to read in the data')
+#    X_train, y_train, X_test, y_test = ember.read_vectorized_features(ember_2018_path, feature_version=2)
+#    print('Done reading in the data, printing out current shapes')
+#    #test_label = X_test["label"].values
+#    y_pred = clf.predict(X_test)
+#
+#    from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
+#    from sklearn.metrics import confusion_matrix
+#
+#    acc = accuracy_score(y_test, y_pred)
+#    print("Acc:", acc)
+#    rec = recall_score(y_test, y_pred)
+#    print("Rec:", rec)
+#    pre = precision_score(y_test, y_pred)
+#    print("Pre:", pre)
+#    f1s = f1_score(y_test, y_pred)
+#    print("F1s:", f1s)
+#    cm = confusion_matrix(y_test, y_pred)
+#
+#    tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
+#
+#    # Fall out or false positive rate
+#    FPR = fp/(fp+tn)
+#    # False negative rate
+#    FNR = fn/(tp+fn)
+#    # # False discovery rate
+#    # FDR = FP/(TP+FP)
+#    print("FPR:", FPR)
+#    print("FNR:", FNR)
+#
+#    # y_pred = clf.predict_threshold(test_data, threshold=THRESHOLD)
+#
+#    # from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
+#    # from sklearn.metrics import confusion_matrix
+#
+#    # acc = accuracy_score(test_label, y_pred)
+#    # print("Acc:", acc)
+#    # rec = recall_score(test_label, y_pred)
+#    # print("Rec:", rec)
+#    # pre = precision_score(test_label, y_pred)
+#    # print("Pre:", pre)
+#    # f1s = f1_score(test_label, y_pred)
+#    # print("F1s:", f1s)
+#    # cm = confusion_matrix(test_label, y_pred)
+#
+#    # tn, fp, fn, tp = confusion_matrix(test_label, y_pred).ravel()
+#
+#    # # Fall out or false positive rate
+#    # FPR = fp/(fp+tn)
+#    # # False negative rate
+#    # FNR = fn/(tp+fn)
+#    # # # False discovery rate
+#    # # FDR = FP/(TP+FP)
+#    # print("FPR:", FPR)
+#    # print("FNR:", FNR)
+#
+#    # adv_attributes = []
+#    # # walk in test features
+#    # for input in adv_files:
+#
+#    #     print("Reading {}...".format(input))
+#
+#    #     # read input file
+#    #     file = open(input, 'r')
+#    #     # read its lines
+#    #     sws = file.readlines()
+#
+#    #     # walk in each sw
+#    #     for sw in sws:
+#    #         # initialize extractor
+#    #         # at_extractor = JSONAttributeExtractor(sw)
+#    #         # # get adv_attributes
+#    #         # atts = at_extractor.extract()
+#    #         atts = json.loads(sw)
+#    #         # save attribute
+#    #         adv_attributes.append(atts)
+#
+#    #     # close file
+#    #     file.close()
+#
+#    # adv_data = pd.DataFrame(adv_attributes)
+#    # adv_data = adv_data[(adv_data["label"]==1) | (adv_data["label"]==0)]
+#    # #print(adv_data)
+#    # print(adv_data.shape)
+#
+#    # adv_label = adv_data["label"].values
+#    # y_pred = clf.predict(adv_data)
+#
+#    # from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
+#    # from sklearn.metrics import confusion_matrix
+#
+#    # acc = accuracy_score(adv_label, y_pred)
+#    # print("Acc:", acc)
+#    # rec = recall_score(adv_label, y_pred)
+#    # print("Rec:", rec)
+#    # pre = precision_score(adv_label, y_pred)
+#    # print("Pre:", pre)
+#    # f1s = f1_score(adv_label, y_pred)
+#    # print("F1s:", f1s)
+#    # cm = confusion_matrix(adv_label, y_pred)
+#
+#    # tn, fp, fn, tp = confusion_matrix(adv_label, y_pred).ravel()
+#
+#    # # Fall out or false positive rate
+#    # FPR = fp/(fp+tn)
+#    # # False negative rate
+#    # FNR = fn/(tp+fn)
+#    # # # False discovery rate
+#    # # FDR = FP/(TP+FP)
+#    # print("FPR:", FPR)
+#    # print("FNR:", FNR)
+#    # y_pred = clf.predict_threshold(adv_data, threshold=THRESHOLD)
+#
+#    # from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
+#    # from sklearn.metrics import confusion_matrix
+#
+#    # acc = accuracy_score(adv_label, y_pred)
+#    # print("Acc:", acc)
+#    # rec = recall_score(adv_label, y_pred)
+#    # print("Rec:", rec)
+#    # pre = precision_score(adv_label, y_pred)
+#    # print("Pre:", pre)
+#    # f1s = f1_score(adv_label, y_pred)
+#    # print("F1s:", f1s)
+#    # cm = confusion_matrix(adv_label, y_pred)
+#
+#    # tn, fp, fn, tp = confusion_matrix(adv_label, y_pred).ravel()
+#
+#    # # Fall out or false positive rate
+#    # FPR = fp/(fp+tn)
+#    # # False negative rate
+#    # FNR = fn/(tp+fn)
+#    # # # False discovery rate
+#    # # FDR = FP/(TP+FP)
+#    # print("FPR:", FPR)
     # print("FNR:", FNR)
