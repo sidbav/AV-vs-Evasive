@@ -11,9 +11,10 @@ import numpy as np
 # import pandas as pd
 import ember
 
-def create_app(model, threshold):
+def create_app(model1, model2, threshold):
     app = Flask(__name__)
-    app.config['model'] = model
+    app.config['model1'] = model1
+    app.config['model2'] = model2
 
     # analyse a sample
     @app.route('/', methods=['POST'])
@@ -35,14 +36,26 @@ def create_app(model, threshold):
         try:
             custom_ext = CustomExtractor(bytez)
             attributes = custom_ext.custom_attribute_extractor()
-            model = app.config['model']
-            result_prob = custom_ext.custom_predict_with_threshold(model)
+            model1 = app.config['model1']
+            model2 = app.config['model2']
+
+            result_prob1 = custom_ext.custom_predict_with_threshold(model1)
             result = 0
-            gw_normalized = result_prob[0][0]/ (result_prob[0][0] + result_prob[0][1])
-            if gw_normalized<0.45: result = 1
+
+            gw_normalized = result_prob1[0][0]/ (result_prob1[0][0] + result_prob1[0][1])
+
+            if result_prob1[0][0] >= 0.6 and result_prob1[0][0] <= 0.64:
+
+                model2 = app.config['model2']
+                result2_prob = custom_ext.custom_predict_with_threshold(model2)
+                if result2_prob[0][0] < 0.47:
+                    result = 1
+
+            elif gw_normalized<0.61:
+                result = 1
 
             print('LABEL = ', result)
-            print('LABEL PROB = ', result_prob)
+            print('LABEL PROB = ', result_prob1)
         except (lief.bad_format, lief.read_out_of_bound) as e:
             print("Error:", e)
             result = 1
@@ -52,7 +65,7 @@ def create_app(model, threshold):
             resp.status_code = 500  # Internal Server Error
             return resp
 
-        resp = jsonify({'result': result, 'result_proba_0': result_prob[0][0], 'result_proba_1': result_prob[0][1]})#, 'result_proba_-1': result_prob[0][2]})
+        resp = jsonify({'result': result, 'result_proba_0': result_prob1[0][0], 'result_proba_1': result_prob1[0][1]})#, 'result_proba_-1': result_prob[0][2]})
         resp.status_code = 200
         return resp
 

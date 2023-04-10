@@ -30,25 +30,30 @@ if __name__ == "__main__":
     model_name = envparse.env("DF_MODEL_NAME", cast=str, default="NFS_V3")
 
     model_joblib_path = envparse.env("DF_MODEL_JOBLIB_PATH", cast=str, default="models/RFC_V1.joblib")
-    model_pkl_path = envparse.env("DF_MODEL_PKL_PATH", cast=str, default="models/RFC_V1.pkl")
+    model_pkl_path1 = envparse.env("DF_MODEL1_PKL_PATH", cast=str, default="models/RFC_V1.pkl")
+    model_pkl_path2 = envparse.env("DF_MODEL2_PKL_PATH", cast=str, default="models/RFC_V1.pkl")
     # model_ball_thresh = envparse.env("DF_MODEL_BALL_THRESH", cast=float, default=0.25)
     # model_max_history = envparse.env("DF_MODEL_HISTORY", cast=int, default=10_000)
 
     # construct absolute path to ensure the correct model is loaded
-    if not model_pkl_path.startswith(os.sep):
-        model_pkl_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), model_pkl_path)
+    if not model_pkl_path1.startswith(os.sep):
+        model_pkl_path1 = os.path.join(os.path.dirname(os.path.abspath(__file__)), model_pkl_path1)
+    if not model_pkl_path2.startswith(os.sep):
+        model_pkl_path2 = os.path.join(os.path.dirname(os.path.abspath(__file__)), model_pkl_path2)
 
     # CUSTOMIZE: app and model instance
     # with open(model_joblib_path, 'rb') as model_data:
-    model = load_gzip_pickle(model_pkl_path)
+    model1 = load_gzip_pickle(model_pkl_path1)
+    model2 = load_gzip_pickle(model_pkl_path2)
     # model = StatefulNNEmberModel(model_gz_path,
     #                              model_thresh,
     #                              model_ball_thresh,
     #                              model_max_history,
     #                              model_name)
-    model.verbose = 0
+    model1.verbose = 0
+    model2.verbose = 0
 
-    app = create_app(model, model_thresh)
+    app = create_app(model1, model2, model_thresh)
 
     print("Server started!")
     import sys
