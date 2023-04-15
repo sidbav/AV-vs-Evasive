@@ -1,4 +1,4 @@
-FROM python:3.9.16-slim
+FROM python@sha256:ad164c2ec67834a0876c96e2ad63b2c7dfbbd784b4879ba6cca789b5e9dccd59
 
 #############################
 # INSTALL PYTHON DEPENDENCIES
