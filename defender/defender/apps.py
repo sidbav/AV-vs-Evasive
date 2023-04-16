@@ -33,6 +33,23 @@ def create_app(model1, model2, threshold):
             resp.status_code = 400
             return resp
 
+
+        resp = {
+            'result': None,
+            'model1' : {
+                0: None,
+                1: None
+            },
+            'model2': {
+                0: None,
+                1: None,
+            },
+            'final_model': {
+                0: None,
+                1: None,
+            }
+        }
+
         try:
             custom_ext = CustomExtractor(bytez)
             attributes = custom_ext.custom_attribute_extractor()
@@ -42,18 +59,31 @@ def create_app(model1, model2, threshold):
             result_prob1 = custom_ext.custom_predict_with_threshold(model1)
             result = 0
 
+            print('LABEL PROB MODEL 1= ', result_prob1)
+            resp['model1'][0] = result_prob1[0][0]
+            resp['model1'][1] = result_prob1[0][1]
+            resp['final_model'][0] = result_prob1[0][0]
+            resp['final_model'][1] = result_prob1[0][1]
+
             if result_prob1[0][0] >= 0.6 and result_prob1[0][0] <= 0.64:
 
                 model2 = app.config['model2']
-                result2_prob = custom_ext.custom_predict_with_threshold(model2)
-                if result2_prob[0][0] < 0.47:
+                result_prob2 = custom_ext.custom_predict_with_threshold(model2)
+                if result_prob2[0][0] < 0.47:
                     result = 1
+
+                print('LABEL PROB MODEL 2=', result_prob2)
+
+                resp['model2'][0] = result_prob2[0][0]
+                resp['model2'][1] = result_prob2[0][1]
+                resp['final_model'][0] = result_prob2[0][0]
+                resp['final_model'][1] = result_prob2[0][1]
 
             elif result_prob1[0][0] < 0.61:
                 result = 1
 
+            resp['result'] = result
             print('LABEL = ', result)
-            #print('LABEL PROB = ', result_prob1)
         except (lief.bad_format, lief.read_out_of_bound) as e:
             print("Error:", e)
             result = 1
@@ -63,7 +93,7 @@ def create_app(model1, model2, threshold):
             resp.status_code = 500  # Internal Server Error
             return resp
 
-        resp = jsonify({'result': result})#, 'result_proba_0': result_prob1[0][0], 'result_proba_1': result_prob1[0][1]})#, 'result_proba_-1': result_prob[0][2]})
+        resp = jsonify(resp)
         resp.status_code = 200
         return resp
 
