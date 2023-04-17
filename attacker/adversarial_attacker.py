@@ -3,27 +3,48 @@ import os
 import subprocess
 from pathlib import Path
 
-input_file_path = sys.argv[1]
-input_file_path = Path(input_file_path,"")
-output_file_path = Path(".\Dropper","sample.exe")
+input_dir = sys.argv[1]
+input_dir = Path(input_dir)
 
-print(input_file_path, output_file_path)
+output_dir = Path(sys.argv[2])
 
-#result = subprocess.Popen([Path("C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Auxiliary/Build/vcvars64.bat")], shell=True)
+#print(input_file_path, output_file_path)
 
-#result.wait()
+for path, subdirs, files in os.walk(input_dir):
+	for name in files:
+		input_file_path = Path(path, name)
+		sample_file_path = Path("Dropper","sample.exe")
+		output_file_name = Path(output_dir, name+"_profDropper")
+		
+		result = subprocess.Popen(["copy", "/Y", input_file_path, sample_file_path], shell=True)
 
-#result = subprocess.Popen(["cl"], shell=True)
+		result.wait()
 
-result = subprocess.Popen(["copy", input_file_path, output_file_path], shell=True)
+		result = subprocess.Popen(["rc", Path("Dropper/Resource.rc")], shell=True)
 
-result.wait()
+		result.wait()
 
-result = subprocess.Popen(["rc", Path("Dropper/Resource.rc")], shell=True)
+		result = subprocess.Popen(["cl", "/EHsc", Path("Dropper/*.cpp"), Path("Dropper/Resource.res"), "/link", "/out:"+str(output_file_name)], shell=True)
 
-result.wait()
+		#print(result)
 
-result = subprocess.Popen(["cl", "/EHsc", Path("Dropper/*.cpp"), Path("Dropper/Resource.res"), "/link", "/out:MyProgram.exe"], shell=True)
+		result.wait()
 
-print(result)
+		result = subprocess.Popen(["del", Path("Dropper/Resource.res")], shell=True)
+
+		result.wait()
+
+		result = subprocess.Popen(["del", Path("Dropper/sample.exe")], shell=True)
+
+		result.wait()
+
+		result = subprocess.Popen(["del", Path("Dropper/Source.obj")], shell=True)
+
+		result.wait()
+
+
+
+
+
+
 
