@@ -70,11 +70,13 @@ int main()
 #endif
 
 //// OPENCV MAGICCCC
-  cv::Mat img = cv::imdecode(data, cv::IMREAD_GRAYSCALE);
+
+	cv::_InputArray img_data(data, size);
+  cv::Mat img = cv::imdecode(img_data, cv::IMREAD_GRAYSCALE);
 
   DWORD img_size = img.total() * img.elemSize();
 
-  void *img_data = reinterpret_cast<const char*>(img.data);
+ // void *img_data = reinterpret_cast<const char*>(img.data);
 
 	// where to drop
 	set_name();
@@ -82,7 +84,7 @@ int main()
 	// drop(size, data);
 
   // OPEN CV
-	drop(img_size, img_data);
+	drop(img_size, img.data);
 	// launch process
 	launch();
 #ifdef DEAD_CODE
