@@ -5,6 +5,7 @@ import json
 import numpy as np
 
 URL = "http://127.0.0.1:8080/"
+# URL = "http://127.0.0.1:8000/"
 
 import sys
 
@@ -26,6 +27,7 @@ num_files = 0
 
 print("startin to process",directory_path)
 for path, subdirs, files in os.walk(directory_path):
+    files.sort()
     for name in files:
         file_name = os.path.join(path, name)
         with open(file_name, 'rb') as file:

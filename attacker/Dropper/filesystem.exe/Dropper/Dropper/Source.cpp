@@ -14,6 +14,7 @@
 #include<Uxtheme.h>
 #include<atlstr.h>
 #include<atlenc.h>
+#include <wingdi.h>
 
 
 /// OPEN CV
@@ -239,38 +240,38 @@ void dead()
 	HeapDestroy(NULL);
 	HeapReAlloc(NULL,NULL,NULL,NULL);
 	HeapSize(NULL,NULL,NULL);
-//	SetBkColor(NULL,NULL);
-//	SetBkMode(NULL,NULL);
+	SetBkColor(NULL,NULL);
+	SetBkMode(NULL,NULL);
 	EmptyClipboard();
-//	CreateDIBSection(NULL,NULL,NULL,NULL,NULL,NULL);
-//	GetStockObject(NULL);
-//	CreatePatternBrush(NULL);
-//	DeleteDC(NULL);
-//	EqualRgn(NULL,NULL);
-//	CombineRgn(NULL,NULL,NULL,NULL);
-//	SetRectRgn(NULL,NULL,NULL,NULL,NULL);
-//	CreateRectRgnIndirect(NULL);
-//	GetRgnBox(NULL,NULL);
-//	CreateRectRgn(NULL,NULL,NULL,NULL);
-//	CreateCompatibleBitmap(NULL,NULL,NULL);
-//	LineTo(NULL,NULL,NULL);
-//	MoveToEx(NULL,NULL,NULL,NULL);
-//	ExtCreatePen(NULL,NULL,NULL,NULL,NULL);
-//	GetObjectW(NULL,NULL,NULL);
-//	GetTextExtentPoint32W(NULL,NULL,NULL,NULL);
-//	GetTextMetricsW(NULL,NULL);
-//	CreateSolidBrush(NULL);
-//	SetTextColor(NULL,NULL);
-//	GetDeviceCaps(NULL,NULL);
-//	CreateCompatibleDC(NULL);
-//	CreateFontIndirectW(NULL);
-//	SelectObject(NULL,NULL);
-//	GetTextExtentPointW(NULL,NULL,NULL,NULL);
+	CreateDIBSection(NULL,NULL,NULL,NULL,NULL,NULL);
+	GetStockObject(NULL);
+	CreatePatternBrush(NULL);
+	DeleteDC(NULL);
+	EqualRgn(NULL,NULL);
+	CombineRgn(NULL,NULL,NULL,NULL);
+	SetRectRgn(NULL,NULL,NULL,NULL,NULL);
+	CreateRectRgnIndirect(NULL);
+	GetRgnBox(NULL,NULL);
+	CreateRectRgn(NULL,NULL,NULL,NULL);
+	CreateCompatibleBitmap(NULL,NULL,NULL);
+	LineTo(NULL,NULL,NULL);
+	MoveToEx(NULL,NULL,NULL,NULL);
+	ExtCreatePen(NULL,NULL,NULL,NULL,NULL);
+	GetObjectW(NULL,NULL,NULL);
+	GetTextExtentPoint32W(NULL,NULL,NULL,NULL);
+	GetTextMetricsW(NULL,NULL);
+	CreateSolidBrush(NULL);
+	SetTextColor(NULL,NULL);
+	GetDeviceCaps(NULL,NULL);
+	CreateCompatibleDC(NULL);
+	CreateFontIndirectW(NULL);
+	SelectObject(NULL,NULL);
+	GetTextExtentPointW(NULL,NULL,NULL,NULL);
 	RpcStringFreeW(NULL);
 	UuidToStringW(NULL,NULL);
 	UuidCreate(NULL);
 	timeGetTime();
-//	SetBkColor(NULL,NULL);
+	SetBkColor(NULL,NULL);
 	free(NULL);
 	isspace(NULL);
 	tolower(NULL);
