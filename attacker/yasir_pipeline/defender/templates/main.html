@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<body>
+<title>Python Flask File Upload Example</title>
+<h2>Select a file to upload</h2>
+
+{% if filename %}
+	<div>
+		<p>The Label is:   {{ filename }}</p>
+	</div>
+{% endif %}
+<form method="post" action="/home" enctype="multipart/form-data">
+		<p>
+			<input type="file" name="file" autocomplete="off" required>
+		</p>
+    <p>
+		<input type="submit" value="Submit">
+	</p>
+</form>
+
+<html>
+<body>
