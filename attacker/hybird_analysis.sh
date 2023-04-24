@@ -34,6 +34,6 @@ do
 
     echo $sha256
     echo $jobid
-    echo "https://hybrid-analysis.com/sample/${sha256}/${jobid}"
+    echo $file "https://hybrid-analysis.com/sample/${sha256}/${jobid}"
 
 done
