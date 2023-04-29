@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Check if argument is provided
-if [ -z "$1" ]; then
-  echo "Usage: $0 directory"
+if [ $# -ne 2 ]; then
+  echo "Usage: $0 directory APIKEY"
   exit 1
 fi
 
@@ -12,6 +12,7 @@ if [ ! -d "$1" ]; then
   exit 1
 fi
 
+APIKEY=$2
 sha256=
 jobid=
 # Loop through each file in the directory
@@ -24,7 +25,7 @@ do
     -H 'accept: application/json' \
     -H 'user-agent: Falcon Sandbox' \
     -H 'Content-Type: multipart/form-data' \
-    -H 'api-key: zgkyhntfe9b7d81ct1gudndn4973f4f8dehynvey095a6abdabqaoqco9edd39ad' \
+    -H "api-key: ${APIKEY}" \
     -F "file=@${file_path}" \
     -F 'environment_id=160' \
     -o response.json)
