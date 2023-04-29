@@ -1,7 +1,7 @@
 # Hybird Analysis
 
 ## Purpose
-Analysing files of a directory to the hybird analysis sandbox
+Sending a directory of files to the hybird analysis sandbox
 
 ## Usage
 ```
