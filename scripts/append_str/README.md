@@ -1,7 +1,7 @@
 # Append Random Strings
 ## append_str_random.py
 
-This script can append chosen random strings to a malware sample. 
+This script can append chosen random strings to a chosen file. 
 
 ### Usage
 1. Open the script code
