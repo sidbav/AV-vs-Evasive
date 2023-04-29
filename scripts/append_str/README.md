@@ -13,4 +13,9 @@ This script can append chosen random strings to a chosen file.
 
 ## Append Goodware Vocabulary (append_str_vocab.py)
 
+This script can append goodware strings to a chosen file. 
+
+### Usage
+
+
 
