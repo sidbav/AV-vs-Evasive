@@ -9,4 +9,6 @@ This script can append chosen random strings to a malware sample.
 3. Run the script 
 4. Specify a filename to modify
 
+`python append_str_random.py <filepath>`
+
 
