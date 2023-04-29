@@ -1,6 +1,36 @@
+
 ## CSCE 689 -> TAMU, 2022 | ML Based Cyberdefenses - Competition ##
 
-Description: Two stages of competition
+#Description: Two stages of competition#
   i. Defense
  ii. Attack
 
+-> Defenders Challenge Specifications:
+
+Deliverable: Self-contained docker image with model querying via HTTP requests.
+
+Goals:
+
+	 FPR: 1% | TPR: 95%
+
+Constraints:
+
+	 Memory: 1 GB max RAM
+	 Response time: 5 seconds per sample
+	 Warning: Timeouts will be considered evasions.
+
+-> Attackers Challenge Specifications:
+
+Deliverable: Evasive Malware Binaries.
+
+Goals:
+
+     Evade the most models possible.
+
+Constraints:
+
+	Maximum file size: 5MB of appended data.
+	Evasive sample execution in sandbox must be equivlent to original sample.
+
+Minimum score for grading:
+	At least one sample must bypass at least one model.
