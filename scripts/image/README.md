@@ -9,4 +9,4 @@ We made use of lodepng library at end of the day for our dropper since it has no
 - scripts using the PIL library to convert exe to image and image to exe
 
 ## pnglodepe
-- TODO
+- scripts making use of open source code to convert exe to image and image back to exe.
