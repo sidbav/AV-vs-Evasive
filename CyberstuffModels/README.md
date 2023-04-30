@@ -3,12 +3,12 @@
 
 // SUBMITTED MODELS //
 
-##Zoe:## 
+Zoe:
 Random Forest (100 estimators, depth 5, < 60% Confidence / Predict Probability -> Malware, > 64% Confidence / Predict Probability -> Goodware) 
 [ Trained on EMBER 2018 ] -> Dataset [https://ember.elastic.co/ember_dataset_2018_2.tar.bz2] 
 
-##Mike:##
- Random Forest (300 estimators, depth 25, <47% Confidence / Predict Probability -> Malware, >=47% Confidence / Predict Probability -> Goodware) 
+Mike:
+Random Forest (300 estimators, depth 25, <47% Confidence / Predict Probability -> Malware, >=47% Confidence / Predict Probability -> Goodware) 
 [Trained on EMBER 2018, BODMAS, Benign-NET] ->
 Dataset a. [https://ember.elastic.co/ember_dataset_2018_2.tar.bz2] 
 	b. [https://whyisyoung.github.io/BODMAS/]
