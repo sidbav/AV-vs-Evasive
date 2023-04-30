@@ -28,8 +28,8 @@ Feature Extractor for these models: Ember Feature Extractor version 2.
 
 Additional Models Trained and Tested to Build Defender:
 SVM, SGD, XGBoost, ExtraTrees, CatBoost, VotingClassifier, LCE
+[Check Sci-kit Learn Standard Documentation for details]
 
 ### Suggestions / Additional Work: Add Dike Dataset, EMBER 2017 v1 & v2 and adversarial samples
 
-[Check Sci-kit Learn Standard Documentation for details]
 
