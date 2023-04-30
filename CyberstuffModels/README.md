@@ -1,7 +1,7 @@
 
 ## Machine Learning Models for Defender
 
-// SUBMITTED MODELS //
+// SUBMITTED MODELS // Check accessModels.txt for the links
 
 ### Zoe:
 
