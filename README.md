@@ -1,8 +1,9 @@
 
-## CSCE 689 -> TAMU, 2022 | ML Based Cyberdefenses - Competition ##
-[https://ml-to-cs.sidharthbaveja.com/competition/]
+# CSCE 689 -> TAMU, 2022 | ML Based Cyberdefenses - Competition #
 
-Results: https://docs.google.com/spreadsheets/d/1Phf5sTbCE8c16iRW4brKIYG52AaRb2L2/edit?usp=sharing&ouid=106247587660774829285&rtpof=true&sd=true
+Blog talking about the Competition [here](https://ml-to-cs.sidharthbaveja.com/competition/)
+
+Results can be found [here](https://docs.google.com/spreadsheets/d/1Phf5sTbCE8c16iRW4brKIYG52AaRb2L2/edit?usp=sharing&ouid=106247587660774829285&rtpof=true&sd=true)
 
 ## Description: Two stages of competition ##
   i. Defense
