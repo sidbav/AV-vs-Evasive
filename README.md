@@ -1,5 +1,6 @@
 
 # CSCE 689 -> TAMU, 2022 | ML Based Cyberdefenses - Competition #
+## Description -> Machine Learning based AV - Binary Classification ##
 
 Blog talking about the Competition [here](https://ml-to-cs.sidharthbaveja.com/competition/)
 
