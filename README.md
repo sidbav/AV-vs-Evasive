@@ -6,7 +6,7 @@ Blog talking about the Competition [here](https://ml-to-cs.sidharthbaveja.com/co
 
 Results can be found [here](https://docs.google.com/spreadsheets/d/1Phf5sTbCE8c16iRW4brKIYG52AaRb2L2/edit?usp=sharing&ouid=106247587660774829285&rtpof=true&sd=true)
 
-## Description: Two stages of competition ##
+## Stages of the competition ##
   i. Defense
  ii. Attack
 
