@@ -23,6 +23,8 @@ Constraints:
 	 Memory: 1 GB max RAM
 	 Response time: 5 seconds per sample
 	 Warning: Timeouts will be considered evasions.
+	 
+===================================================================================
 
 -> Attackers Challenge Specifications:
 
