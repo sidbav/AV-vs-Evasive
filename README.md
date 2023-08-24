@@ -2,7 +2,9 @@
 # CSCE 689 -> TAMU, 2022 | ML Based Cyberdefenses - Competition #
 ## Description -> Machine Learning based AV - Binary Classification ##
 
-Blog talking about the Competition [here](https://ml-to-cs.sidharthbaveja.com/competition/)
+[@sid-38](https://github.com/sid-38)'s blog post about competition can be found [here](https://sid-38.github.io/OffensiveZoe/)
+
+[@sidbav](https://github.com/sidbav)'s blog post about competition can be found [here](https://ml-to-cs.sidharthbaveja.com/competition/)
 
 Results can be found [here](https://docs.google.com/spreadsheets/d/1Phf5sTbCE8c16iRW4brKIYG52AaRb2L2/edit?usp=sharing&ouid=106247587660774829285&rtpof=true&sd=true)
 
