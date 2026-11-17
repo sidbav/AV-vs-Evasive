@@ -1,5 +1,5 @@
 
-# CSCE 689 -> TAMU, 2022 | ML Based Cyberdefenses - Competition #
+# CSCE 689 -> TAMU, 2023 | ML Based Cyberdefenses - Competition #
 ## Description -> Machine Learning based AV - Binary Classification ##
 
 [@sid-38](https://github.com/sid-38)'s blog post about competition can be found [here](https://sid-38.github.io/OffensiveZoe/)
